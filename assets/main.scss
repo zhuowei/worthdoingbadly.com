@@ -5,7 +5,41 @@
 $background-color: white;
 $text-color: black;
 $brand-color: #4CAF50;
+$base-font-size: 20px;
 .post-content {
     font-family: Georgia, "Times New Roman", serif;
+    word-wrap: break-word;
 }
 @import "minima";
+pre code {
+    font-size: 14px;
+    word-wrap: normal;
+}
+
+pre, code {
+    background-color: #ECEFF1;
+}
+
+.highlighter-rouge .highlight {
+    background-color: #ECEFF1;
+}
+
+.header-description {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.site-header {
+    background-color: #388E3C;
+    color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.site-title, .site-title:visited {
+    color: white;
+}
+
+.site-nav .page-link {
+    color: white;
+}
