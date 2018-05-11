@@ -43,3 +43,12 @@ pre, code {
 .site-nav .page-link {
     color: white;
 }
+
+@include media-query($on-palm) {
+.site-nav .trigger {
+    color: black;
+}
+.site-nav .page-link {
+    color: black;
+}
+}
