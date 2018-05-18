@@ -1,0 +1,574 @@
+Adobe Photoshop Elements 10,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+Cisco-Systems.Spark,_NSViewOverwriteMissingGeometryDefaultValueFunction,-[NSView nsis_frameInEngine:forLayoutGuide:withRounding:]
+PDFReaderX,_NSUseImprovedLayoutPassDefaultValueFunction,_NSUseImprovedLayoutPass
+Photoshop Elements 11,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.3tsoftwarelabs.robo3t,_NSWindowShouldSetContentViewToNilWhenRemovedDefaultValueFunction,-[NSWindow _lighterViewDetaching:]
+com.CircusPonies.NoteBook,_NSLeopardViewDrawingDefaultValueFunction,__NSTrackDirtyRegionsInWindow
+com.DanPristupov.Fork,_NSView_WorkaroundForkDecodingDefaultValueFunction,__NSViewGetLayoutAuxCreating
+com.ThomsonResearchSoft.EndNote,-[NSMatrix drawRect:],
+com.ableton.live,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.adobe.ARM,___37-[NSRunLoop(NSRunLoop) runUntilDate:]_block_invoke,
+com.adobe.Acrobat,-[NSCalendarDate release],
+com.adobe.Acrobat.Pro,-[NSTextFieldCell _permitDarkenedTextForDisabled],
+com.adobe.Acrobat.Pro,_NSBitmapImageRepAllowMoreFormatsInInitWithFocusedViewRectDefaultValueFunction,-[NSBitmapImageRep initWithFocusedViewRect:]
+com.adobe.Acrobat.Pro,-[NSCalendarDate release],
+com.adobe.AdobePremierePro,_NSWindowFlushTransactionInFlushWindowDefaultValueFunction,-[NSWindow flushWindow]
+com.adobe.AfterEffects,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.InCopy,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.InDesign,_NSFullScreenMenuItemEverywhereDefaultValueFunction,-[NSApplication _addFullScreenMenuItemIfNeeded]
+com.adobe.InDesign,-[NSMenu menuBarHeight],
+com.adobe.InDesign,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.InDesign,_NSViewSearchEntireSubtreeForOccludersDefaultValueFunction,__NSViewSubtractOpaqueSubviewsFromRect
+com.adobe.InDesign,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.adobe.InDesignServer,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.Lightroom2,__NSEnablePersistentUI,__NSPersistentUIEstablishTalagentCommunication
+com.adobe.Lightroom3,__NSEnablePersistentUI,__NSPersistentUIEstablishTalagentCommunication
+com.adobe.Muse.application,___79-[NSWindow _doWindowOrderOutWithWithKeyCalc:forCounter:orderingDone:docWindow:]_block_invoke,-[NSWindow _doWindowOrderOutWithWithKeyCalc:forCounter:orderingDone:docWindow:]
+com.adobe.Photoshop,-[NSSurface syncToView:],
+com.adobe.Photoshop,_NSGroupTouchBarItemHasInstanceTypeClassConstructorDefaultValueFunction,+[NSGroupTouchBarItem groupItemWithIdentifier:items:]
+com.adobe.Photoshop,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.adobe.Photoshop,_NSSavePanelWorkAroundDirectNameFieldAccessDefaultValueFunction,-[NSSavePanel dealloc]
+com.adobe.Photoshop,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.Photoshop,_NSViewBaseConvertsToPixelsDefaultValueFunction,-[NSView _baseScaleFactor]
+com.adobe.Photoshop,_NSViewSearchEntireSubtreeForOccludersDefaultValueFunction,__NSViewSubtractOpaqueSubviewsFromRect
+com.adobe.Photoshop,_NSWindowAvoidUnnecessaryDisplaysDefaultValueFunction,-[NSWindow _postWindowDidChangeBackingPropertiesAndDisplayWindowForPreviousBackingScaleFactor:previousColorSpace:]
+com.adobe.Photoshop,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.adobe.PhotoshopElements,-[NSCell _shouldUseStyledTextInView:],
+com.adobe.PhotoshopElements,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.adobe.PhotoshopElements,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.adobe.Reader,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.adobe.Reader,-[NSTextFieldCell _permitDarkenedTextForDisabled],
+com.adobe.Reader,_NSBitmapImageRepAllowMoreFormatsInInitWithFocusedViewRectDefaultValueFunction,-[NSBitmapImageRep initWithFocusedViewRect:]
+com.adobe.Reader,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.adobe.Reader,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.adobe.Reader,-[NSCalendarDate release],
+com.adobe.bridge3,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.bridge4,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.bridge4.1,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.dreamweaver-15.0,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.adobe.dreamweaver-15.1,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.adobe.dreamweaver-16.0,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.adobe.dreamweaver-16.1,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.adobe.estoolkit-3.0,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.estoolkit-3.5,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.estoolkit-3.6,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.flash,_parseTag,_parseXML
+com.adobe.illustrator,_NSPersistentUISnapshotWindowsDefaultValueFunction,_persistentStateDirectoryURLForBundleID
+com.adobe.illustrator,_NSSavePanelStretchAccessoryViewDefaultValueFunction,__NSSavePanelStretchAccessoryView
+com.adobe.illustrator,_NSSavePanelUseLocalhostURLsDefaultValueFunction,-[NSSavePanel _selectedURLsWithAlwaysIncludingDirectories:wantRawURLs:]
+com.adobe.illustrator,_NSViewMagicallyInitForIllustratorCS6DefaultValueFunction,-[NSView setNextResponder:]
+com.adobe.photodownloader,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.adobe.pse11editor,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.adobe.pse12editor,-[NSCell _shouldUseStyledTextInView:],
+com.adobe.pse12editor,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.adobe.pse9editor,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.adobe.psexeditor,_NSEventMouseDeviceIDDefaultValueFunction,-[NSEvent deviceID]
+com.agilebits.onepassword-osx,_NSWindowIgnoreSetFrameInWindowDragRegionDefaultValueFunction,-[NSWindow _shouldIgnoreSetFrameOrigin]
+com.agilebits.onepassword-osx,_NSTabView_AllowNonTamicItemViewsDefaultValueFunction,-[NSTabView _resizeSelectedTabViewItem]
+com.alsoft.DiskWarrior,_NSTableViewValidateHeightOfRowDefaultValueFunction,-[NSTableView _safeSendDelegateHeightOfRow:]
+com.aol.aim.desktop,_NSImageTiffRepresentationOldRepOrderDefaultValueFunction,-[NSImage TIFFRepresentationUsingCompression:factor:]
+com.app77.pwsafemac,_NSOrderOutSheetWhenEndedDefaultValueFunction,_NSWindowEndWindowModalSession
+com.apple.AddressBook,_NSStackViewDefaultDetachesHiddenViewsDefaultValueFunction,-[NSStackView initWithFrame:]
+com.apple.Aperture,-[NSSplitView resetCursorRects],
+com.apple.Aperture,-[NSTableView _defaultValueForAllowsTypeSelect],
+com.apple.Aperture,-[NSSplitView mouseDown:],
+com.apple.Aperture,-[NSBrowser setPath:],
+com.apple.CinemaTools,_NSTableViewUsesPreparedCellsOnKeyStateChangeDefaultValueFunction,-[NSTableView _dirtyVisibleCellsForKeyStateChange]
+com.apple.Compressor,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.apple.Console-Classic,_NSTableViewDelegateCanBeOpaqueDefaultValueFunction,-[NSTableView _delegateAndDatasourceIvarCanBeOpaque]
+com.apple.FileMerge,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.apple.FinalCut,_NSDocumentControllerShouldAddFilePresenterDefaultValueFunction,
+com.apple.FinalCut,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.apple.FinalCut,___81-[NSButtonCell(NSDefaultButtonIndicatorPrivate) _appRequiresOldHeartbeatBehavior]_block_invoke,
+com.apple.FinalCut,-[NSClipView _needsClipViewAncestorDidScroll],
+com.apple.FinalCut,_NSWindowWindowControllerCanBeWeakDefaultValueFunction,_NSWindowWindowControllerCanBeWeak
+com.apple.FinalCut,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.apple.FinalCutPro,_NSControlAdjustRespondsToSelectorForFinalCut7DefaultValueFunction,+[NSControl initialize]
+com.apple.FinalCutPro,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.apple.FinalCutTrial,_NSDocumentControllerShouldAddFilePresenterDefaultValueFunction,
+com.apple.FinalCutTrial,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.apple.FinalCutTrial,___81-[NSButtonCell(NSDefaultButtonIndicatorPrivate) _appRequiresOldHeartbeatBehavior]_block_invoke,
+com.apple.FinalCutTrial,-[NSClipView _needsClipViewAncestorDidScroll],
+com.apple.FinalCutTrial,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.apple.FontBook,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.Keynote,_NSLessCoalescedViewDrawingDefaultValueFunction,__NSLessCoalescedViewDrawing
+com.apple.LiveType,-[NSFontManager availableFontFamilies],
+com.apple.Photos,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.Preview,_NSApplicationStronglyReferencesOpenWindowsDefaultValueFunction,-[NSApplication _addOpenWindow:]
+com.apple.Preview,_NSAllowWindowTabbingPlusButtonDefaultValueFunction,-[NSDocumentController respondsToSelector:]
+com.apple.Preview,_NSEventUseSmartMagnifyAPIDefaultValueFunction,__NSEventTypeFromCGEvent
+com.apple.QuickTimePlayerX,_NSNeedsSnowLeopardTitlebarButtonsDefaultValueFunction,-[NSThemeFrame _minXTitlebarWidgetInset]
+com.apple.QuickTimePlayerX,_NSApplicationStronglyReferencesOpenWindowsDefaultValueFunction,-[NSApplication _addOpenWindow:]
+com.apple.RemoteDesktop,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.Safari,_NSUseMirrorViewForFullSizeContentViewDefaultValueFunction,-[NSWindow _canAddUnderTitlebarViews]
+com.apple.Safari,_NSThemeFrameRespectTitlebarVCVisibleAmountDefaultValueFunction,___50-[NSThemeFrame _distanceFromToolbarBaseToTitlebar]_block_invoke
+com.apple.SetupAssistant,-[NSApplication onFirstEvent],
+com.apple.SoundtrackLoopUtility,_____CFHandleFinishedEnumerating_block_invoke,
+com.apple.UniversalAccessControl,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.apple.VNCDragHelper,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.apple.Xcode,__NSEnablePersistentUI,__NSPersistentUIEstablishTalagentCommunication
+com.apple.Xcode,___59-[NSApplication(NSMenuUpdating) _customizeFileMenuIfNeeded]_block_invoke.3735,-[NSApplication _customizeFileMenuIfNeeded]
+com.apple.appstore,_NSWindowShouldAlwaysFloatTitlebarDefaultValueFunction,-[NSThemeFrame _shouldAlwaysFloatTitlebar]
+com.apple.compressor.Compressor,_NSImageRoundDestRectInCompositeMethodsDefaultValueFunction,-[NSImage _composite:delta:fromRect:toPoint:]
+com.apple.dashboard.client,_NSScrollViewShouldFlipScrollerForRTLDefaultValueFunction,_NSScrollViewShouldFlipScrollerForRTL
+com.apple.dashboard.client,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.apple.dock.ecap,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.apple.dt.Xcode,_NSFullScreenToolbarDeferredDefaultValueFunction,-[_NSFullScreenDetachedToolbarMenuBarCompanionController _makeWindowIfNecessary]
+com.apple.dt.Xcode,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.dt.Xcode,_NSViewFramesApplyAncestorScalingDefaultValueFunction,-[NSView nsis_frameInEngine:forLayoutGuide:withRounding:]
+com.apple.dvdstudiopro,_NSImageSnapshotInWindowsDefaultValueFunction,-[NSImage setSize:]
+com.apple.finder,-[NSApplication _reopenWindowsIfNecessaryWithAppleEvent:completionHandler:],
+com.apple.finder,_NSFakeHideDefaultValueFunction,-[NSApplication validateUserInterfaceItem:]
+com.apple.finder,_NSTableViewOnlyDragOnContentDefaultValueFunction,-[NSTableView _onlyDragOnContent]
+com.apple.finder,_NSWindowRestoresWorkspaceAtLaunchDefaultValueFunction,-[NSWindow restoreStateWithCoder:]
+com.apple.finder,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.finder,_NSWindowsDoDeferredOrderingInCarbonDefaultValueFunction,_NSWindowsDoDeferredOrderingInCarbon
+com.apple.finder,__NSNavReadStandardViewOption,-[NSNavBrowserDelegate _shouldShowPreviewForNode:]
+com.apple.garageband,-[NSView _updateLayerMasksToBoundsFromView],
+com.apple.garageband,-[NSWindow makeKeyAndOrderFront:],-[NSDocumentController _indexOfOpeningDocument:]
+com.apple.garageband,_NSUseActiveDisplayForMainScreenDefaultValueFunction,+[NSScreen mainScreen]
+com.apple.garageband,-[NSTableView _callDrawHighlight],
+com.apple.garageband,-[NSScroller scrollerImp:animateUIStateTransitionWithDuration:],
+com.apple.garageband10,_NSFullScreenMenuItemEverywhereDefaultValueFunction,-[NSApplication _addFullScreenMenuItemIfNeeded]
+com.apple.garageband10,_NSWindowTilingShouldTrimToFitTilesDefaultValueFunction,-[NSWindow _frameForFullScreenModeInRect:]
+com.apple.garageband10,_NSWindowDisallowsFullScreenTilingDefaultValueFunction,-[NSWindow _implicitlyDisallowTiling]
+com.apple.iBooksAuthor,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.apple.iBooksAuthor,-[NSDocumentRevisionsController _installEventTap],
+com.apple.iBooksX,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.apple.iCal,_NSScrollViewShouldFlipScrollerForRTLDefaultValueFunction,_NSScrollViewShouldFlipScrollerForRTL
+com.apple.iChat,-[NSTextView completionsForPartialWordRange:indexOfSelectedItem:],
+com.apple.iDVD,-[NSCell _commonInit],
+com.apple.iDVD,-[NSApplication _doModalLoop:peek:],
+com.apple.iDVD,_NSApp_actionGetsBlockedByModalWindow,__NSTargetForSendAction
+com.apple.iMovie,-[NSApplication _deallocHardCore:],
+com.apple.iMovie,-[NSApplication _deallocHardCore:],
+com.apple.iMovie,-[NSThemeFrame contentFill],
+com.apple.iMovie8,-[NSThemeFrame contentFill],
+com.apple.iMovie8,_NSTableViewUsesPreparedCellsOnKeyStateChangeDefaultValueFunction,-[NSTableView _dirtyVisibleCellsForKeyStateChange]
+com.apple.iMovie8,-[_NSPopUpButtonPlugin _shouldCreateSelectionItemInControl:],
+com.apple.iMovieApp,___81-[NSButtonCell(NSDefaultButtonIndicatorPrivate) _appRequiresOldHeartbeatBehavior]_block_invoke,
+com.apple.iMovieApp,-[NSThemeFrame contentFill],
+com.apple.iMovieApp,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.apple.iMovieApp,_NSView_Workaround32688505DefaultValueFunction,-[NSView setAutoresizingMask:]
+com.apple.iPhoto,_NSScreenIsMutableDefaultValueFunction,-[NSScreen _snapshot]
+com.apple.iPhoto,-[NSView _updateLayerMasksToBoundsFromView],
+com.apple.iPhoto,-[NSTextView insertText:replacementRange:],
+com.apple.iPhoto,__NSCreateWindow,-[NSWindow _commonAwake]
+com.apple.iPhoto,_NSWindowMakeSheetKeyImmediatelyDefaultValueFunction,-[NSMoveHelper _moveParent:andOpenSheet:]
+com.apple.iPhoto,-[NSTileLayer drawInContext:],
+com.apple.iPhoto,-[NSTableView _canCopyOnScroll],
+com.apple.iPhoto,_NSAlertAddUnnecessaryWhitespaceForBlankInfoFieldsDefaultValueFunction,-[NSAlert buildAlertStyle:title:formattedMessage:first:second:third:oldStyle:]
+com.apple.iPhoto,_NSApplicationEnforceAutoShowInFullScreenPresentationOptionsDefaultValueFunction,-[NSApplication _setPresentationOptions:instance:flags:]
+com.apple.iPhoto,_NSRequiresOpenUntitledWindowAtLaunchDefaultValueFunction,-[NSApplication _requiresOpeningUntitledWindowAtLaunch]
+com.apple.iPhoto,_NSLessCoalescedViewDrawingDefaultValueFunction,__NSLessCoalescedViewDrawing
+com.apple.iPhoto,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.apple.iPhoto,,
+com.apple.iPhoto,_NSCGSWindowBackingStoreAutoflushDefaultValueFunction,-[_NSCGSWindowBackingStore dirtyBackBufferInRegion:]
+com.apple.iPhoto,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+com.apple.iTunes,_NSFullScreenMenuItemEverywhereDefaultValueFunction,-[NSApplication _addFullScreenMenuItemIfNeeded]
+com.apple.iTunes,_NSViewBackingLayerNeedsLayoutOnGeometryChangeDefaultValueFunction,+[_NSViewBackingLayer defaultValueForKey:]
+com.apple.iTunes,_NSLevelIndicatorRatingUseLegacyDrawMethodDefaultValueFunction,-[NSLevelIndicatorCell drawInteriorWithFrame:inView:]
+com.apple.iWeb,-[NSApplication _shouldDelayDocumentReopeningUntilAfterFinishLaunching],
+com.apple.iWeb,+[NSDocument _stillObservesWillCloseUndoGroup],
+com.apple.iWeb,_NSCoreUIImageRepDrawingTransparencyLayerUsesRectDefaultValueFunction,-[NSCoreUIImageRep draw]
+com.apple.iWeb,___48-[__NSFastEnumerationEnumerator initWithObject:]_block_invoke,___NSFastEnumerationMutationHandler
+com.apple.iWeb,_____CFHandleFinishedEnumerating_block_invoke,
+com.apple.iWork.Keynote,+[NSFontManager initialize],
+com.apple.iWork.Keynote,-[NSApplication _shouldDelayDocumentReopeningUntilAfterFinishLaunching],
+com.apple.iWork.Keynote,+[NSEvent addLocalMonitorForEventsMatchingMask:handler:],
+com.apple.iWork.Keynote,+[NSDocument _stillObservesWillCloseUndoGroup],
+com.apple.iWork.Keynote,-[NSWindow _effectiveOrderFrontAnimationTypeIfModal:],
+com.apple.iWork.Keynote,-[NSSplitView adjustSubviews],
+com.apple.iWork.Keynote,_NSDisableContentPreservationForAnimatedResizeDefaultValueFunction,-[NSMoveHelper _doAnimation]
+com.apple.iWork.Keynote,__NSScrollViewRubberbandingForScrollView,-[NSScrollingBehavior scrollView:responderToForwardScrollEvents:]
+com.apple.iWork.Keynote,-[NSSplitView _regionForOpaqueDescendants:forMove:],_isDescendantOfViewScrolling
+com.apple.iWork.Keynote,_NSImageRoundDestRectInCompositeMethodsDefaultValueFunction,-[NSImage _composite:delta:fromRect:toPoint:]
+com.apple.iWork.Keynote,_NSOutlineViewAnimateAllExpandsDefaultValueFunction,-[NSOutlineView expandItem:expandChildren:]
+com.apple.iWork.Keynote,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Keynote,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Keynote,-[NSDocumentController allowsAutomaticShareMenu],
+com.apple.iWork.Keynote,-[NSDocumentController _persistenceMustOpenDocumentsThroughApplicationDelegate],
+com.apple.iWork.Keynote,_NSWindowRestorationCanRecreateEmptyUntitledDocumentsDefaultValueFunction,-[NSDocumentController _persistenceCanRecreateEmptyUntitledDocumentOfType:]
+com.apple.iWork.Keynote,_NSImageRequireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotRepsDefaultValueFunction,+[NSImage _requireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotReps]
+com.apple.iWork.Keynote,-[NSSavePanel _overwriteExistingFileCheck:],
+com.apple.iWork.Keynote,_NSUseImprovedLayoutPassDefaultValueFunction,_NSUseImprovedLayoutPass
+com.apple.iWork.Keynote,_NSAppIsOldKeynoteOrPagesDefaultValueFunction,-[NSView _recursiveDisplayAllDirtyWithLockFocus:visRect:]
+com.apple.iWork.Keynote,-[NSDocumentRevisionsController _installEventTap],
+com.apple.iWork.Keynote,-[NSDocument _writeSafelyToURL:ofType:forSaveOperation:forceTemporaryDirectory:error:],
+com.apple.iWork.Numbers,-[NSApplication _shouldDelayDocumentReopeningUntilAfterFinishLaunching],
+com.apple.iWork.Numbers,-[NSButtonCell _updateTitleTextFieldValue],
+com.apple.iWork.Numbers,+[NSDocument _stillObservesWillCloseUndoGroup],
+com.apple.iWork.Numbers,-[NSWindow _effectiveOrderFrontAnimationTypeIfModal:],
+com.apple.iWork.Numbers,__NSScrollViewRubberbandingForScrollView,-[NSScrollingBehavior scrollView:responderToForwardScrollEvents:]
+com.apple.iWork.Numbers,_NSImageRoundDestRectInCompositeMethodsDefaultValueFunction,-[NSImage _composite:delta:fromRect:toPoint:]
+com.apple.iWork.Numbers,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Numbers,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Numbers,-[NSDocumentController allowsAutomaticShareMenu],
+com.apple.iWork.Numbers,-[NSDocumentController _persistenceMustOpenDocumentsThroughApplicationDelegate],
+com.apple.iWork.Numbers,_NSWindowRestorationCanRecreateEmptyUntitledDocumentsDefaultValueFunction,-[NSDocumentController _persistenceCanRecreateEmptyUntitledDocumentOfType:]
+com.apple.iWork.Numbers,_NSImageRequireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotRepsDefaultValueFunction,+[NSImage _requireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotReps]
+com.apple.iWork.Numbers,_NSWindowHideContentViewWhenShowingTabPickerDefaultValueFunction,-[NSThemeFrame setTemporaryContentView:]
+com.apple.iWork.Numbers,_NSTableViewCallHighlightSelectionForBackgroundAnimationsDefaultValueFunction,-[NSTableView _needsHighlightSelectionForBackgroundAnimations]
+com.apple.iWork.Numbers,-[NSDocumentRevisionsController _installEventTap],
+com.apple.iWork.Numbers,-[NSDocument _writeSafelyToURL:ofType:forSaveOperation:forceTemporaryDirectory:error:],
+com.apple.iWork.Pages,+[NSFontManager initialize],
+com.apple.iWork.Pages,-[NSApplication _shouldDelayDocumentReopeningUntilAfterFinishLaunching],
+com.apple.iWork.Pages,+[NSDocument _stillObservesWillCloseUndoGroup],
+com.apple.iWork.Pages,-[NSWindow _effectiveOrderFrontAnimationTypeIfModal:],
+com.apple.iWork.Pages,__NSScrollViewRubberbandingForScrollView,-[NSScrollingBehavior scrollView:responderToForwardScrollEvents:]
+com.apple.iWork.Pages,_NSImageRoundDestRectInCompositeMethodsDefaultValueFunction,-[NSImage _composite:delta:fromRect:toPoint:]
+com.apple.iWork.Pages,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Pages,___84-[NSDocument _replacementTypeForSaveAsInsteadOfMoveToURL:modifiedURL:hideExtension:]_block_invoke,
+com.apple.iWork.Pages,-[NSDocumentController allowsAutomaticShareMenu],
+com.apple.iWork.Pages,-[NSDocumentController _persistenceMustOpenDocumentsThroughApplicationDelegate],
+com.apple.iWork.Pages,_NSWindowRestorationCanRecreateEmptyUntitledDocumentsDefaultValueFunction,-[NSDocumentController _persistenceCanRecreateEmptyUntitledDocumentOfType:]
+com.apple.iWork.Pages,_NSImageRequireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotRepsDefaultValueFunction,+[NSImage _requireDefaultEndianPremultipliedLastForTIFFDataFromSnapshotReps]
+com.apple.iWork.Pages,_NSViewBackingLayerNeedsLayoutOnGeometryChangeDefaultValueFunction,+[_NSViewBackingLayer defaultValueForKey:]
+com.apple.iWork.Pages,_NSAppIsOldKeynoteOrPagesDefaultValueFunction,-[NSView _recursiveDisplayAllDirtyWithLockFocus:visRect:]
+com.apple.iWork.Pages,-[NSDocumentRevisionsController _installEventTap],
+com.apple.iWork.Pages,-[NSDocument _writeSafelyToURL:ofType:forSaveOperation:forceTemporaryDirectory:error:],
+com.apple.iWork.Pages,-[NSWhoseSpecifier _indexesOfPassingObjectsInContainer:],
+com.apple.iWork.Pages,_____CFHandleFinishedEnumerating_block_invoke,
+com.apple.ist.Merlin,-[NSDateFormatter shortMonthSymbols],
+com.apple.ist.Merlin,__CFPrefsValidateValueForKey,-[__NSDictionaryM getObjects:andKeys:count:]
+com.apple.ist.Radar7,_NSScrollViewAccessoryCheckUsesLegacyFrameDefaultValueFunction,__checkForAccessoryViewsInScrollerAreas
+com.apple.ist.Radar7,_NSWindowSkipEngineSearchDefaultValueFunction,___62-[NSWindow(NSConstraintBasedLayout) updateConstraintsIfNeeded]_block_invoke
+com.apple.ist.Radar7,-[NSObject setValue:forKey:],
+com.apple.ist.SoftwareDepot.Checker,___NSFastEnumerationShouldThrowExceptionOnMutation,
+com.apple.ist.SoftwareDepot.Checker,___NSFastEnumerationMutationHandler,-[__NSFastEnumerationEnumerator nextObject]
+com.apple.ist.appledirectory4,-[NSToolbar _setConfigurationFromDictionary:notifyFamilyAndUpdateDefaults:upgradedConfiguration:],
+com.apple.ist.appledirectory4,-[NSTableView _callDrawBackgroundInClipRect:],
+com.apple.ist.hr.Merlin,_NSWindowUseNSLayoutGuideForContentLayoutGuideDefaultValueFunction,-[NSThemeFrame contentLayoutGuide]
+com.apple.logic.express,-[NSScrollView _setWindow:],-[NSView _setLayoutEngine:]
+com.apple.logic.express,-[NSScrollView _setWindow:],-[NSView _setLayoutEngine:]
+com.apple.logic.express,-[NSDocument writeToURL:ofType:error:],
+com.apple.logic.express,_NSWindowDisallowsFullScreenTilingDefaultValueFunction,-[NSWindow _implicitlyDisallowTiling]
+com.apple.logic.pro,-[NSScrollView _setWindow:],-[NSView _setLayoutEngine:]
+com.apple.logic.pro,-[NSScrollView _setWindow:],-[NSView _setLayoutEngine:]
+com.apple.logic.pro,-[NSDocument writeToURL:ofType:error:],
+com.apple.logic.pro,_NSSavePanelPerformsSelectionValidationDefaultValueFunction,-[NSNavFileListDelegate oldWrongCanChooseNode:]
+com.apple.logic.pro,_NSSavePanelSynchronousSetDirectoryDefaultValueFunction,-[NSNavView setCurrentDirectoryPath:logonOK:]
+com.apple.logic.pro,__NSSavePanelLayerBackedContentViewConsideredHarmfulDefaultValueFunction,-[NSSavePanel initWithContentRect:styleMask:backing:defer:]
+com.apple.logic.pro,_NSViewSearchEntireSubtreeForOccludersDefaultValueFunction,__NSViewSubtractOpaqueSubviewsFromRect
+com.apple.logic.pro,_NSWindowDisallowsFullScreenTilingDefaultValueFunction,-[NSWindow _implicitlyDisallowTiling]
+com.apple.logic.pro,___57-[NSNotificationCenter addObserver:selector:name:object:]_block_invoke,
+com.apple.logic10,-[NSView setLayer:],
+com.apple.logic10,_NSViewShouldSetLayerMasksToBoundsForAllViewsDefaultValueFunction,-[NSView setLayer:]
+com.apple.logic10,_NSWindowTilingShouldTrimToFitTilesDefaultValueFunction,-[NSWindow _frameForFullScreenModeInRect:]
+com.apple.logic10,_NSWindowDisallowsFullScreenTilingDefaultValueFunction,-[NSWindow _implicitlyDisallowTiling]
+com.apple.loginwindow,_NSSpacePerDisplayCachingAllowedDefaultValueFunction,+[NSScreen screensHaveSeparateSpaces]
+com.apple.loginwindow,___69+[NSEvent(NSConcurrentEvents) _isConcurrentEventProcessingSupported:]_block_invoke,
+com.apple.loginwindow,_NSTouchBarIsHotKeyProcessDefaultValueFunction,+[_NSTouchBarLogger listenForHotKey]
+com.apple.mail,-[NSButtonCell _isGuarded],
+com.apple.mail,_NSViewBackingLayerNeedsLayoutOnGeometryChangeDefaultValueFunction,+[_NSViewBackingLayer defaultValueForKey:]
+com.apple.mail,+[NSTextInputContext currentInputContext_withFirstResponderSync:],
+com.apple.mainstage,___57-[NSNotificationCenter addObserver:selector:name:object:]_block_invoke,
+com.apple.motion,_NSImageSnapshotInWindowsDefaultValueFunction,-[NSImage setSize:]
+com.apple.motion,_NSWindowRestorationCanRecreateEmptyUntitledDocumentsDefaultValueFunction,-[NSDocumentController _persistenceCanRecreateEmptyUntitledDocumentOfType:]
+com.apple.motionapp,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.apple.motionapp,___81-[NSButtonCell(NSDefaultButtonIndicatorPrivate) _appRequiresOldHeartbeatBehavior]_block_invoke,
+com.apple.motionapp,-[NSTableView _tableHeaderViewWantsTranslucency],
+com.apple.motionapp,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.apple.motionapp,___104-[NSDocument(NSDocumentSaving) _writeSafelyToURL:ofType:forSaveOperation:forceTemporaryDirectory:error:]_block_invoke,-[NSDocument _writeSafelyToURL:ofType:forSaveOperation:forceTemporaryDirectory:error:]
+com.apple.motionapp,____CFEnableMotionHack_block_invoke,
+com.apple.quicklook.ui.helper,___69+[NSEvent(NSConcurrentEvents) _isConcurrentEventProcessingSupported:]_block_invoke,
+com.apple.quicktimeplayer,-[NSWindow _effectiveAnimationBehaviorIfModal:],
+com.apple.soundtrackpro,_NSImageSnapshotInWindowsDefaultValueFunction,-[NSImage setSize:]
+com.apple.soundtrackpro,_NSWindowRestorationCanRecreateEmptyUntitledDocumentsDefaultValueFunction,-[NSDocumentController _persistenceCanRecreateEmptyUntitledDocumentOfType:]
+com.apple.soundtrackpro,__NSSavePanelLayerBackedContentViewConsideredHarmfulDefaultValueFunction,-[NSSavePanel initWithContentRect:styleMask:backing:defer:]
+com.apple.spotlight,-[NSTextView completionsForPartialWordRange:indexOfSelectedItem:],
+com.apple.systempreferences,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.apple.talagent,_NSSpacePerDisplayCachingAllowedDefaultValueFunction,+[NSScreen screensHaveSeparateSpaces]
+com.apple.talagent,_NSWindowAutosaveFrameMovesToActiveDisplayDefaultValueFunction,-[NSWindow setFrameFromString:]
+com.apple.talagent,___69+[NSEvent(NSConcurrentEvents) _isConcurrentEventProcessingSupported:]_block_invoke,
+com.aquaminds.NoteTaker,_NSTigerBehaviorForTrackingRectsDefaultValueFunction,__NXSetTrackingRect
+com.autodesk.AutoCAD,_NSRequiresOpenUntitledWindowAtLaunchDefaultValueFunction,-[NSApplication _requiresOpeningUntitledWindowAtLaunch]
+com.autodesk.AutoCAD2015,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.autodesk.Maya.2016,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.autodesk.Maya.2016,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.autodesk.Maya.2016,_NSCGSTransactionSetsImmediateAsyncFlushesDefaultValueFunction,+[_NSCGSTransaction initialize]
+com.autodesk.Maya.2017,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.autodesk.Maya.2017,_NSCGSTransactionSetsImmediateAsyncFlushesDefaultValueFunction,+[_NSCGSTransaction initialize]
+com.autodesk.Maya.2018,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.autodesk.Maya.2018,_NSCGSTransactionSetsImmediateAsyncFlushesDefaultValueFunction,+[_NSCGSTransaction initialize]
+com.autodesk.Maya.2019,_NSWindowAllowsDeepBackingStoresDefaultValueFunction,__NXDefaultWindowDepthLimit
+com.autodesk.Maya.2019,_NSCGSTransactionSetsImmediateAsyncFlushesDefaultValueFunction,+[_NSCGSTransaction initialize]
+com.autodesk.Mudbox,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.autodesk.mas.123dmake,-[NSApplication _nextEventMatchingEventMask:untilDate:inMode:dequeue:],
+com.autodesk.mas.fusion,___69+[NSEvent(NSConcurrentEvents) _isConcurrentEventProcessingSupported:]_block_invoke,
+com.autodesk.mas.pixlr,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.autodesk.motionfx,_NSWindowAllowsImplicitTilingDefaultValueFunction,-[NSWindow _implicitlyTileable]
+com.avid.ProTools,_NSWindowShouldCleanupFullScreenSpacesOnOrderOutDefaultValueFunction,-[NSWindow _reallyDoOrderWindowOutRelativeTo:findKey:forCounter:force:isModal:]
+com.avid.ProTools,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.avid.mediacomposer,_NSScreenIsMutableDefaultValueFunction,-[NSScreen _snapshot]
+com.avid.sibelius75,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.barebones.bbedit,_NSWorkAroundCarbonWindowOverReleaseInCloseDefaultValueFunction,-[NSCarbonWindow initWithCarbonWindowRef:takingOwnership:disableOrdering:]
+com.barebones.textwrangler,_NSWorkAroundCarbonWindowOverReleaseInCloseDefaultValueFunction,-[NSCarbonWindow initWithCarbonWindowRef:takingOwnership:disableOrdering:]
+com.bjango.istatmenus,_NSWindowShouldAlwaysFloatTitlebarDefaultValueFunction,-[NSThemeFrame _shouldAlwaysFloatTitlebar]
+com.bjango.istatmenusstatus,_NSAllowApplicationDisableScreenUpdatesDefaultValueFunction,_NSDisableScreenUpdates
+com.bjango.istatmenusstatus,-[NSCarbonMenuWindow setAlphaValue:],
+com.blackpixel.netnewswire,_NSImageImageNamedShouldGiveBackInstanceOfReceiverDefaultValueFunction,+[NSImage _searchForImageNamed:]
+com.blackpixel.netnewswire,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.blackpixel.netnewswire,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.blacktree.Quicksilver,-[NSButtonCell _canUseFocusRingMaskForText],-[NSButtonCell _coreUIContentRectInsetsForRect:inView:]
+com.blacktree.Quicksilver,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.blizzard.Installer,_NSAppDoStopModalOnEndSheetHackDefaultValueFunction,-[NSApplication endSheet:returnCode:]
+com.blizzard.diablo3,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+com.blizzard.heroesofthestorm,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+com.blizzard.starcraft2,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+com.blizzard.worldofwarcraft,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+com.bohemiancoding.sketch3,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.bohemiancoding.sketch3,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.citrixonline.GoToMeeting,_NSWindowDelegateLifetimeBugDefaultValueFunction,-[NSWindow setDelegate:]
+com.cocoatech.PathFinder,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.codeux.irc.textual,-[NSBundle unload],
+com.coppertino.Vox,_NSWindowIgnoreSetFrameInWindowDragRegionDefaultValueFunction,-[NSWindow _shouldIgnoreSetFrameOrigin]
+com.corel.Painter2015,_NSWindowShouldSetContentViewToNilWhenRemovedDefaultValueFunction,-[NSWindow _lighterViewDetaching:]
+com.corel.Painter2015,-[_NSCGSWindow moveByX:Y:isChildOfGroupMovement:],
+com.corel.Painter2016,_NSWindowShouldSetContentViewToNilWhenRemovedDefaultValueFunction,-[NSWindow _lighterViewDetaching:]
+com.corel.Painter2016,-[_NSCGSWindow moveByX:Y:isChildOfGroupMovement:],
+com.culturedcode.things,_NSWindowShouldCleanupFullScreenSpacesOnOrderOutDefaultValueFunction,-[NSWindow _reallyDoOrderWindowOutRelativeTo:findKey:forCounter:force:isModal:]
+com.culturedcode.things,_NSTableViewCallHighlightSelectionForBackgroundAnimationsDefaultValueFunction,-[NSTableView _needsHighlightSelectionForBackgroundAnimations]
+com.cycling74.Max,_NSWindowShouldSetContentViewToNilWhenRemovedDefaultValueFunction,-[NSWindow _lighterViewDetaching:]
+com.dayoneapp.dayone,_NSFullScreenNonAnimatingEnterForceCustomAnimationDefaultValueFunction,-[_NSWindowEnterFullScreenTransitionController startCustomTransition]
+com.dayoneapp.dayone,_NSFullScreenNonAnimatingExitForceCustomAnimationDefaultValueFunction,-[_NSWindowExitFullScreenTransitionController configureBeforeStarting]
+com.dayoneapp.dayone,_NSViewUpdatesAllConstraintsDefaultValueFunction,-[NSView _updateConstraintsForLayoutCheckingDirtyBits:creatingEngine:]
+com.dayoneapp.dayone,_NSWindowDisallowsFullScreenTilingDefaultValueFunction,-[NSWindow _implicitlyDisallowTiling]
+com.ddeville.spillo,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.delicious-monster.library2,-[NSCollectionViewItem representedObject],
+com.delicious-monster.library3,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.delicious-monster.library3,-[NSSpeechRecognizer init],
+com.e-frontier.shade10,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.echofon.Echofon,_NSScrollViewRubberbandingDefaultValueFunction,__NSScrollViewRubberbandingForScrollView
+com.epson.xp640,_NSOutlineViewValidateNumberOfRowsAfterAwakeFromNibDefaultValueFunction,-[NSOutlineView _finishedMakingConnections]
+com.evernote.Evernote,_NSTableViewSourceListCanInheritContainingBackdropViewDefaultValueFunction,-[NSTableView _canInheritContainingBackdropView]
+com.evernote.Evernote,_NSViewAvoidAssertInRemoveGeometryInWindowSensitiveSubviewDefaultValueFunction,_NSViewRemoveGeometryInWindowSensitiveSubview
+com.eximius.dvd2onex2,-[NSSavePanel cancel:],
+com.fenrir-inc.Sleipnir,_NSImageImageNamedShouldGiveBackInstanceOfReceiverDefaultValueFunction,+[NSImage _searchForImageNamed:]
+com.feralinteractive.grid2reloaded,_NSScreenGettingScreensHasSideEffectsDefaultValueFunction,+[_NSScreenConfiguration latestScreens]
+com.filemaker.bentoosx,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.filemaker.bentoosx,____startElementNs_block_invoke,__startElementNs
+com.filemaker.client.advanced,__checkForAccessoryViewsInScrollerAreas,-[NSScrollView addSubview:]
+com.filemaker.client.advanced12,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.filemaker.client.advanced12,__NSRunModal,-[NSApplication runModalForWindow:]
+com.filemaker.client.pro,__checkForAccessoryViewsInScrollerAreas,-[NSScrollView addSubview:]
+com.filemaker.client.pro12,_NSWindowDisplayWithRunLoopObserverDefaultValueFunction,-[NSWindow _postWindowNeedsToResetDragMarginsUnlessPostingDisabled]
+com.filemaker.client.pro12,-[NSWindow _canAddUnderTitlebarViews],
+com.filemaker.client.pro12,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.filemaker.client.pro12,_NSAnimationUsesFenceForThreadedAnimationDefaultValueFunction,-[NSAnimation _runInNewThread]
+com.filemaker.client.pro12,_NSSavePanelWorkAroundBadAccessoryViewLayoutHeightDefaultValueFunction,+[NSSavePanel _storeAccessoryViewLayoutInfo:saveSizeNoMatterWhat:onPanel:]
+com.filemaker.client.pro12,__NSRunModal,-[NSApplication runModalForWindow:]
+com.filemaker.client.pro12,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.filemaker.client.runtime12,__NSRunModal,-[NSApplication runModalForWindow:]
+com.fiplab.diskdoctor,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.firemint.mac.fchd,_NSUseActiveDisplayForMainScreenDefaultValueFunction,+[NSScreen mainScreen]
+com.flyingmeat.Acorn5,_NSFixAcornOpenDialogWindowLevelDefaultValueFunction,-[NSDocumentController beginOpenPanel:forTypes:completionHandler:]
+com.fournova.Tower,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.freron.MailMate,_NSScrollViewAllowObservanceOfContentInsetsDefaultValueFunction,-[NSClipView setContentInsets:]
+com.fujitsu.pfu.SSMagAdjust,___checkDelivImmed,__CFXNotificationPost
+com.garmin.TrainingCenter,___CFStringEncodingGetFromWindowsCodePage,___CFStringEncodingGetFromCanonicalName
+com.getdropbox.dropbox,-[NSWindow _canAddUnderTitlebarViews],
+com.gingerlabs.NotabilityMac,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.gingerlabs.NotabilityMac,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.gingerlabs.NotabilityMac,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.github.GitHub,_NSImageImageNamedShouldGiveBackInstanceOfReceiverDefaultValueFunction,+[NSImage _searchForImageNamed:]
+com.google.Chrome,__NSWindowEdgeResizing,-[NSWindow _resizesFromEdges]
+com.google.Chrome,_NSFullScreenDetachedToolbarMenuBarCompanionControllerIsChromeBefore60_1DefaultValueFunction,-[_NSFullScreenDetachedToolbarMenuBarCompanionController updateWindowVisibility]
+com.google.Chrome,_NSViewLayerBackWindowFrameViaWantsLayerGeometryTestDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.google.Chrome,_NSWindowIsChromeBefore60_1DefaultValueFunction,-[NSWindow _didExitFullScreen]
+com.google.Chrome.helper,__NSScreenConfigurationUpdateSharedInfoForReason,+[_NSScreenConfiguration invalidateConfigurationForReason:]
+com.google.sketchupfree,_NSWindowShouldCallCloseEarlyDefaultValueFunction,-[NSWindow _finishClosingWindow]
+com.google.sketchuppro,_NSWindowShouldCallCloseEarlyDefaultValueFunction,-[NSWindow _finishClosingWindow]
+com.googlecode.iterm2,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.grlgames.fulldecksolitaire,_NSWindowAllowsImplicitTilingDefaultValueFunction,-[NSWindow _implicitlyTileable]
+com.guidedways.TodoMac,_NSUseOccludersDefaultValueFunction,-[NSView _drawRect:clip:]
+com.hindsightlabs.paprika.mac,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.hipchat.HipChat,_NSWindowIgnoreSetFrameInWindowDragRegionDefaultValueFunction,-[NSWindow _shouldIgnoreSetFrameOrigin]
+com.hipchat.HipChat,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.hp.Installer,_NSTableViewCacheCellImageDefaultValueFunction,-[NSTableView makeViewForTableColumn:row:]
+com.hp.SetupAssistant,_NSTableViewCacheCellImageDefaultValueFunction,-[NSTableView makeViewForTableColumn:row:]
+com.hrblock.tax.2015,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.hrblock.tax.2016,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.imsi.turbocadmacdeluxe7-64,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacdeluxe8,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacdeluxe8ESD,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacdesigner7-64,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacpro7-64,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacpro8,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.imsi.turbocadmacpro8ESD,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.intego.virusbarrier.application,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.intuit.QuickBooks2011,_NSOutlineViewUseShowHideDefaultValueFunction,-[NSOutlineView _frameOfOutlineCellAtRow:]
+com.intuit.Quicken.2015,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.intuit.Quicken_Essentials,-[NSApplication _shouldDelayDocumentReopeningUntilAfterFinishLaunching],
+com.justsystems.atok21.EnvironmentSet,_NSTableViewShouldValidateSelectionOnLoadDefaultValueFunction,-[NSTableView _finishedMakingConnections]
+com.justsystems.atok22.EnvironmentSet,_NSTableViewShouldValidateSelectionOnLoadDefaultValueFunction,-[NSTableView _finishedMakingConnections]
+com.lemkesoft.graphicconverter,_NSViewBaseConvertsToPixelsDefaultValueFunction,-[NSView _baseScaleFactor]
+com.linotype.FontExplorerX,_NSViewLayerBackWindowFrameViaWantsLayerGeometryTestDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.literatureandlatte.scrivener2,_NSTableViewUseNewHeaderHeightDefaultValueFunction,-[NSTableHeaderView _canSupportTallerHeight]
+com.literatureandlatte.scrivener2,_NSAllowWindowTabbingPlusButtonDefaultValueFunction,-[NSDocumentController respondsToSelector:]
+com.logmein.GoToMeeting,_NSWindowDelegateLifetimeBugDefaultValueFunction,-[NSWindow setDelegate:]
+com.luxology.modo,-[NSApplication _startRunMethod],___32-[NSApplication finishLaunching]_block_invoke.1692
+com.luxology.modo,_NSFullScreenTileOnWindowLayoutDefaultValueFunction,-[_NSFullScreenDetachedToolbarMenuBarCompanionController updateWindowLayout]
+com.luxology.modo,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.macitbetter.betterzip,_NSSavePanelCanUseCATransactionCompletionHandlerDefaultValueFunction,__savePanelRunAnimationGroup
+com.macitbetter.betterzip,_NSEngageAutoLayoutForTabViewsDefaultValueFunction,-[NSTabView updateConstraints]
+com.mackiev.hyperstudio,_NSScrollViewRubberbandingDefaultValueFunction,__NSScrollViewRubberbandingForScrollView
+com.macpaw.CleanMyDrive,_NSViewBackingLayerNeedsLayoutOnGeometryChangeDefaultValueFunction,+[_NSViewBackingLayer defaultValueForKey:]
+com.macphun.snapheal,_NSViewPreventTrackingAreaMouseEnteredLoopDefaultValueFunction,-[NSView addTrackingArea:]
+com.macromates.TextMate,_NSSavePanelForceAccessoryViewCenteringDefaultValueFunction,+[NSSavePanel _accessoryViewWantsCentering:]
+com.makemusic.Finale,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.makemusic.Finale,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.makemusic.Finale,__NSOpenPanelLayerBackedContentViewConsideredHarmfulDefaultValueFunction,-[NSSavePanel _initContentView]
+com.mathworks.matlab,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.maxthon.mac.Maxthon,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.mekentosj.papers3,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.mekentosj.papers3,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.microsoft.Excel,-[NSView setFrameSize:],
+com.microsoft.Excel,_NSScrollViewRubberbandingDefaultValueFunction,__NSScrollViewRubberbandingForScrollView
+com.microsoft.Excel,_NSWindowWindowControllerCanBeWeakDefaultValueFunction,_NSWindowWindowControllerCanBeWeak
+com.microsoft.Excel,_NSOutlineViewUseDelegateAccessorDefaultValueFunction,-[NSOutlineView _delegateWillDisplayCell:forColumn:row:]
+com.microsoft.Excel,_NSMicrosoftToolbarRTLDisabledDefaultValueFunction,-[NSToolbar _shouldOptOutOfRTL]
+com.microsoft.Excel,_NSViewDisplayRectIgnoringOpacityLegacyBehaviorDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.microsoft.Excel,_NSViewCallCALayerSetSublayersDirectlyDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.microsoft.Excel,_NSWindowShouldFixupButtonsForOfficeDefaultValueFunction,-[NSWindow _fullScreenStatusChanged]
+com.microsoft.Excel,_CFArraySortValues,___CFRunLoopDoSources0
+com.microsoft.Lync,_NSUseLegacyMouseTrackingDefaultValueFunction,-[NSCell trackMouse:inRect:ofView:untilMouseUp:]
+com.microsoft.Messenger,_NSUseLegacyMouseTrackingDefaultValueFunction,-[NSCell trackMouse:inRect:ofView:untilMouseUp:]
+com.microsoft.OneDrive-mac,-[NSButtonCell copyWithZone:],
+com.microsoft.Outlook,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+com.microsoft.Outlook,_NSTableViewDelayAddingBackgroundViewDefaultValueFunction,-[NSTableView _updateSourceListBackgroundView]
+com.microsoft.Outlook,_NSWindowIgnoreSetFrameInWindowDragRegionDefaultValueFunction,-[NSWindow _shouldIgnoreSetFrameOrigin]
+com.microsoft.Outlook,-[NSTableView _manuallyDrawSourceListHighlight],
+com.microsoft.Outlook,_NSWindowResetSubLevelToZeroOnRemoveChildDefaultValueFunction,-[NSWindow removeChildWindow:]
+com.microsoft.Outlook,_NSWindowSetColorSpaceDisplaysImmediatelyDefaultValueFunction,-[NSWindow _setColorSpace:sendNotification:displayIfChanged:]
+com.microsoft.Outlook,_NSScrollViewForceLegacyScrollersInTileWithoutRecursingDefaultValueFunction,-[NSScrollView _tileWithoutRecursing]
+com.microsoft.Outlook,_NSWindowShouldFixupButtonsForOfficeDefaultValueFunction,-[NSWindow _fullScreenStatusChanged]
+com.microsoft.Powerpoint,-[NSView geometryInWindowDidChange],
+com.microsoft.Powerpoint,+[_NSViewLayerSurface initialize],
+com.microsoft.Powerpoint,_NSWindowHostsLayersInWindowServerDefaultValueFunction,_allocAuxiliaryStorage_0
+com.microsoft.Powerpoint,-[_NSViewLayerSurface update],
+com.microsoft.Powerpoint,-[NSView setFrameSize:],
+com.microsoft.Powerpoint,+[NSOpenGLContext currentContext],
+com.microsoft.Powerpoint,_NSScrollViewRubberbandingDefaultValueFunction,__NSScrollViewRubberbandingForScrollView
+com.microsoft.Powerpoint,-[NSCIImageRep CGImageForProposedRect:context:hints:],
+com.microsoft.Powerpoint,_NSMicrosoftToolbarRTLDisabledDefaultValueFunction,-[NSToolbar _shouldOptOutOfRTL]
+com.microsoft.Powerpoint,_NSViewDisplayRectIgnoringOpacityLegacyBehaviorDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.microsoft.Powerpoint,_NSViewUpdateLayerGeometryFromViewIsPowerPoint2011DefaultValueFunction,-[NSView _updateLayerGeometryFromView]
+com.microsoft.Powerpoint,_NSWindowShouldFixupButtonsForOfficeDefaultValueFunction,-[NSWindow _fullScreenStatusChanged]
+com.microsoft.Powerpoint,_CFArraySortValues,___CFRunLoopDoSources0
+com.microsoft.Word,_NSScreenGettingScreensHasSideEffectsDefaultValueFunction,+[_NSScreenConfiguration latestScreens]
+com.microsoft.Word,-[NSView setFrameSize:],
+com.microsoft.Word,_NSScrollViewRubberbandingDefaultValueFunction,__NSScrollViewRubberbandingForScrollView
+com.microsoft.Word,_NSMicrosoftToolbarRTLDisabledDefaultValueFunction,-[NSToolbar _shouldOptOutOfRTL]
+com.microsoft.Word,_NSViewDisplayRectIgnoringOpacityLegacyBehaviorDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.microsoft.Word,_NSWindowShouldFixupButtonsForOfficeDefaultValueFunction,-[NSWindow _fullScreenStatusChanged]
+com.microsoft.Word,_CFArraySortValues,___CFRunLoopDoSources0
+com.microsoft.onenote.mac,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.microsoft.onenote.mac,_NSViewDisplayRectIgnoringOpacityInContextDoesBuildLayerTreeUnconditionallyDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.microsoft.onenote.mac,_NSWindowShouldFixupButtonsForOfficeDefaultValueFunction,-[NSWindow _fullScreenStatusChanged]
+com.omnigroup.OmniFocus,_____NSCollectionsShouldCopy_block_invoke,
+com.omnigroup.OmniFocus.MacAppStore,_____NSCollectionsShouldCopy_block_invoke,
+com.omnigroup.OmniGraffle,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.omnigroup.OmniGraffle7,_NSViewDisplayRectIgnoringOpacityLegacyBehaviorDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.omnigroup.OmniGraffle7.MacAppStore,_NSViewDisplayRectIgnoringOpacityLegacyBehaviorDefaultValueFunction,-[NSView displayRectIgnoringOpacity:inContext:]
+com.omnigroup.OmniGrafflePro,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.omnigroup.OmniGrafflePro,_NSTableViewSetObjectValueOnCellsForAnimationsDefaultValueFunction,-[NSTableView _shouldSetObjectValueOnCellsForAnimations]
+com.omnigroup.OmniOutliner3,-[NSFileWrapper fileAttributes],
+com.omnigroup.OmniOutlinerPro3,-[NSFileWrapper fileAttributes],
+com.omnigroup.OmniPlan,___48-[__NSFastEnumerationEnumerator initWithObject:]_block_invoke,___NSFastEnumerationMutationHandler
+com.omnigroup.OmniPlan2,_NSCoreDragCGEventBlockingProc,
+com.omnigroup.OmniWeb5,-[NSTextFieldCell focusRingMaskBoundsForFrame:inView:],
+com.operasoftware.Opera,_NSViewLayerBackWindowFrameViaWantsLayerGeometryTestDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.operasoftware.Opera,_NSWindowShouldFlipTitleControlsForRTLDefaultValueFunction,-[NSWindow windowTitlebarLayoutDirection]
+com.operasoftware.Opera.helper,__NSScreenConfigurationUpdateSharedInfoForReason,+[_NSScreenConfiguration invalidateConfigurationForReason:]
+com.overmacs.photosweeper,_NSUseImprovedLayoutPassDefaultValueFunction,_NSUseImprovedLayoutPass
+com.panic.Coda,-[NSDocument invalidateRestorableState],
+com.panic.Coda2,_NSViewAllowLockFocusWithLayersDefaultValueFunction,-[NSView _shouldDoLockFocusForLayerBacking]
+com.panic.Transmit,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.panic.Transmit,-[NSSplitView _adjustArrangedViewsIfNecessary],
+com.peaksystems.diptic-mac,-[NSView setLayer:],
+com.peaksystems.diptic-mac,_NSViewShouldSetLayerMasksToBoundsForAllViewsDefaultValueFunction,-[NSView setLayer:]
+com.phildow.journler,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+com.pixelmatorteam.pixelmator,_NSUpdateLayerAfterUpdateGeometryDefaultValueFunction,-[NSView _updateLayerGeometryFromView]
+com.pixelmatorteam.pixelmator,_NSNeedsSnowLeopardTitlebarButtonsDefaultValueFunction,-[NSThemeFrame _minXTitlebarWidgetInset]
+com.pixelmatorteam.pixelmator,_NSDocumentHideAutosaveButtonForUntitledDefaultValueFunction,-[NSDocument _setFileURL:]
+com.pixelmatorteam.pixelmator,_NSEventSupressTranslateGestureDefaultValueFunction,
+com.pixelmatorteam.pixelmator,_NSImageRepSelectionUsesColorSpaceDefaultValueFunction,___RepSelectionCandidateColorSpaceScore_block_invoke
+com.pixelmatorteam.pixelmator.retail,_NSDocumentHideAutosaveButtonForUntitledDefaultValueFunction,-[NSDocument _setFileURL:]
+com.pixelmatorteam.retail.pixelmator,_NSDocumentHideAutosaveButtonForUntitledDefaultValueFunction,-[NSDocument _setFileURL:]
+com.plasq.ComicLife2,+[NSScroller initialize],
+com.purevpn.macapp.App,_NSViewShouldMarkLayoutNeededAfterAnimationDefaultValueFunction,___47-[NSView(NSInternal) _performAnimated:actions:]_block_invoke.4060
+com.ranchero.NetNewsWire,-[NSDockTile _needsTigerDockContextBehavior],
+com.reederapp.rkit2.mac,_NSViewLayerBackWindowFrameViaWantsLayerGeometryTestDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.shade3d.xshade,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.shade3d.xshade,_NSSavePanelFixupModifiedAccessoryViewsDefaultValueFunction,-[NSSavePanel setAccessoryView:]
+com.sidefx.HoudiniFX,_NSEventNilMeansAnyDefaultValueFunction,
+com.sketchup.LayOut.2015,_NSLeakWindowGraphicsContextOnCreationDefaultValueFunction,__NSCreateWindowWithOpaqueShape2
+com.sketchup.SketchUp.2014,,
+com.skitch.skitch,+[NSApplication initialize],
+com.skitch.skitch,-[NSView _focusInto:withClip:],
+com.skitch.skitch,___32+[NSURL(NSURL) fileURLWithPath:]_block_invoke,
+com.skype.skype,_NSTableViewReadColumnsOnFinishedMakingConnectionsDefaultValueFunction,-[NSTableView _finishedTableViewInitWithCoder]
+com.skype.skype,_NSOutlineViewAnimateDefaultValueFunction,-[NSOutlineView _resizeOutlineColumn]
+com.skype.skype,_NSViewHiddenViewsCanHaveLayerSurfaceDefaultValueFunction,-[_NSViewLayerSurface update]
+com.smileonmymac.PDFpenPro,_NSScrollViewUseInclusiveLayerEverywhereDefaultValueFunction,-[NSScrollView _shouldUseInclusiveLayersAutomatically]
+com.soulmen.ulysses3,_NSViewWorkAroundDeallocatingViewLayoutDefaultValueFunction,-[NSView _setupViewLayoutInvalidatorIfNecessary]
+com.southpolesoftware.iVI,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.sparrowmailapp.sparrow,-[NSTableView _drawContentsAtRow:column:withCellFrame:],
+com.spotify.client,_NSViewLayerBackWindowFrameViaWantsLayerGeometryTestDefaultValueFunction,-[NSView buildLayerTreeWithOwnLayerRequirement:someAncestorWantsLayer:canJoinInclusiveLayer:containingLayer:]
+com.synium.ifinance,-[NSView _updateLayerMasksToBoundsFromView],
+com.syniumsoftware.macfamilytree7,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+com.tapbots.CalcbotMac,_NSUseImprovedLayoutPassDefaultValueFunction,_NSUseImprovedLayoutPass
+com.teamviewer.TeamViewer,_NSTableViewKeepViewsInRowViewDefaultValueFunction,-[NSTableRowData _addViewToRowView:atColumn:row:]
+com.teamviewer.TeamViewer,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.tencent.qq,_NSCoreUIImageRepDrawingTransparencyLayerUsesRectDefaultValueFunction,-[NSCoreUIImageRep draw]
+com.tencent.xinWeChat,_NSTableViewKeepViewsInTableDefaultValueFunction,-[NSTableRowData makeViewWithIdentifier:owner:]
+com.torusknot.SourceTreeNotMAS,_NSPreferUsingEngineFrameDefaultValueFunction,-[NSView resizeWithOldSuperviewSize:]
+com.transgaming.dragonage2,_NSBundleRunningDragonAge2Inf104DefaultValueFunction,-[NSBundle _newImageForResourceWithProspectiveName:imageClass:]
+com.twitter.twitter-mac,_NSWindowShouldFlipTitleControlsForRTLDefaultValueFunction,-[NSWindow windowTitlebarLayoutDirection]
+com.twitter.twitter-mac,,
+com.vmware.fusion,_NSApplicationEnforceAutoShowInFullScreenPresentationOptionsDefaultValueFunction,-[NSApplication _setPresentationOptions:instance:flags:]
+com.vmware.fusion,___isVMWare_block_invoke,
+com.vortimac.memoir,-[NSWindowController showWindow:],___46-[NSPersistentUIManager refreshEncryptionKey:]_block_invoke_3
+com.webinhq.ReadKit,_NSViewBackingLayerNeedsLayoutOnGeometryChangeDefaultValueFunction,+[_NSViewBackingLayer defaultValueForKey:]
+com.wunderkinder.wunderlistdesktop,_NSWindowForceContentViewConstraintUpdateDefaultValueFunction,-[NSThemeFrame setFrameSize:]
+com.wunderkinder.wunderlistdesktop,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+com.zennaware.Cornerstone,_NSTableViewCacheCellImageDefaultValueFunction,-[NSTableView makeViewForTableColumn:row:]
+edu.ucsd.cs.mmccrack.bibdesk,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+it.bloop.airmail2,_NSAllowWindowTabbingPlusButtonDefaultValueFunction,-[NSDocumentController respondsToSelector:]
+jp.co.agenda.Atena15,_NSTableViewShouldValidateSelectionOnLoadDefaultValueFunction,-[NSTableView _finishedMakingConnections]
+jp.co.fenrir.sleipnir,_NSImageImageNamedShouldGiveBackInstanceOfReceiverDefaultValueFunction,+[NSImage _searchForImageNamed:]
+jp.co.nikon.ViewNX-i,_NSTableViewUseCachedRectOfColumnDefaultValueFunction,-[NSTableView _rectOfColumn:ignoringTile:]
+jp.co.nikon.ViewNX-i,_NSViewManageLayerTreeLooselyDefaultValueFunction,-[NSView _setSuperview:]
+jp.co.pfu.OnlineUpdate,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.SSLog,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.STMApp,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.STPApp,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.ScanToFolder,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.ScantoEvernote1,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.ScantoEvernote2,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.ScantoGDoc,___checkDelivImmed,__CFXNotificationPost
+jp.co.pfu.ScanSnap.SupportTool,___checkDelivImmed,__CFXNotificationPost
+jp.co.reudo.KSyncDF,-[NSOutlineView _shouldExpandItem:],
+mac.nibirutech.translator,-[NSImage setName:],
+mac.nibirutech.translator,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+net.battle.app,_NSDisplayCycleThrottleTransactionsDefaultValueFunction,+[NSDisplayCycle currentDisplayCycle]
+net.java.openjdk.cmd,_NSScreenGettingScreensHasSideEffectsDefaultValueFunction,+[_NSScreenConfiguration latestScreens]
+net.maxon.cinema4d,_NSWindowSetColorSpaceDisplaysImmediatelyDefaultValueFunction,-[NSWindow _setColorSpace:sendNotification:displayIfChanged:]
+net.nemetschek.vectorworks,_NSTouchBarFinderRemovesProvidersImmediatelyDefaultValueFunction,__NSTouchBarFinderSetNeedsUpdateOnMain
+net.telestream.Flip-Player,-[NSAnimationManager setTargetValue:forObject:keyPath:animation:],
+net.telestream.Flip-Player,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+org.blenderfoundation.blender,_NSDisableAutomaticWindowTabbingDefaultValueFunction,+[NSWindow allowsAutomaticWindowTabbing]
+org.eclipse.eclipse,____shouldDoEclipseWorkaround_block_invoke,
+org.eclipse.eclipse,_NSOutlineViewAnimateDefaultValueFunction,-[NSOutlineView _resizeOutlineColumn]
+org.eclipse.eclipse,_NSEventNilMeansAnyDefaultValueFunction,
+org.eclipse.platform.ide,_NSEventNilMeansAnyDefaultValueFunction,
+org.gnu.Aquamacs,_NSWindowAlwaysResetStyleMaskOnFullScreenCloseDefaultValueFunction,-[NSWindow _didExitFullScreen]
+org.mozilla.firefox,+[NSView initialize],
+org.mozilla.firefox,__NSEnablePersistentUI,__NSPersistentUIEstablishTalagentCommunication
+org.mozilla.firefox,_NSWindowShouldFlipTitleControlsForRTLDefaultValueFunction,-[NSWindow windowTitlebarLayoutDirection]
+org.niltsh.MPlayerX,_NSViewBackingLayerDenySetNeedsLayoutOnNonMainThreadDefaultValueFunction,-[_NSViewBackingLayer setNeedsLayout]
+org.niltsh.MPlayerX,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
+org.openoffice.script,_NSCGSIsSynchronousM7DefaultValueFunction,____disable_updates_block_invoke
+org.videolan.vlc,_NSWindowAllowsImplicitFullScreenDefaultValueFunction,-[NSWindow _implicitlyAllowsFullScreenPrimary]
+unity.Blizzard Entertainment.Hearthstone,___58-[NSWindow(NSFullScreen) _supportsDockInitiatedFullScreen]_block_invoke,
