@@ -23,7 +23,7 @@ twitter_username: zhuowei
 github_username:  zhuowei
 
 # minima settings
-show_excerpt: true
+show_excerpts: true
 google_analytics: UA-7810231-7
 
 # Build settings

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content" style="position: relative">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+      <div class="sidebar-posts">
+        <p>Recent posts:</p>
+        <ul>
+          {%- for post in site.posts -%}
+          <li>
+            <a href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+            </a>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

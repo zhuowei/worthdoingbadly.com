@@ -56,3 +56,27 @@ pre, code {
 blockquote {
     color: black;
 }
+
+.page-content {
+    position: relative;
+}
+
+.sidebar-posts {
+    font-size: 14px;
+    display: none;
+}
+
+@media screen and (min-width: 1210px) {
+.sidebar-posts {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 250px;
+    display: inherit;
+}
+}
+
+.sidebar-posts ul {
+    list-style-type: none;
+    margin: 0;
+}
