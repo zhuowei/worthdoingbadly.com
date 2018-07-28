@@ -4,7 +4,7 @@ categories: macos
 permalink: /uptimekext/
 ---
 
-`up 74007 days, 22:31`? Yeah, seems legit: I booted my computer 200 years ago on [December 10th, 1815](http://www.wolframalpha.com/input/?i=74007+days+22+hours+before+july+26,+2018). Actually, I wrote a kernel extension to change the output of the `uptime` command on macOS, to learn the basics of kernel module programming.
+"`up 74007 days, 22:31`"? Yeah, seems legit: I booted my computer 200 years ago on [December 10th, 1815](http://www.wolframalpha.com/input/?i=74007+days+22+hours+before+july+26,+2018). Actually, I wrote a kernel extension to change the output of the `uptime` command on macOS, to learn the basics of kernel module programming.
 
 ## Introduction
 
