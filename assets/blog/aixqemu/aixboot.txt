@@ -1,0 +1,889 @@
+
+
+SLOF **********************************************************************
+QEMU Starting
+ Build Date = Jun 21 2018 19:08:08
+ FW Version = git-7d37babcfa48a6eb
+ Press "s" to enter Open Firmware.
+
+Populating /vdevice methods
+Populating /vdevice/vty@71000000
+Populating /vdevice/nvram@71000001
+Populating /vdevice/l-lan@71000002
+Populating /vdevice/v-scsi@71000003
+       SCSI: Looking for devices
+          8200000000000000 CD-ROM   : "QEMU     QEMU CD-ROM      2.5+"
+Populating /pci@800000020000000
+                     00 0000 (D) : 1234 1111    qemu vga
+                     00 0800 (D) : 1033 0194    serial bus [ usb-xhci ]
+Installing QEMU fb
+
+
+
+Scanning USB 
+  XHCI: Initializing
+    USB Keyboard 
+    USB mouse 
+No console specified using screen & keyboard
+User selected input-device console: /vdevice/vty@71000000
+User selected output-device console: /vdevice/vty@71000000
+     
+  Welcome to Open Firmware
+
+  Copyright (c) 2004, 2017 IBM Corporation All rights reserved.
+  This program and the accompanying materials are made available
+  under the terms of the BSD License available at
+  http://www.opensource.org/licenses/bsd-license.php
+
+
+Trying to load: -s verbose from: /vdevice/v-scsi@71000003/disk@8200000000000000:\ppc\chrp\bootfile.exe ...   Successfully loaded
+
+                        ---> qemu,pseries detected <---
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------
+                                Welcome to AIX.
+                   boot image timestamp: 20:03:19 07/20/2018
+        processor count: 1;  memory size: 2048MB;  kernel size: 38436074
+boot device: /vdevice/v-scsi@71000003/disk@8200000000000000:\ppc\chrp\bootfile.exe
+
+8000FFEC bytes of free memory remain at address 7FFF0014
+load address: 0x00004000   aixmon size: 0x000D2E00   boot image size: 0x01BC5FD0
+
+AIX vm,uuid property contains invalid data
+get_ppp return code: 0xFFFFFFFE
+processing splpar characteristic: MaxEntCap
+processing splpar characteristic: DesMem
+processing splpar characteristic: DesProcs
+processing splpar characteristic: MaxPlatProcs
+
+AKVM: hcall-multi-tce detected but overridden, allow with "multce" boot argument
+The temporary memory region list is at 1 percent capacity.
+The temporary IPLCB is at 1 percent capacity.
+The IPLCB address is 0x0FFF9000
+name                 offset           size
+ipl_cb_and_bit_map 00000000 ......0000538C
+bit_map........... 0000071C ......00000006
+ipl_info.......... 000001C8 ......00000024
+splpar_info....... 000001EC ......00000048
+system_info....... 00000234 ......000000C4
+processor_info.... 000002F8 ......00000148
+lpar_id_info...... 00000440 ......00000088
+dr_proc_info...... 000004C8 ......00000008
+dr_mem_info....... 000004D0 ......00000028
+lpar_info......... 000004F8 ......00000014
+segment page...... 00000518 ......00000028
+processor page.... 00000540 ......00000010
+res_asso_id....... 00000550 ......00000050
+res_asso_group.... 000005A0 ......0000002C
+asso_ref_pnt...... 000005CC ......00000010
+residual.......... 000007AC ......00004BE0
+fwad_info......... 000005DC ......00000040
+	region address		region length		attr  label
+0	0x0000000000000000	0x000000000FFF7000	0x01  0x01
+1	0x000000000FFF7000	0x0000000000002000	0x01  0x03
+2	0x000000000FFF9000	0x0000000000006000	0x01  0x02
+3	0x000000000FFFF000	0x0000000000000014	0x00  0x05
+4	0x000000000FFFF014	0x0000000070000FEC	0x01  0x01
+5	0x0000000080000000	0xFFFFFFFF80000000	0x00  0x07
+----------------------------
+
+0000012C bytes of free memory remain at address 00004000
+compressed kernel addr: D6E00;  sz: 98CFD3;  uncompressed kernel addr:  1DB57200
+         name     source       dest       size   flags
+ 0      .data   1e6f7440    2000000    12bdd20     1
+ 1    basecfg          0          0          0     0
+ 2      ramfs     a63dd0    ee90000    1166011     1
+ 3      .text   1db57440      d6e00     ba0000     1
+ 4       .ldr   1f9b5160     c77000      a9d63     1
+ 5     symtab   1fe09734     d21000     1f57b6     1
+ 6  kern. hdr   1db57200          0        240     1
+ 7       .bss          0    32bdd20    27222e0     2
+free space between BSS and RAM filesystem: 094B0000
+
+entry_point: 0x000D6E28
+                       kernel debugger setting: enabled
+-------------------------------------------------------------------------------
+
+StarLED{814}
+
+AIX Version 7.2
+exec(/etc/init){1,0}
+
+INIT: EXECUTING /sbin/rc.boot 1
+exec(/usr/bin/sh,-c,/sbin/rc.boot 1){917792,1}
+exec(/etc/init,-c,chmod /bin/cat 0777){983330,917792}
+exec(/bin/chramfs,-t){983332,917792}
+exec(/bin/chramfs,131070){983334,917792}
+exec(/usr/bin/odmadd,commo.add){983336,917792}
+exec(/etc/init,-c,unlink commo.add){983338,917792}
+exec(/usr/bin/odmadd,display.add){983340,917792}
+exec(/etc/init,-c,unlink display.add){983342,917792}
+exec(/usr/bin/odmadd,inputdev.add){983344,917792}
+exec(/etc/init,-c,unlink inputdev.add){983346,917792}
+exec(/usr/bin/odmadd,media.add){983348,917792}
+exec(/etc/init,-c,unlink media.add){983350,917792}
+exec(/usr/bin/odmadd,rspc.cdfiles.add){983352,917792}
+exec(/etc/init,-c,unlink rspc.cdfiles.add){983354,917792}
+exec(/etc/cfgmgr,-S,-f){983356,917792}
+exec(/bin/sh,-c,/etc/methods/defsys ){1048868,983356}
+exec(/etc/methods/defsys){1048868,983356}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -n -c sys -s node -t chrp){1114406,1048868}
+exec(/usr/lib/methods/define_rspc,-n,-c,sys,-s,node,-t,chrp){1114406,1048868}
+exec(/bin/sh,-c,/usr/lib/methods/cfgsys_chrp -1 -l sys0){1048870,983356}
+exec(/usr/lib/methods/cfgsys_chrp,-1,-l,sys0){1048870,983356}
+Preserving 87167 bytes of symbol table [/usr/lib/drivers/planar_pal_chrp]
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c planar -s sys -t sysplanar_rspc -p sys0 -w 0 -l sysplanar0 -L '' -d){1179944,1048870}
+exec(/usr/lib/methods/define_rspc,-c,planar,-s,sys,-t,sysplanar_rspc,-p,sys0,-w,0,-l,sysplanar0,-L,,-d){1179944,1048870}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsysplanar_chrp -1 -l sysplanar0){1048872,983356}
+exec(/usr/lib/methods/cfgsysplanar_chrp,-1,-l,sysplanar0){1048872,983356}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c memory -s sys -t totmem -p sysplanar0 -w M -l mem0 -L '' -d){1114410,1048872}
+exec(/usr/lib/methods/define_rspc,-c,memory,-s,sys,-t,totmem,-p,sysplanar0,-w,M,-l,mem0,-L,,-d){1114410,1048872}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c memory -s sys -t L2cache_rspc -p sysplanar0 -w L -l L2cache0 -L '' -d){1114412,1048872}
+exec(/usr/lib/methods/define_rspc,-c,memory,-s,sys,-t,L2cache_rspc,-p,sysplanar0,-w,L,-l,L2cache0,-L,,-d){1114412,1048872}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c processor -s sys -t proc_rspc -p sysplanar0 -w P0 -l proc0 -L '00-00' -d){1114414,1048872}
+exec(/usr/lib/methods/define_rspc,-c,processor,-s,sys,-t,proc_rspc,-p,sysplanar0,-w,P0,-l,proc0,-L,00-00,-d){1114414,1048872}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c bus -s chrp -t pci -p sysplanar0 -w 800000020000000 -d -L ''){1114416,1048872}
+exec(/usr/lib/methods/define_rspc,-c,bus,-s,chrp,-t,pci,-p,sysplanar0,-w,800000020000000,-d,-L,){1114416,1048872}
+exec(/bin/sh,-c,/usr/lib/methods/define_rspc -c bus -s chrp -t vdevice -p sysplanar0 -w vdevice -l vio0 -L '' -d){1114418,1048872}
+exec(/usr/lib/methods/define_rspc,-c,bus,-s,chrp,-t,vdevice,-p,sysplanar0,-w,vdevice,-l,vio0,-L,,-d){1114418,1048872}
+ cfgmgr 
+0539 cfgmgr 
+0812exec(/bin/sh,-c,/usr/lib/methods/cfgmem_chrp -1 -l mem0){1048874,983356}
+exec(/usr/lib/methods/cfgmem_chrp,-1,-l,mem0){1048874,983356}
+ cfgmgr 
+0539 cfgmgr 
+0708exec(/bin/sh,-c,/usr/lib/methods/cfgL2cache_chrp -1 -l L2cache0){1048876,983356}
+exec(/usr/lib/methods/cfgL2cache_chrp,-1,-l,L2cache0){1048876,983356}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgproc_chrp -1 -l proc0){1048878,983356}
+exec(/usr/lib/methods/cfgproc_chrp,-1,-l,proc0){1048878,983356}
+ cfgmgr 
+0539 cfgmgr 
+078cexec(/bin/sh,-c,/usr/lib/methods/cfgbus_pcic -1 -l pci0){1048880,983356}
+exec(/usr/lib/methods/cfgbus_pcic,-1,-l,pci0){1048880,983356}
+Preserving 43530 bytes of symbol table [/usr/lib/drivers/pci/pci_busdd]
+ cfgmgr 
+0539 cfgmgr 
+25b6exec(/bin/sh,-c,/usr/lib/methods/cfgbus_vdevice -1 -l vio0){1048882,983356}
+exec(/usr/lib/methods/cfgbus_vdevice,-1,-l,vio0){1048882,983356}
+Preserving 26973 bytes of symbol table [/usr/lib/drivers/vdev_busdd]
+exec(/bin/sh,-c,/etc/methods/define_rspc -c adapter -s vdevice -t hvterm1 -p vio0 -w 71000000 -d -L ''){1114420,1048882}
+exec(/etc/methods/define_rspc,-c,adapter,-s,vdevice,-t,hvterm1,-p,vio0,-w,71000000,-d,-L,){1114420,1048882}
+exec(/bin/sh,-c,/usr/lib/methods/define -c adapter -s vdevice -t IBM,v-scsi -p vio0 -w 71000003 -d -L ''){1114422,1048882}
+exec(/usr/lib/methods/define,-c,adapter,-s,vdevice,-t,IBM,v-scsi,-p,vio0,-w,71000003,-d,-L,){1114422,1048882}
+ cfgmgr 
+0539 cfgmgr 
+04eeexec(/bin/sh,-c,/etc/methods/cfgvcon -1 -l vsa0){1048884,983356}
+exec(/etc/methods/cfgvcon,-1,-l,vsa0){1048884,983356}
+ cfgmgr 
+0539 cfgmgr 
+25b3exec(/bin/sh,-c,/usr/lib/methods/cfg_vclient -1 -l vscsi0){1048886,983356}
+exec(/usr/lib/methods/cfg_vclient,-1,-l,vscsi0){1048886,983356}
+Preserving 33751 bytes of symbol table [/usr/lib/drivers/vscsi_initdd]
+vscsi_send_capabilities: capabilities size mismatch !
+VSCSI: Unknown MAD type 09
+exec(/bin/sh,-c,/usr/lib/methods/define -d -c cdrom -s vscsi -t vopt -p vscsi0 -L "" -w 820000000000){1114424,1048886}
+exec(/usr/lib/methods/define,-d,-c,cdrom,-s,vscsi,-t,vopt,-p,vscsi0,-L,,-w,820000000000){1114424,1048886}
+ cfgmgr 
+0539 cfgmgr 
+25b5exec(/bin/sh,-c,/usr/lib/methods/cfgscsicd -1 -l cd0){1048888,983356}
+exec(/usr/lib/methods/cfgscsicd,-1,-l,cd0){1048888,983356}
+Preserving 42520 bytes of symbol table [/usr/lib/drivers/scsidisk]
+Preserving 52746 bytes of symbol table [/etc/drivers/scsidiskpin]
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/startusb ){1048890,983356}
+exec(/etc/methods/startusb){1048890,983356}
+ cfgmgr 
+0539 cfgmgr 
+exec(/usr/sbin/bootinfo,-b){983358,917792}
+exec(/usr/lib/boot/bin/bootinfo_chrp,-b){983358,917792}
+exec(/usr/sbin/bootinfo,-M){983360,917792}
+exec(/usr/lib/boot/bin/bootinfo_chrp,-M){983360,917792}
+exec(/usr/sbin/bootinfo,-r){983362,917792}
+exec(/usr/sbin/bootinfo,-a){983364,917792}
+exec(/bin/sleep,10){983366,917792}
+exec(/etc/cfgmgr,-S,-f){983368,917792}
+ cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/defsys ){1048892,983368}
+exec(/etc/methods/defsys){1048892,983368}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsys_chrp -1 -l sys0){1048894,983368}
+exec(/usr/lib/methods/cfgsys_chrp,-1,-l,sys0){1048894,983368}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsysplanar_chrp -1 -l sysplanar0){1048896,983368}
+exec(/usr/lib/methods/cfgsysplanar_chrp,-1,-l,sysplanar0){1048896,983368}
+ cfgmgr 
+0539 cfgmgr 
+0812exec(/bin/sh,-c,/usr/lib/methods/cfgmem_chrp -1 -l mem0){1048898,983368}
+exec(/usr/lib/methods/cfgmem_chrp,-1,-l,mem0){1048898,983368}
+ cfgmgr 
+0539 cfgmgr 
+0708exec(/bin/sh,-c,/usr/lib/methods/cfgL2cache_chrp -1 -l L2cache0){1048900,983368}
+exec(/usr/lib/methods/cfgL2cache_chrp,-1,-l,L2cache0){1048900,983368}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgproc_chrp -1 -l proc0){1048902,983368}
+exec(/usr/lib/methods/cfgproc_chrp,-1,-l,proc0){1048902,983368}
+ cfgmgr 
+0539 cfgmgr 
+078cexec(/bin/sh,-c,/usr/lib/methods/cfgbus_pcic -1 -l pci0){1048904,983368}
+exec(/usr/lib/methods/cfgbus_pcic,-1,-l,pci0){1048904,983368}
+ cfgmgr 
+0539 cfgmgr 
+25b6exec(/bin/sh,-c,/usr/lib/methods/cfgbus_vdevice -1 -l vio0){1048906,983368}
+exec(/usr/lib/methods/cfgbus_vdevice,-1,-l,vio0){1048906,983368}
+ cfgmgr 
+0539 cfgmgr 
+04eeexec(/bin/sh,-c,/etc/methods/cfgvcon -1 -l vsa0){1048908,983368}
+exec(/etc/methods/cfgvcon,-1,-l,vsa0){1048908,983368}
+ cfgmgr 
+0539 cfgmgr 
+25b3exec(/bin/sh,-c,/usr/lib/methods/cfg_vclient -1 -l vscsi0){1048910,983368}
+exec(/usr/lib/methods/cfg_vclient,-1,-l,vscsi0){1048910,983368}
+ cfgmgr 
+0539 cfgmgr 
+25b5exec(/bin/sh,-c,/usr/lib/methods/cfgscsicd -1 -l cd0){1048912,983368}
+exec(/usr/lib/methods/cfgscsicd,-1,-l,cd0){1048912,983368}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/startusb ){1048914,983368}
+exec(/etc/methods/startusb){1048914,983368}
+ cfgmgr 
+0539 cfgmgr 
+exec(/usr/sbin/mount,-v,cdrfs,-o,ro,/dev/cd0,/SPOT){983370,917792}
+exec(/usr/bin/sh,-c,/usr/sbin/wlmcntrl -u -d "" > /dev/null 2>&1){1114426,983370}
+exec(/usr/lib/methods/showled,0xfff){983372,917792}
+ showled 
+exec(/SPOT/usr/bin/rm,-r,/usr/lib/microcode/*,/usr/sbin/bootinfo,/usr/sbin/halt,/usr/sbin/mount,/usr/sbin/reboot,/usr/lib/boot/bin/bootinfo_chrp,/usr/lib/boot/bin/libcfg_chrp){983374,917792}
+rm: /usr/lib/microcode/*: No such file or directory
+exec(/SPOT/usr/bin/rm,-f,/bin/cat){983376,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/artic960,/SPOT/usr/bin,/SPOT/usr/ccs,/SPOT/usr/lbin,/SPOT/usr/lib,/SPOT/usr/lpp,/SPOT/usr/sbin,/SPOT/usr/share,/usr){983378,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/lpp/fonts,/usr/lpp/fonts){983380,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/bin/awk,/SPOT/usr/bin/bootlist,/SPOT/usr/bin/cat,/SPOT/usr/bin/compress,/SPOT/usr/bin/cp,/SPOT/usr/bin/cpio,/SPOT/usr/bin/cut,/SPOT/usr/bin/date,/SPOT/usr/bin/dd,/SPOT/usr/bin/df,/SPOT/usr/bin/dosdir,/SPOT/usr/bin/dspmsg,/SPOT/usr/bin/echo,/SPOT/usr/bin/errpt,/SPOT/usr/bin/errupdate,/SPOT/usr/bin/find,/SPOT/usr/bin/fold,/SPOT/usr/bin/getopt,/SPOT/usr/bin/grep,/SPOT/usr/bin/head,/SPOT/usr/bin/kill,/SPOT/usr/bin/ln,/SPOT/usr/bin/ls,/SPOT/usr/bin/mkdir,/SPOT/usr/bin/mv,/SPOT/usr/bin/nvmemgr,/SPOT/usr/bin/odmadd,/SPOT/usr/bin/odmcreate,/SPOT/usr/bin/odmdelete,/SPOT/usr/bin/odmget,/SPOT/usr/bin/pg,/SPOT/usr/bin/ps,/SPOT/usr/bin/rm,/SPOT/usr/bin/sed,/SPOT/usr/bin/sisraidmgr,/SPOT/usr/bin/sissasraidmgr,/SPOT/usr/bin/sleep,/SPOT/usr/bin/smitty,/SPOT/usr/bin/tail,/SPOT/usr/bin/tar,/SPOT/usr/bin/time,/SPOT/usr/bin/tty,/SPOT/usr/bin/uname,/SPOT/usr/bin/wc,/SPOT/usr/bin/what,/usr/bin){983382,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/sbin/backbyname,/SPOT/usr/sbin/backup,/SPOT/usr/sbin/bootinfo,/SPOT/usr/sbin/chdev,/SPOT/usr/sbin/drslot,/SPOT/usr/sbin/execerror,/SPOT/usr/sbin/format,/SPOT/usr/sbin/halt,/SPOT/usr/sbin/lkdev,/SPOT/usr/sbin/lsattr,/SPOT/usr/sbin/lscfg,/SPOT/usr/sbin/lsconn,/SPOT/usr/sbin/lsdev,/SPOT/usr/sbin/lsmcode,/SPOT/usr/sbin/lsparent,/SPOT/usr/sbin/lsresource,/SPOT/usr/sbin/lsslot,/SPOT/usr/sbin/mkdev,/SPOT/usr/sbin/mkfs,/SPOT/usr/sbin/mkramdisk,/SPOT/usr/sbin/mount,/SPOT/usr/sbin/reboot,/SPOT/usr/sbin/restbyname,/SPOT/usr/sbin/restore,/SPOT/usr/sbin/rmdev,/SPOT/usr/sbin/slibclean,/SPOT/usr/sbin/strload,/SPOT/usr/sbin/sync,/usr/sbin){983384,917792}
+exec(/bin/rm,-rf,/usr/bin/smitty){983386,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/share/lib/terminfo/i,/SPOT/usr/share/lib/terminfo/l,/SPOT/usr/share/lib/terminfo/s,/SPOT/usr/share/lib/terminfo/t,/SPOT/usr/share/lib/terminfo/v,/SPOT/usr/share/lib/terminfo/w,/usr/share/lib/terminfo){983388,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/share/modems/modem_f.cfg,/SPOT/usr/share/modems/modem_f0.cfg,/SPOT/usr/share/modems/modem_f1.cfg,/SPOT/usr/share/modems/modem_none.cfg,/SPOT/usr/share/modems/modem_x.cfg.README,/SPOT/usr/share/modems/modem_z.cfg,/SPOT/usr/share/modems/modem_z0.cfg,/usr/share/modems){983390,917792}
+exec(/bin/cp,/SPOT/devices/chrp/base/root/devices.chrp.base.rte.err,/){983392,917792}
+exec(/bin/cp,/SPOT/devices/ethernet/ct3/root/devices.ethernet.ct3.cdli.err,/){983394,917792}
+exec(/bin/cp,/SPOT/devices/ethernet/ct3/root/devices.ethernet.ct3.rte.err,/){983396,917792}
+exec(/bin/cp,/SPOT/devices/ethernet/mlx/root/devices.ethernet.mlx.rte.err,/){983398,917792}
+exec(/bin/cp,/SPOT/devices/fcp/disk/root/devices.fcp.disk.rte.err,/){983400,917792}
+exec(/bin/cp,/SPOT/devices/fcp/tape/root/devices.fcp.tape.rte.err,/){983402,917792}
+exec(/bin/cp,/SPOT/devices/pci/02105e51/root/devices.pci.02105e51.rte.err,/){983404,917792}
+exec(/bin/cp,/SPOT/devices/pci/14102e00/root/devices.pci.14102e00.rte.err,/){983406,917792}
+exec(/bin/cp,/SPOT/devices/pci/14103302/root/devices.pci.14103302.rte.err,/){983408,917792}
+exec(/bin/cp,/SPOT/devices/pci/14106902/root/devices.pci.14106902.rte.err,/){983410,917792}
+exec(/bin/cp,/SPOT/devices/pci/14107001/root/devices.pci.14107001.rte.err,/){983412,917792}
+exec(/bin/cp,/SPOT/devices/pci/14107802/root/devices.pci.14107802.rte.err,/){983414,917792}
+exec(/bin/cp,/SPOT/devices/pci/1410e601/root/devices.pci.1410e601.rte.err,/){983416,917792}
+exec(/bin/cp,/SPOT/devices/pci/1410ec02/root/devices.pci.1410ec02.rte.err,/){983418,917792}
+exec(/bin/cp,/SPOT/devices/pci/22106474/root/devices.pci.22106474.rte.err,/){983420,917792}
+exec(/bin/cp,/SPOT/devices/pci/2b102725/root/devices.pci.2b102725.rte.err,/){983422,917792}
+exec(/bin/cp,/SPOT/devices/pci/33103500/root/devices.pci.33103500.rte.err,/){983424,917792}
+exec(/bin/cp,/SPOT/devices/pci/331121b9/root/devices.pci.331121b9.rte.err,/){983426,917792}
+exec(/bin/cp,/SPOT/devices/pci/4f11c800/root/devices.pci.4f11c800.rte.err,/){983428,917792}
+exec(/bin/cp,/SPOT/devices/pci/99172704/root/devices.pci.99172704.rte.err,/){983430,917792}
+exec(/bin/cp,/SPOT/devices/pci/b315445a/root/devices.pci.b315445a.rte.err,/){983432,917792}
+exec(/bin/cp,/SPOT/devices/pci/c1110358/root/devices.pci.c1110358.rte.err,/){983434,917792}
+exec(/bin/cp,/SPOT/devices/pci/df1000f7/root/devices.pci.df1000f7.com.err,/){983436,917792}
+exec(/bin/cp,/SPOT/devices/pci/e414a816/root/devices.pci.e414a816.rte.err,/){983438,917792}
+exec(/bin/cp,/SPOT/devices/pciex/14107a0314107b03/root/devices.pciex.14107a0314107b03.rte.err,/){983440,917792}
+exec(/bin/cp,/SPOT/devices/pciex/771000801410b003/root/devices.pciex.771000801410b003.rte.err,/){983442,917792}
+exec(/bin/cp,/SPOT/devices/pciex/8680c71014108003/root/devices.pciex.8680c71014108003.rte.err,/){983444,917792}
+exec(/bin/cp,/SPOT/devices/pciex/a21910071410d003/root/devices.pciex.a21910071410d003.rte.err,/){983446,917792}
+exec(/bin/cp,/SPOT/devices/pciex/b3154a63/root/devices.pciex.b3154a63.rte.err,/){983448,917792}
+exec(/bin/cp,/SPOT/devices/pciex/e4143a16e4143009/root/devices.pciex.e4143a16e4143009.rte.err,/){983450,917792}
+exec(/bin/cp,/SPOT/devices/scsi/disk/root/devices.scsi.disk.rte.err,/){983452,917792}
+exec(/bin/cp,/SPOT/devices/usbif/010100/root/devices.usbif.010100.rte.err,/){983454,917792}
+exec(/bin/cp,/SPOT/devices/usbif/03000008/root/devices.usbif.03000008.rte.err,/){983456,917792}
+exec(/bin/cp,/SPOT/devices/usbif/030101/root/devices.usbif.030101.rte.err,/){983458,917792}
+exec(/bin/cp,/SPOT/devices/usbif/030102/root/devices.usbif.030102.rte.err,/){983460,917792}
+exec(/bin/cp,/SPOT/bos/atm/root/bos.atm.atmle.err,/){983462,917792}
+exec(/bin/cp,/SPOT/bos/diag/root/bos.diag.rte.err,/){983464,917792}
+exec(/bin/cp,/SPOT/bos/net/root/bos.net.ppp.err,/){983466,917792}
+exec(/bin/cp,/SPOT/bos/sysmgt/root/bos.sysmgt.serv_aid.err,/){983468,917792}
+exec(/bin/cp,/SPOT/devices/chrp/IBM/lhca/root/devices.chrp.IBM.lhca.rte.err,/){983470,917792}
+exec(/bin/cp,/SPOT/devices/chrp/IBM/lhea/root/devices.chrp.IBM.lhea.rte.err,/){983472,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/cflash/root/devices.common.IBM.cflash.rte.err,/){983474,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/cx/root/devices.common.IBM.cx.rte.err,/){983476,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/ethernet/root/devices.common.IBM.ethernet.rte.err,/){983478,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/fc/root/devices.common.IBM.fc.rte.err,/){983480,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/ib/root/devices.common.IBM.ib.rte.err,/){983482,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/ide/root/devices.common.IBM.ide.rte.err,/){983484,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/iscsi/root/devices.common.IBM.iscsi.rte.err,/){983486,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/scsi/root/devices.common.IBM.scsi.rte.err,/){983488,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/sissas/root/devices.common.IBM.sissas.rte.err,/){983490,917792}
+exec(/bin/cp,/SPOT/devices/common/IBM/usb/root/devices.common.IBM.usb.rte.err,/){983492,917792}
+exec(/bin/cp,/SPOT/devices/pciex/pciexclass/010802/root/devices.pciex.pciexclass.010802.rte.err,/){983494,917792}
+exec(/bin/cp,/SPOT/devices/vdevice/IBM/vfc-client/root/devices.vdevice.IBM.vfc-client.rte.err,/){983496,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/drivers/pci/atidd,/SPOT/usr/lib/drivers/pci/atiddpin,/SPOT/usr/lib/drivers/pci/bentdd,/SPOT/usr/lib/drivers/pci/corfpgadd,/SPOT/usr/lib/drivers/pci/cortinadd,/SPOT/usr/lib/drivers/pci/cxpadd,/SPOT/usr/lib/drivers/pci/dpmpdd,/SPOT/usr/lib/drivers/pci/efcdd,/SPOT/usr/lib/drivers/pci/efcddpin,/SPOT/usr/lib/drivers/pci/elxentdd,/SPOT/usr/lib/drivers/pci/emfcdd,/SPOT/usr/lib/drivers/pci/goentdd,/SPOT/usr/lib/drivers/pci/icadd,/SPOT/usr/lib/drivers/pci/jasdd,/SPOT/usr/lib/drivers/pci/kngentdd,/SPOT/usr/lib/drivers/pci/kxentdd,/SPOT/usr/lib/drivers/pci/lanaidd,/SPOT/usr/lib/drivers/pci/lanaiddpin,/SPOT/usr/lib/drivers/pci/lnc2entdd,/SPOT/usr/lib/drivers/pci/mlxcentdd,/SPOT/usr/lib/drivers/pci/mlxentdd,/SPOT/usr/lib/drivers/pci/mpt2sasdd,/SPOT/usr/lib/drivers/pci/mptsasdd,/SPOT/usr/lib/drivers/pci/msnentdd,/SPOT/usr/lib/drivers/pci/musentdd,/SPOT/usr/lib/drivers/pci/mxibdd64,/SPOT/usr/lib/drivers/pci/nmentdd,/SPOT/usr/lib/drivers/pci/nvme){983498,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/drivers/isa/*,/usr/lib/drivers/isa/){983500,917792}
+cp: /SPOT/usr/lib/drivers/isa/*: No such file or directory
+exec(/usr/lib/methods/showled,0xA72){983502,917792}
+ showled 
+0c72exec(/usr/bin/sleep,10){983504,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/drivers/pse/pse,/SPOT/usr/lib/drivers/pse/ricio,/usr/lib/drivers/pse/){983506,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/methods/accel_fpga.cat,/SPOT/usr/lib/methods/aixdiskpcmrtl,/SPOT/usr/lib/methods/aixpcm.cat,/SPOT/usr/lib/methods/cfg64,/SPOT/usr/lib/methods/cfg_ati,/SPOT/usr/lib/methods/cfg_cortina,/SPOT/usr/lib/methods/cfg_lai,/SPOT/usr/lib/methods/cfg_vclient,/SPOT/usr/lib/methods/cfgbent,/SPOT/usr/lib/methods/cfgbus_vdevice,/SPOT/usr/lib/methods/cfgcflash,/SPOT/usr/lib/methods/cfgcon,/SPOT/usr/lib/methods/cfgcorfpga,/SPOT/usr/lib/methods/cfgcxma,/SPOT/usr/lib/methods/cfgddricio,/SPOT/usr/lib/methods/cfgdiag,/SPOT/usr/lib/methods/cfgdmxeth,/SPOT/usr/lib/methods/cfgdmxhdlc,/SPOT/usr/lib/methods/cfgdpmpa,/SPOT/usr/lib/methods/cfgdpmpd,/SPOT/usr/lib/methods/cfgefc,/SPOT/usr/lib/methods/cfgefscsi,/SPOT/usr/lib/methods/cfgelxent,/SPOT/usr/lib/methods/cfgemfc,/SPOT/usr/lib/methods/cfgemfscsi,/SPOT/usr/lib/methods/cfgfd_usb,/SPOT/usr/lib/methods/cfggoent,/SPOT/usr/lib/methods/cfghea,/SPOT/usr/lib/methods/cfgheaport,/SPOT/usr/lib/methods/cfgica,/SPOT){983508,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/drivers/aixdiskpcmke,/SPOT/usr/lib/drivers/asyncdiag,/SPOT/usr/lib/drivers/capi,/SPOT/usr/lib/drivers/cfs.ext,/SPOT/usr/lib/drivers/efscsidd,/SPOT/usr/lib/drivers/efscsiddpin,/SPOT/usr/lib/drivers/eth_demux,/SPOT/usr/lib/drivers/hdlc_demux,/SPOT/usr/lib/drivers/headd,/SPOT/usr/lib/drivers/icmdd,/SPOT/usr/lib/drivers/ldterm,/SPOT/usr/lib/drivers/lft_loadpin,/SPOT/usr/lib/drivers/pci,/SPOT/usr/lib/drivers/pdiagex,/SPOT/usr/lib/drivers/pse,/SPOT/usr/lib/drivers/qfscsidd,/SPOT/usr/lib/drivers/qfscsiddpin,/SPOT/usr/lib/drivers/qlfscsidd,/SPOT/usr/lib/drivers/qlfscsiddpin,/SPOT/usr/lib/drivers/qliscsidd,/SPOT/usr/lib/drivers/qliscsiddpin,/SPOT/usr/lib/drivers/ramdisk,/SPOT/usr/lib/drivers/rcm_load,/SPOT/usr/lib/drivers/rcm_loadpin,/SPOT/usr/lib/drivers/scdisk,/SPOT/usr/lib/drivers/scdiskpin,/SPOT/usr/lib/drivers/scsesdd,/SPOT/usr/lib/drivers/scsesddpin,/SPOT/usr/lib/drivers/scsidisk,/SPOT/usr/lib/drivers/scsidiskpin,/SPOT/usr/lib/driver){983510,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/microcode/cx_conc,/SPOT/usr/lib/microcode/cx_e_conc,/SPOT/usr/lib/microcode/cxpabios,/SPOT/usr/lib/microcode/cxpafep,/SPOT/usr/lib/microcode/dgr0871014d.00.00,/SPOT/usr/lib/microcode/dgr0b91014d.00.00,/SPOT/usr/lib/microcode/dgr0c91014d.00.00,/SPOT/usr/lib/microcode/dgr0d31014d.00.00,/SPOT/usr/lib/microcode/dgr0f81014d.00.00,/SPOT/usr/lib/microcode/ec8fd.00.03,/SPOT/usr/lib/microcode/ibmsis2780.img,/SPOT/usr/lib/microcode/ibmsis5702.img,/SPOT/usr/lib/microcode/ibmsis5703.img,/SPOT/usr/lib/microcode/ibmsis5709.img,/SPOT/usr/lib/microcode/ibmsis570B.img,/SPOT/usr/lib/microcode/sxbios,/SPOT/usr/lib/microcode/sxfep,/usr/lib/microcode){983512,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/artic960/bin/riccnfg,/SPOT/usr/artic960/bin/ricdiag,/SPOT/usr/artic960/bin/ricdump,/SPOT/usr/artic960/bin/ricfmttr,/SPOT/usr/artic960/bin/ricgettr,/SPOT/usr/artic960/bin/richelp,/SPOT/usr/artic960/bin/ricinit,/SPOT/usr/artic960/bin/ricinitd,/SPOT/usr/artic960/bin/ricload,/SPOT/usr/artic960/bin/ricmbx,/SPOT/usr/artic960/bin/ricreset,/SPOT/usr/artic960/bin/ricromup,/SPOT/usr/artic960/bin/ricsettr,/SPOT/usr/artic960/bin/ricstat,/usr/artic960/bin){983514,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/artic960/diag/dartic960,/SPOT/usr/artic960/diag/jdc2.rel,/usr/artic960/diag){983516,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/artic960/sys/dartic960.cat,/SPOT/usr/artic960/sys/ric.cat,/usr/artic960/sys){983518,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/nls,/usr/lib/nls){983520,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/asw/ric_base.rel,/SPOT/usr/lib/asw/ric_ess.rel,/SPOT/usr/lib/asw/ric_kdev.rel,/SPOT/usr/lib/asw/ric_kern.cfg,/SPOT/usr/lib/asw/ric_kern.rel,/SPOT/usr/lib/asw/ric_mcio.cfg,/SPOT/usr/lib/asw/ric_mcio.rel,/SPOT/usr/lib/asw/ric_oss.rel,/SPOT/usr/lib/asw/ric_pci.rel,/SPOT/usr/lib/asw/ric_scb.cfg,/SPOT/usr/lib/asw/ric_scb.rel,/SPOT/usr/lib/asw/ric_skrn.rel,/SPOT/usr/lib/asw/ricmbx.cfg,/SPOT/usr/lib/asw/ricrtask.rel,/usr/lib/asw){983522,917792}
+exec(/bin/cp,/SPOT/libC.a,/usr/lib/libC.a){983524,917792}
+exec(/bin/cp,/SPOT/libiconv.a,/usr/lib/libiconv.a){983526,917792}
+exec(/bin/cp,/SPOT/usr/lib/libbsd.a,/usr/lib/){983528,917792}
+exec(/bin/cp,/SPOT/usr/lib/libcfgscsi.a,/usr/lib/){983530,917792}
+exec(/bin/cp,/SPOT/usr/lib/libpslog_wrap.a,/usr/lib/){983532,917792}
+exec(/bin/cp,/SPOT/usr/lib/librdiag.a,/usr/lib/){983534,917792}
+exec(/bin/cp,/SPOT/usr/lib/libsncrypt.a,/usr/lib/){983536,917792}
+exec(/bin/cp,/SPOT/usr/lib/liby4crypt.a,/usr/lib/){983538,917792}
+exec(/usr/bin/errupdate,-f,/bos.atm.atmle.err){983540,917792}
+exec(/bin/rm,/bos.atm.atmle.err){983542,917792}
+exec(/bin/rm,/bos.atm.atmle.err.undo){983544,917792}
+exec(/usr/bin/errupdate,-f,/bos.diag.rte.err){983546,917792}
+exec(/bin/rm,/bos.diag.rte.err){983548,917792}
+exec(/bin/rm,/bos.diag.rte.err.undo){983550,917792}
+exec(/usr/bin/errupdate,-f,/bos.net.ppp.err){983296,917792}
+exec(/bin/rm,/bos.net.ppp.err){983298,917792}
+exec(/bin/rm,/bos.net.ppp.err.undo){983300,917792}
+exec(/usr/bin/errupdate,-f,/bos.sysmgt.serv_aid.err){983302,917792}
+exec(/bin/rm,/bos.sysmgt.serv_aid.err){983304,917792}
+exec(/bin/rm,/bos.sysmgt.serv_aid.err.undo){983306,917792}
+exec(/usr/bin/errupdate,-f,/devices.chrp.IBM.lhca.rte.err){983308,917792}
+exec(/bin/rm,/devices.chrp.IBM.lhca.rte.err){983310,917792}
+exec(/bin/rm,/devices.chrp.IBM.lhca.rte.err.undo){983312,917792}
+exec(/usr/bin/errupdate,-f,/devices.chrp.IBM.lhea.rte.err){983314,917792}
+exec(/bin/rm,/devices.chrp.IBM.lhea.rte.err){983316,917792}
+exec(/bin/rm,/devices.chrp.IBM.lhea.rte.err.undo){983318,917792}
+exec(/usr/bin/errupdate,-f,/devices.chrp.base.rte.err){983320,917792}
+exec(/bin/rm,/devices.chrp.base.rte.err){983322,917792}
+exec(/bin/rm,/devices.chrp.base.rte.err.undo){983324,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.cflash.rte.err){983326,917792}
+exec(/bin/rm,/devices.common.IBM.cflash.rte.err){983328,917792}
+exec(/bin/rm,/devices.common.IBM.cflash.rte.err.undo){983330,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.cx.rte.err){983332,917792}
+exec(/bin/rm,/devices.common.IBM.cx.rte.err){983334,917792}
+exec(/bin/rm,/devices.common.IBM.cx.rte.err.undo){983336,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.ethernet.rte.err){983338,917792}
+exec(/bin/rm,/devices.common.IBM.ethernet.rte.err){983340,917792}
+exec(/bin/rm,/devices.common.IBM.ethernet.rte.err.undo){983342,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.fc.rte.err){983344,917792}
+exec(/bin/rm,/devices.common.IBM.fc.rte.err){983346,917792}
+exec(/bin/rm,/devices.common.IBM.fc.rte.err.undo){983348,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.ib.rte.err){983350,917792}
+exec(/bin/rm,/devices.common.IBM.ib.rte.err){983352,917792}
+exec(/bin/rm,/devices.common.IBM.ib.rte.err.undo){983354,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.ide.rte.err){983356,917792}
+exec(/bin/rm,/devices.common.IBM.ide.rte.err){983358,917792}
+exec(/bin/rm,/devices.common.IBM.ide.rte.err.undo){983360,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.iscsi.rte.err){983362,917792}
+exec(/bin/rm,/devices.common.IBM.iscsi.rte.err){983364,917792}
+exec(/bin/rm,/devices.common.IBM.iscsi.rte.err.undo){983366,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.scsi.rte.err){983368,917792}
+exec(/bin/rm,/devices.common.IBM.scsi.rte.err){983370,917792}
+exec(/bin/rm,/devices.common.IBM.scsi.rte.err.undo){983372,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.sissas.rte.err){983374,917792}
+exec(/bin/rm,/devices.common.IBM.sissas.rte.err){983376,917792}
+exec(/bin/rm,/devices.common.IBM.sissas.rte.err.undo){983378,917792}
+exec(/usr/bin/errupdate,-f,/devices.common.IBM.usb.rte.err){983380,917792}
+exec(/bin/rm,/devices.common.IBM.usb.rte.err){983382,917792}
+exec(/bin/rm,/devices.common.IBM.usb.rte.err.undo){983384,917792}
+exec(/usr/bin/errupdate,-f,/devices.ethernet.ct3.cdli.err){983386,917792}
+exec(/bin/rm,/devices.ethernet.ct3.cdli.err){983388,917792}
+exec(/bin/rm,/devices.ethernet.ct3.cdli.err.undo){983390,917792}
+exec(/usr/bin/errupdate,-f,/devices.ethernet.ct3.rte.err){983392,917792}
+exec(/bin/rm,/devices.ethernet.ct3.rte.err){983394,917792}
+exec(/bin/rm,/devices.ethernet.ct3.rte.err.undo){983396,917792}
+exec(/usr/bin/errupdate,-f,/devices.ethernet.mlx.rte.err){983398,917792}
+exec(/bin/rm,/devices.ethernet.mlx.rte.err){983400,917792}
+exec(/bin/rm,/devices.ethernet.mlx.rte.err.undo){983402,917792}
+exec(/usr/bin/errupdate,-f,/devices.fcp.disk.rte.err){983404,917792}
+exec(/bin/rm,/devices.fcp.disk.rte.err){983406,917792}
+exec(/bin/rm,/devices.fcp.disk.rte.err.undo){983408,917792}
+exec(/usr/bin/errupdate,-f,/devices.fcp.tape.rte.err){983410,917792}
+exec(/bin/rm,/devices.fcp.tape.rte.err){983412,917792}
+exec(/bin/rm,/devices.fcp.tape.rte.err.undo){983414,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.02105e51.rte.err){983416,917792}
+exec(/bin/rm,/devices.pci.02105e51.rte.err){983418,917792}
+exec(/bin/rm,/devices.pci.02105e51.rte.err.undo){983420,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.14102e00.rte.err){983422,917792}
+exec(/bin/rm,/devices.pci.14102e00.rte.err){983424,917792}
+exec(/bin/rm,/devices.pci.14102e00.rte.err.undo){983426,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.14103302.rte.err){983428,917792}
+exec(/bin/rm,/devices.pci.14103302.rte.err){983430,917792}
+exec(/bin/rm,/devices.pci.14103302.rte.err.undo){983432,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.14106902.rte.err){983434,917792}
+exec(/bin/rm,/devices.pci.14106902.rte.err){983436,917792}
+exec(/bin/rm,/devices.pci.14106902.rte.err.undo){983438,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.14107001.rte.err){983440,917792}
+exec(/bin/rm,/devices.pci.14107001.rte.err){983442,917792}
+exec(/bin/rm,/devices.pci.14107001.rte.err.undo){983444,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.14107802.rte.err){983446,917792}
+exec(/bin/rm,/devices.pci.14107802.rte.err){983448,917792}
+exec(/bin/rm,/devices.pci.14107802.rte.err.undo){983450,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.1410e601.rte.err){983452,917792}
+exec(/bin/rm,/devices.pci.1410e601.rte.err){983454,917792}
+exec(/bin/rm,/devices.pci.1410e601.rte.err.undo){983456,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.1410ec02.rte.err){983458,917792}
+exec(/bin/rm,/devices.pci.1410ec02.rte.err){983460,917792}
+exec(/bin/rm,/devices.pci.1410ec02.rte.err.undo){983462,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.22106474.rte.err){983464,917792}
+exec(/bin/rm,/devices.pci.22106474.rte.err){983466,917792}
+exec(/bin/rm,/devices.pci.22106474.rte.err.undo){983468,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.2b102725.rte.err){983470,917792}
+exec(/bin/rm,/devices.pci.2b102725.rte.err){983472,917792}
+exec(/bin/rm,/devices.pci.2b102725.rte.err.undo){983474,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.33103500.rte.err){983476,917792}
+exec(/bin/rm,/devices.pci.33103500.rte.err){983478,917792}
+exec(/bin/rm,/devices.pci.33103500.rte.err.undo){983480,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.331121b9.rte.err){983482,917792}
+exec(/bin/rm,/devices.pci.331121b9.rte.err){983484,917792}
+exec(/bin/rm,/devices.pci.331121b9.rte.err.undo){983486,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.4f11c800.rte.err){983488,917792}
+exec(/bin/rm,/devices.pci.4f11c800.rte.err){983490,917792}
+exec(/bin/rm,/devices.pci.4f11c800.rte.err.undo){983492,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.99172704.rte.err){983494,917792}
+exec(/bin/rm,/devices.pci.99172704.rte.err){983496,917792}
+exec(/bin/rm,/devices.pci.99172704.rte.err.undo){983498,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.b315445a.rte.err){983500,917792}
+exec(/bin/rm,/devices.pci.b315445a.rte.err){983502,917792}
+exec(/bin/rm,/devices.pci.b315445a.rte.err.undo){983504,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.c1110358.rte.err){983506,917792}
+exec(/bin/rm,/devices.pci.c1110358.rte.err){983508,917792}
+exec(/bin/rm,/devices.pci.c1110358.rte.err.undo){983510,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.df1000f7.com.err){983512,917792}
+exec(/bin/rm,/devices.pci.df1000f7.com.err){983514,917792}
+exec(/bin/rm,/devices.pci.df1000f7.com.err.undo){983516,917792}
+exec(/usr/bin/errupdate,-f,/devices.pci.e414a816.rte.err){983518,917792}
+exec(/bin/rm,/devices.pci.e414a816.rte.err){983520,917792}
+exec(/bin/rm,/devices.pci.e414a816.rte.err.undo){983522,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.14107a0314107b03.rte.err){983524,917792}
+exec(/bin/rm,/devices.pciex.14107a0314107b03.rte.err){983526,917792}
+exec(/bin/rm,/devices.pciex.14107a0314107b03.rte.err.undo){983528,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.771000801410b003.rte.err){983530,917792}
+exec(/bin/rm,/devices.pciex.771000801410b003.rte.err){983532,917792}
+exec(/bin/rm,/devices.pciex.771000801410b003.rte.err.undo){983534,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.8680c71014108003.rte.err){983536,917792}
+exec(/bin/rm,/devices.pciex.8680c71014108003.rte.err){983538,917792}
+exec(/bin/rm,/devices.pciex.8680c71014108003.rte.err.undo){983540,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.a21910071410d003.rte.err){983542,917792}
+exec(/bin/rm,/devices.pciex.a21910071410d003.rte.err){983544,917792}
+exec(/bin/rm,/devices.pciex.a21910071410d003.rte.err.undo){983546,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.b3154a63.rte.err){983548,917792}
+exec(/bin/rm,/devices.pciex.b3154a63.rte.err){983550,917792}
+exec(/bin/rm,/devices.pciex.b3154a63.rte.err.undo){983296,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.e4143a16e4143009.rte.err){983298,917792}
+exec(/bin/rm,/devices.pciex.e4143a16e4143009.rte.err){983300,917792}
+exec(/bin/rm,/devices.pciex.e4143a16e4143009.rte.err.undo){983302,917792}
+exec(/usr/bin/errupdate,-f,/devices.pciex.pciexclass.010802.rte.err){983304,917792}
+exec(/bin/rm,/devices.pciex.pciexclass.010802.rte.err){983306,917792}
+exec(/bin/rm,/devices.pciex.pciexclass.010802.rte.err.undo){983308,917792}
+exec(/usr/bin/errupdate,-f,/devices.scsi.disk.rte.err){983310,917792}
+exec(/bin/rm,/devices.scsi.disk.rte.err){983312,917792}
+exec(/bin/rm,/devices.scsi.disk.rte.err.undo){983314,917792}
+exec(/usr/bin/errupdate,-f,/devices.usbif.010100.rte.err){983316,917792}
+exec(/bin/rm,/devices.usbif.010100.rte.err){983318,917792}
+exec(/bin/rm,/devices.usbif.010100.rte.err.undo){983320,917792}
+exec(/usr/bin/errupdate,-f,/devices.usbif.03000008.rte.err){983322,917792}
+exec(/bin/rm,/devices.usbif.03000008.rte.err){983324,917792}
+exec(/bin/rm,/devices.usbif.03000008.rte.err.undo){983326,917792}
+exec(/usr/bin/errupdate,-f,/devices.usbif.030101.rte.err){983328,917792}
+exec(/bin/rm,/devices.usbif.030101.rte.err){983330,917792}
+exec(/bin/rm,/devices.usbif.030101.rte.err.undo){983332,917792}
+exec(/usr/bin/errupdate,-f,/devices.usbif.030102.rte.err){983334,917792}
+exec(/bin/rm,/devices.usbif.030102.rte.err){983336,917792}
+exec(/bin/rm,/devices.usbif.030102.rte.err.undo){983338,917792}
+exec(/usr/bin/errupdate,-f,/devices.vdevice.IBM.vfc-client.rte.err){983340,917792}
+exec(/bin/rm,/devices.vdevice.IBM.vfc-client.rte.err){983342,917792}
+exec(/bin/rm,/devices.vdevice.IBM.vfc-client.rte.err.undo){983344,917792}
+exec(/usr/sbin/strload,-f,/dev/null){983346,917792}
+exec(/usr/bin/sh,-c,/usr/bin/tcbck -l /dev/clone > /dev/null 2>&1){1179946,983346}
+exec(/usr/bin/sh,-c,/usr/sbin/trustchk -a /dev/clone > /dev/null 2>&1){1179948,983346}
+exec(/usr/bin/sh,-c,/usr/bin/tcbck -l /dev/sad > /dev/null 2>&1){1179950,983346}
+exec(/usr/bin/sh,-c,/usr/sbin/trustchk -a /dev/sad > /dev/null 2>&1){1179952,983346}
+exec(/usr/bin/sh,-c,/usr/bin/tcbck -l /dev/slog > /dev/null 2>&1){1179954,983346}
+exec(/usr/bin/sh,-c,/usr/sbin/trustchk -a /dev/slog > /dev/null 2>&1){1179956,983346}
+exec(/usr/bin/ln,-s){983348,917792}
+exec(/usr/bin/ln,-s,/usr/lib/nls/msg/en_US/ica.cat,/usr/lib/methods/ica.cat){983350,917792}
+exec(/usr/bin/ln,-s,/usr/lib/drivers/pse/ricio,/usr/lib/drivers/ricio){983352,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricload,/usr/lpp/devices.artic960/bin/ricload){983354,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricreset,/usr/lpp/devices.artic960/bin/ricreset){983356,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricdump,/usr/lpp/devices.artic960/bin/ricdump){983358,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricstat,/usr/lpp/devices.artic960/bin/ricstat){983360,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/riccnfg,/usr/lpp/devices.artic960/bin/riccnfg){983362,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricromup,/usr/lpp/devices.artic960/bin/ricromup){983364,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/richelp,/usr/lpp/devices.artic960/bin/richelp){983366,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricinit,/usr/lpp/devices.artic960/bin/ricinit){983368,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricinitd,/usr/lpp/devices.artic960/bin/ricinitd){983370,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricmbx,/usr/lpp/devices.artic960/bin/ricmbx){983372,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricsettr,/usr/lpp/devices.artic960/bin/ricsettr){983374,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricgettr,/usr/lpp/devices.artic960/bin/ricgettr){983376,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricfmttr,/usr/lpp/devices.artic960/bin/ricfmttr){983378,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/bin/ricdiag,/usr/lpp/devices.artic960/bin/ricdiag){983380,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_kern.cfg,/usr/lpp/devices.artic960/bin/ric_kern.cfg){983382,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_mcio.cfg,/usr/lpp/devices.artic960/bin/ric_mcio.cfg){983384,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_scb.cfg,/usr/lpp/devices.artic960/bin/ric_scb.cfg){983386,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ricmbx.cfg,/usr/lpp/devices.artic960/bin/ricmbx.cfg){983388,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_base.rel,/usr/lpp/devices.artic960/bin/ric_base.rel){983390,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_ess.rel,/usr/lpp/devices.artic960/bin/ric_ess.rel){983392,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_kdev.rel,/usr/lpp/devices.artic960/bin/ric_kdev.rel){983394,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_kern.rel,/usr/lpp/devices.artic960/bin/ric_kern.rel){983396,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_mcio.rel,/usr/lpp/devices.artic960/bin/ric_mcio.rel){983398,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_oss.rel,/usr/lpp/devices.artic960/bin/ric_oss.rel){983400,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_pci.rel,/usr/lpp/devices.artic960/bin/ric_pci.rel){983402,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_scb.rel,/usr/lpp/devices.artic960/bin/ric_scb.rel){983404,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ric_skrn.rel,/usr/lpp/devices.artic960/bin/ric_skrn.rel){983406,917792}
+exec(/usr/bin/ln,-s,/usr/lib/asw/ricrtask.rel,/usr/lpp/devices.artic960/bin/ricrtask.rel){983408,917792}
+exec(/usr/bin/ln,-s,/usr/lib/methods/ricio.cat,/usr/lpp/devices.artic960/sys/ricio.cat){983410,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/sys/ric.cat,/usr/lpp/devices.artic960/sys/ric.cat){983412,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/sys/dartic960.cat,/usr/lpp/diagnostics/catalog/default/dartic960.cat){983414,917792}
+exec(/usr/bin/ln,-s,/usr/lib/methods/ddricio.cat,/usr/lpp/devices.artic960/sys/ddricio.cat){983416,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/sys/dartic960.cat,/usr/lpp/devices.artic960/sys/dartic960.cat){983418,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/diag/dartic960,/usr/lpp/diagnostics/da/dartic960){983420,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/diag/jdc2.rel,/usr/lpp/devices.artic960/bin/jdc2.rel){983422,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/lib/libric.a,/usr/lpp/devices.artic960/bin/libric.a){983424,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/lib/libmbx.a,/usr/lpp/devices.artic960/bin/libmbx.a){983426,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/lib/libric.a,/usr/lib/libric.a){983428,917792}
+exec(/usr/bin/ln,-s,/usr/artic960/lib/libmbx.a,/usr/lib/libmbx.a){983430,917792}
+exec(/bin/rm,-f,/etc/linkedfiles2.dep){983432,917792}
+exec(/etc/cfgmgr,-S,-f){983434,917792}
+ cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/defsys ){1114430,983434}
+exec(/etc/methods/defsys){1114430,983434}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsys_chrp -1 -l sys0){1114432,983434}
+exec(/usr/lib/methods/cfgsys_chrp,-1,-l,sys0){1114432,983434}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsysplanar_chrp -1 -l sysplanar0){1114434,983434}
+exec(/usr/lib/methods/cfgsysplanar_chrp,-1,-l,sysplanar0){1114434,983434}
+ cfgmgr 
+0539 cfgmgr 
+0812exec(/bin/sh,-c,/usr/lib/methods/cfgmem_chrp -1 -l mem0){1114436,983434}
+exec(/usr/lib/methods/cfgmem_chrp,-1,-l,mem0){1114436,983434}
+ cfgmgr 
+0539 cfgmgr 
+0708exec(/bin/sh,-c,/usr/lib/methods/cfgL2cache_chrp -1 -l L2cache0){1114438,983434}
+exec(/usr/lib/methods/cfgL2cache_chrp,-1,-l,L2cache0){1114438,983434}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgproc_chrp -1 -l proc0){1114440,983434}
+exec(/usr/lib/methods/cfgproc_chrp,-1,-l,proc0){1114440,983434}
+ cfgmgr 
+0539 cfgmgr 
+078cexec(/bin/sh,-c,/usr/lib/methods/cfgbus_pcic -1 -l pci0){1114442,983434}
+exec(/usr/lib/methods/cfgbus_pcic,-1,-l,pci0){1114442,983434}
+ cfgmgr 
+0539 cfgmgr 
+25b6exec(/bin/sh,-c,/usr/lib/methods/cfgbus_vdevice -1 -l vio0){1114444,983434}
+exec(/usr/lib/methods/cfgbus_vdevice,-1,-l,vio0){1114444,983434}
+ cfgmgr 
+0539 cfgmgr 
+04eeexec(/bin/sh,-c,/etc/methods/cfgvcon -1 -l vsa0){1114446,983434}
+exec(/etc/methods/cfgvcon,-1,-l,vsa0){1114446,983434}
+exec(/bin/sh,-c,/etc/methods/define -c tty -s vcon -t tty -p vsa0 -w 0){1179958,1114446}
+exec(/etc/methods/define,-c,tty,-s,vcon,-t,tty,-p,vsa0,-w,0){1179958,1114446}
+ cfgmgr 
+0539 cfgmgr 
+25b3exec(/bin/sh,-c,/usr/lib/methods/cfg_vclient -1 -l vscsi0){1114448,983434}
+exec(/usr/lib/methods/cfg_vclient,-1,-l,vscsi0){1114448,983434}
+ cfgmgr 
+0539 cfgmgr 
+0727exec(/bin/sh,-c,/etc/methods/cfgtty -1 -l vty0){1114450,983434}
+exec(/etc/methods/cfgtty,-1,-l,vty0){1114450,983434}
+exec(/bin/sh,-c,/usr/sbin/mkitab "vty0:2:off:/usr/sbin/getty /dev/vty0"){1245482,1114450}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/startusb ){1114452,983434}
+exec(/etc/methods/startusb){1114452,983434}
+ cfgmgr 
+0539 cfgmgr 
+exec(/usr/bin/odmadd,/SPOT/diagodm1.add,/SPOT/diagodm2.add){983436,917792}
+exec(/bin/odmget,-qPdDvLn like diskette/* and status != 3,CuDv){983438,917792}
+exec(/bin/odmadd,/SPOT/async.add){983440,917792}
+exec(/bin/odmadd,/SPOT/disks.add){983442,917792}
+exec(/bin/odmadd,/SPOT/tapes.add){983444,917792}
+exec(/bin/odmdelete,-o,PdAtXtd){983446,917792}
+exec(/etc/cfgmgr,-S,-s){983448,917792}
+ cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/defsys ){1114454,983448}
+exec(/etc/methods/defsys){1114454,983448}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsys_chrp -2 -l sys0){1114456,983448}
+exec(/usr/lib/methods/cfgsys_chrp,-2,-l,sys0){1114456,983448}
+exec(/usr/bin/sh,-c,/usr/sbin/lsitab ha_star){1179962,1114456}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsysplanar_chrp -2 -l sysplanar0){1114458,983448}
+exec(/usr/lib/methods/cfgsysplanar_chrp,-2,-l,sysplanar0){1114458,983448}
+ cfgmgr 
+0539 cfgmgr 
+0812exec(/bin/sh,-c,/usr/lib/methods/cfgmem_chrp -2 -l mem0){1114460,983448}
+exec(/usr/lib/methods/cfgmem_chrp,-2,-l,mem0){1114460,983448}
+ cfgmgr 
+0539 cfgmgr 
+0708exec(/bin/sh,-c,/usr/lib/methods/cfgL2cache_chrp -2 -l L2cache0){1114462,983448}
+exec(/usr/lib/methods/cfgL2cache_chrp,-2,-l,L2cache0){1114462,983448}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgproc_chrp -2 -l proc0){1114464,983448}
+exec(/usr/lib/methods/cfgproc_chrp,-2,-l,proc0){1114464,983448}
+ cfgmgr 
+0539 cfgmgr 
+078cexec(/bin/sh,-c,/usr/lib/methods/cfgbus_pcic -2 -l pci0){1114466,983448}
+exec(/usr/lib/methods/cfgbus_pcic,-2,-l,pci0){1114466,983448}
+ cfgmgr 
+0539 cfgmgr 
+25b6exec(/bin/sh,-c,/usr/lib/methods/cfgbus_vdevice -2 -l vio0){1114468,983448}
+exec(/usr/lib/methods/cfgbus_vdevice,-2,-l,vio0){1114468,983448}
+ cfgmgr 
+0539 cfgmgr 
+04eeexec(/bin/sh,-c,/etc/methods/cfgvcon -2 -l vsa0){1114470,983448}
+exec(/etc/methods/cfgvcon,-2,-l,vsa0){1114470,983448}
+ cfgmgr 
+0539 cfgmgr 
+25b3exec(/bin/sh,-c,/usr/lib/methods/cfg_vclient -2 -l vscsi0){1114472,983448}
+exec(/usr/lib/methods/cfg_vclient,-2,-l,vscsi0){1114472,983448}
+ cfgmgr 
+0539 cfgmgr 
+0727exec(/bin/sh,-c,/etc/methods/cfgtty -2 -l vty0){1114474,983448}
+exec(/etc/methods/cfgtty,-2,-l,vty0){1114474,983448}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/startusb ){1114476,983448}
+exec(/etc/methods/startusb){1114476,983448}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/usr/lib/methods/def_sas_physloc ){1114478,983448}
+exec(/usr/lib/methods/def_sas_physloc){1114478,983448}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/usr/lib/methods/cfgvtdev ){1114480,983448}
+exec(/usr/lib/methods/cfgvtdev){1114480,983448}
+ cfgmgr 
+0539 cfgmgr 
+exec(/bin/cp,/SPOT/etc/consdef,/etc/consdef){983450,917792}
+exec(/usr/lib/methods/startlft){983452,917792}
+exec(/usr/lib/methods/showled,0x593){983454,917792}
+ showled 
+0593exec(/usr/lib/methods/cfglft,-l,lft0){983456,917792}
+exec(/usr/lib/methods/showled,0xFFF){983458,917792}
+ showled 
+exec(/usr/lib/methods/startrcm){983460,917792}
+exec(/bin/sh,-c,/etc/methods/define -n -o -c rcm -s node -t rcm){1114482,983460}
+exec(/etc/methods/define,-n,-o,-c,rcm,-s,node,-t,rcm){1114482,983460}
+exec(/usr/lib/methods/showled,0x594){983462,917792}
+ showled 
+0594exec(/usr/lib/methods/cfgrcm,-l,rcm0){983464,917792}
+exec(/usr/lib/methods/showled,0xFFF){983466,917792}
+ showled 
+exec(/usr/bin/rm,-f,/usr/lib/methods/cfgrcm){983468,917792}
+exec(/usr/bin/rm,-f,/usr/lib/methods/startrcm){983470,917792}
+exec(/usr/bin/rm,-f,/usr/lib/methods/cfglft){983472,917792}
+exec(/usr/bin/rm,-f,/usr/lib/methods/startlft){983474,917792}
+exec(/bin/odmget,-qPdDvLn like diskette/* and status != 3,CuDv){983476,917792}
+exec(/etc/cfgmgr,-S,-s){983478,917792}
+ cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/defsys ){1114484,983478}
+exec(/etc/methods/defsys){1114484,983478}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsys_chrp -2 -l sys0){1114486,983478}
+exec(/usr/lib/methods/cfgsys_chrp,-2,-l,sys0){1114486,983478}
+exec(/usr/bin/sh,-c,/usr/sbin/lsitab ha_star){1179964,1114486}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgsysplanar_chrp -2 -l sysplanar0){1114488,983478}
+exec(/usr/lib/methods/cfgsysplanar_chrp,-2,-l,sysplanar0){1114488,983478}
+ cfgmgr 
+0539 cfgmgr 
+0812exec(/bin/sh,-c,/usr/lib/methods/cfgmem_chrp -2 -l mem0){1114490,983478}
+exec(/usr/lib/methods/cfgmem_chrp,-2,-l,mem0){1114490,983478}
+ cfgmgr 
+0539 cfgmgr 
+0708exec(/bin/sh,-c,/usr/lib/methods/cfgL2cache_chrp -2 -l L2cache0){1114492,983478}
+exec(/usr/lib/methods/cfgL2cache_chrp,-2,-l,L2cache0){1114492,983478}
+ cfgmgr 
+0539 cfgmgr 
+0811exec(/bin/sh,-c,/usr/lib/methods/cfgproc_chrp -2 -l proc0){1114494,983478}
+exec(/usr/lib/methods/cfgproc_chrp,-2,-l,proc0){1114494,983478}
+ cfgmgr 
+0539 cfgmgr 
+078cexec(/bin/sh,-c,/usr/lib/methods/cfgbus_pcic -2 -l pci0){1114496,983478}
+exec(/usr/lib/methods/cfgbus_pcic,-2,-l,pci0){1114496,983478}
+ cfgmgr 
+0539 cfgmgr 
+25b6exec(/bin/sh,-c,/usr/lib/methods/cfgbus_vdevice -2 -l vio0){1114498,983478}
+exec(/usr/lib/methods/cfgbus_vdevice,-2,-l,vio0){1114498,983478}
+ cfgmgr 
+0539 cfgmgr 
+04eeexec(/bin/sh,-c,/etc/methods/cfgvcon -2 -l vsa0){1114500,983478}
+exec(/etc/methods/cfgvcon,-2,-l,vsa0){1114500,983478}
+ cfgmgr 
+0539 cfgmgr 
+25b3exec(/bin/sh,-c,/usr/lib/methods/cfg_vclient -2 -l vscsi0){1114502,983478}
+exec(/usr/lib/methods/cfg_vclient,-2,-l,vscsi0){1114502,983478}
+ cfgmgr 
+0539 cfgmgr 
+0727exec(/bin/sh,-c,/etc/methods/cfgtty -2 -l vty0){1114504,983478}
+exec(/etc/methods/cfgtty,-2,-l,vty0){1114504,983478}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/etc/methods/startusb ){1114506,983478}
+exec(/etc/methods/startusb){1114506,983478}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/usr/lib/methods/def_sas_physloc ){1114508,983478}
+exec(/usr/lib/methods/def_sas_physloc){1114508,983478}
+ cfgmgr 
+0539 cfgmgr 
+0538exec(/bin/sh,-c,/usr/lib/methods/cfgvtdev ){1114510,983478}
+exec(/usr/lib/methods/cfgvtdev){1114510,983478}
+ cfgmgr 
+0539 cfgmgr 
+exec(/usr/lib/methods/starttty,-1){983480,917792}
+exec(/usr/lib/methods/cfgcon){983482,917792}
+
+
+ ******* Please define the System Console. *******
+
+Type a 1 and press Enter to use this terminal as the
+  system console.
+Pour definir ce terminal comme console systeme, appuyez
+  sur 1 puis sur Entree.
+Taste 1 und anschliessend die Eingabetaste druecken, um
+  diese Datenstation als Systemkonsole zu verwenden.
+Premere il tasto 1 ed Invio per usare questo terminal
+  come console.
+Escriba 1 y pulse Intro para utilizar esta terminal como
+  consola del sistema.
+Escriviu 1 1 i premeu Intro per utilitzar aquest
+  terminal com a consola del sistema.
+Digite um 1 e pressione Enter para utilizar este terminal
+  como console do sistema.
+
+
+
+
+ cfgcon 
+0c31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ HARDWARE SYSTEM MICROCODE
+ Licensed Internal Code - Property of IBM 
+ (C) Copyright IBM Corp. 1990, 1994.
+ All rights reserved.
+
+ US Government Users Restricted Rights -
+ Use, duplication or disclosure restricted
+ by GSA ADP Schedule Contract with IBM Corp.
+
+
+ cfgcon 
+0c331exec(/bin/sh,-c,chitab "cons:0123456789:respawn:/usr/sbin/getty /dev/console"){1114512,983482}
+exec(/usr/lib/methods/showled,0xFFF){983484,917792}
+ showled 
+Processing the configuration.
+Please stand by.
+exec(/bin/odmdelete,-o,PdAtXtd){983486,917792}
+exec(/bin/cp,/SPOT/libdiag.a,/usr/lib/libdiag.a){983488,917792}
+exec(/bin/cp,/SPOT/libpdiag.a,/usr/lib/libpdiag.a){983490,917792}
+exec(/bin/cp,/SPOT/libasl.a,/usr/lib/libasl.a){983492,917792}
+exec(/bin/cp,/SPOT/libcur.a,/usr/lib/libcur.a){983494,917792}
+exec(/bin/cp,/SPOT/libdr_chrp.a,/usr/lib/libdr_chrp.a){983496,917792}
+exec(/SPOT/usr/bin/cp,-h,-r,/SPOT/usr/bin/smitty,/usr/bin/){983498,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/CEREADME,/usr/lpp/diagnostics/CEREADME){983500,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/da/danvme,/SPOT/usr/lpp/diagnostics/da/dasas,/SPOT/usr/lpp/diagnostics/da/dases,/SPOT/usr/lpp/diagnostics/da/data,/SPOT/usr/lpp/diagnostics/da/dati,/SPOT/usr/lpp/diagnostics/da/dbcaent,/SPOT/usr/lpp/diagnostics/da/dbcent,/SPOT/usr/lpp/diagnostics/da/dbcnent,/SPOT/usr/lpp/diagnostics/da/dcdrom,/SPOT/usr/lpp/diagnostics/da/dcdromide,/SPOT/usr/lpp/diagnostics/da/dchrp,/SPOT/usr/lpp/diagnostics/da/dcort,/SPOT/usr/lpp/diagnostics/da/dcxpa,/SPOT/usr/lpp/diagnostics/da/ddvdram,/SPOT/usr/lpp/diagnostics/da/ddvdrom,/SPOT/usr/lpp/diagnostics/da/delpent,/SPOT/usr/lpp/diagnostics/da/delxent,/SPOT/usr/lpp/diagnostics/da/demfc,/SPOT/usr/lpp/diagnostics/da/dfcscsi,/SPOT/usr/lpp/diagnostics/da/dfd,/SPOT/usr/lpp/diagnostics/da/dfda,/SPOT/usr/lpp/diagnostics/da/dfpp,/SPOT/usr/lpp/diagnostics/da/dgoent,/SPOT/usr/lpp/diagnostics/da/dgvars,/SPOT/usr/lpp/diagnostics/da/dhea,/SPOT/usr/lpp/diagnostics/da/dhf,/SPOT/usr/lpp/diagnostics/da/dica,){983502,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/bin/Dctrl,/SPOT/usr/lpp/diagnostics/bin/cmutil,/SPOT/usr/lpp/diagnostics/bin/diagrpt,/SPOT/usr/lpp/diagnostics/bin/diagrto,/SPOT/usr/lpp/diagnostics/bin/dsaukent,/SPOT/usr/lpp/diagnostics/bin/dsdata_mcode,/SPOT/usr/lpp/diagnostics/bin/mxib_download,/SPOT/usr/lpp/diagnostics/bin/mxib_ucdl,/SPOT/usr/lpp/diagnostics/bin/nvmehealth,/SPOT/usr/lpp/diagnostics/bin/pdiskfg,/SPOT/usr/lpp/diagnostics/bin/ses_list,/SPOT/usr/lpp/diagnostics/bin/u5081,/SPOT/usr/lpp/diagnostics/bin/ubackrest,/SPOT/usr/lpp/diagnostics/bin/ubcaent,/SPOT/usr/lpp/diagnostics/bin/ubcent,/SPOT/usr/lpp/diagnostics/bin/ubcnent,/SPOT/usr/lpp/diagnostics/bin/ucfgvpd,/SPOT/usr/lpp/diagnostics/bin/udiskmnt,/SPOT/usr/lpp/diagnostics/bin/udmedit,/SPOT/usr/lpp/diagnostics/bin/udsense,/SPOT/usr/lpp/diagnostics/bin/udvdram,/SPOT/usr/lpp/diagnostics/bin/udvdrom,/SPOT/usr/lpp/diagnostics/bin/uelpent,/SPOT/usr/lpp/diagnostics/bin/uelxent,/SPOT/usr/lpp/diagnostics/bin/u){983504,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/slih/ausent_intr,/SPOT/usr/lpp/diagnostics/slih/be3ent_intr,/SPOT/usr/lpp/diagnostics/slih/bf_intr,/SPOT/usr/lpp/diagnostics/slih/bl2async_intr,/SPOT/usr/lpp/diagnostics/slih/bl2async_intr1,/SPOT/usr/lpp/diagnostics/slih/bloom_intr,/SPOT/usr/lpp/diagnostics/slih/cu_intr,/SPOT/usr/lpp/diagnostics/slih/elpent_intr,/SPOT/usr/lpp/diagnostics/slih/fcphal_intr,/SPOT/usr/lpp/diagnostics/slih/flintent_intr,/SPOT/usr/lpp/diagnostics/slih/glacierpark_intr,/SPOT/usr/lpp/diagnostics/slih/goent_intr,/SPOT/usr/lpp/diagnostics/slih/jasasync_intr,/SPOT/usr/lpp/diagnostics/slih/kxent_intr,/SPOT/usr/lpp/diagnostics/slih/masonnic_intr,/SPOT/usr/lpp/diagnostics/slih/pcihdlc_intr,/SPOT/usr/lpp/diagnostics/slih/rnicent_intr,/SPOT/usr/lpp/diagnostics/slih/rr2ent_intr,/SPOT/usr/lpp/diagnostics/slih/s2kent_intr,/SPOT/usr/lpp/diagnostics/slih/sail_intr,/SPOT/usr/lpp/diagnostics/slih/sanjcto_intr,/SPOT/usr/lpp/diagnostics/slih/trnic3_intr,/SPOT/){983506,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/lib/libbcm578,/SPOT/usr/lpp/diagnostics/lib/libflint_tu,/SPOT/usr/lpp/diagnostics/lib/libts,/SPOT/usr/lpp/diagnostics/lib/libtu_ausent,/SPOT/usr/lpp/diagnostics/lib/libtu_bf,/SPOT/usr/lpp/diagnostics/lib/libtu_bl2async,/SPOT/usr/lpp/diagnostics/lib/libtu_cflash,/SPOT/usr/lpp/diagnostics/lib/libtu_elpent,/SPOT/usr/lpp/diagnostics/lib/libtu_fcphal,/SPOT/usr/lpp/diagnostics/lib/libtu_glacierpark,/SPOT/usr/lpp/diagnostics/lib/libtu_goent,/SPOT/usr/lpp/diagnostics/lib/libtu_heaent,/SPOT/usr/lpp/diagnostics/lib/libtu_ica,/SPOT/usr/lpp/diagnostics/lib/libtu_jasasync,/SPOT/usr/lpp/diagnostics/lib/libtu_kxent,/SPOT/usr/lpp/diagnostics/lib/libtu_lilac,/SPOT/usr/lpp/diagnostics/lib/libtu_masonnic,/SPOT/usr/lpp/diagnostics/lib/libtu_pcihdlc,/SPOT/usr/lpp/diagnostics/lib/libtu_rdx,/SPOT/usr/lpp/diagnostics/lib/libtu_rnent,/SPOT/usr/lpp/diagnostics/lib/libtu_rr2ent,/SPOT/usr/lpp/diagnostics/lib/libtu_s2kent,/SPOT/usr/lpp/diagnostics){983508,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lpp/diagnostics/catalog/default/Dctrl.cat,/SPOT/usr/lpp/diagnostics/catalog/default/Task.cat,/SPOT/usr/lpp/diagnostics/catalog/default/cmutil.cat,/SPOT/usr/lpp/diagnostics/catalog/default/danvme.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dasas.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dases.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dati.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dbcaent.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dbcent.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dbcnent.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dcda.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dcdrom.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dcdromide.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dchrp.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dcort.cat,/SPOT/usr/lpp/diagnostics/catalog/default/dcxpa.cat,/SPOT/usr/lpp/diagnostics/catalog/default/ddmcode.cat,/SPOT/usr/lpp/diagnostics/catalog/default/ddvdram.cat,/SPOT/usr){983510,917792}
+exec(/bin/cp,-h,-r,/SPOT/usr/lib/boot/bin/bootinfo_chrp,/SPOT/usr/lib/boot/bin/bootlist_chrp,/SPOT/usr/lib/boot/bin/dmpdt_chrp,/SPOT/usr/lib/boot/bin/drslot_chrp_pci,/SPOT/usr/lib/boot/bin/libcfg_chrp,/SPOT/usr/lib/boot/bin/lscfg_chrp,/SPOT/usr/lib/boot/bin/lsmcode_chrp,/SPOT/usr/lib/boot/bin/lsresource_chrp,/SPOT/usr/lib/boot/bin/lsslot_chrp_pci,/usr/lib/boot/bin){983512,917792}
+exec(/bin/odmget,-qPdDvLn like diskette/* and status != 3,CuDv){983514,917792}
+exec(/usr/bin/ln,-s,/usr/bin/compress,/usr/bin/uncompress){983516,917792}
+exec(/usr/bin/ln,-s,/usr/bin/dosdir,/usr/bin/dosread){983518,917792}
+exec(/usr/bin/ln,-s,/usr/bin/dosdir,/usr/bin/doswrite){983520,917792}
+exec(/usr/bin/ln,-s,/usr/bin/grep,/usr/bin/egrep){983522,917792}
+exec(/usr/bin/ln,-s,/usr/sbin/mount,/usr/sbin/umount){983524,917792}
+exec(/usr/bin/ln,-s,/usr/lib/nls/msg/en_US/SSAaids.cat,/usr/lpp/diagnostics/catalog/default/SSAaids.cat){983526,917792}
+exec(/usr/bin/ln,-s,/usr/lib/nls/msg/en_US/umayf.cat,/usr/lpp/diagnostics/catalog/default/umayf.cat){983528,917792}
+exec(/usr/bin/ln,-s,/usr/lib/nls/msg/en_US/dmayf.cat,/usr/lpp/diagnostics/catalog/default/dmayf.cat){983530,917792}
+exec(/usr/bin/ln,-s,/usr/lib/nls/msg/en_US/smit.cat,/usr/lib/methods/smit.cat){983532,917792}
+exec(/usr/bin/ln,-s,/usr/lpp/diagnostics/bin/usysident,/usr/lpp/diagnostics/bin/usysfault){983534,917792}
+exec(/usr/bin/ln,-s,/usr/lpp/diagnostics/bin/update_flash,/usr/lpp/diagnostics/bin/update_manage_flash){983536,917792}
+exec(/usr/bin/ln,-s,/usr/lpp/diagnostics/bin/upformat,/usr/lpp/diagnostics/bin/upcertify){983538,917792}
+exec(/usr/bin/ln,-s,/usr/lpp/diagnostics/bin/Dctrl,/usr/sbin/diag){983540,917792}
+exec(/usr/bin/ln,-s,/usr/bin/rm,/usr/bin/rmdir){983542,917792}
+exec(/usr/bin/ln,-s,/usr/lib/IbBaseLib/IbBaseLib.a,/usr/lib/IbBaseLib.a){983544,917792}
+exec(/usr/bin/ln,-s,/usr/ccs/lib/libxml2.a,/usr/lib/libxml2.a){983546,917792}
+exec(/usr/bin/ln,-s,/usr/ccs/lib/libdl.a,/usr/lib/libdl.a){983548,917792}
+exec(/usr/bin/ln,-s,/usr/lib/methods/dev_mlxent.cat,/usr/lpp/diagnostics/catalog/default/dev_mlxent.cat){983550,917792}
+exec(/bin/rm,-f,/etc/linkedfiles.dep){983296,917792}
+exec(/usr/bin/tty){983298,917792}
+exec(/usr/lib/methods/showled,0xFFF){983300,917792}
+ showled 
+exec(/bin/ln,-s,/usr/lpp/diagnostics/catalog/default,/etc/lpp/diagnostics/catalog/En_US){983302,917792}
+exec(/bin/ln,-s,/etc/cfgmgr,/usr/sbin/cfgmgr){983304,917792}
+exec(/usr/lib/methods/cfg64){983306,917792}
+exec(/usr/ccs/bin/shlap64){1114514,983306}
+exec(/usr/lib/errdemon,-s,16384,-B,8192){983308,917792}
+exec(/usr/bin/sh,-c,/usr/lib/physloc errdemon){1245484,1179970}
+exec(/usr/bin/sh,-c,/usr/lib/physloc minidump){1376558,1179970}
+exec(/usr/bin/sh,-c,/usr/lib/physloc sys0){1442096,1179970}
+exec(/usr/bin/sh,-c,/usr/lib/physloc   CFGLFT){1507634,1179970}
+exec(/usr/bin/sh,-c,/usr/lib/physloc SYSERRLG){1573172,1179970}
+exec(/usr/bin/sh,-c,/usr/lib/physloc SYSPROC){1638710,1179970}
+exec(/usr/sbin/umount,/SPOT){983310,917792}
+exec(/usr/sbin/mkramdisk,512M){983312,917792}
+/dev/rramdisk0
+exec(/usr/sbin/mkfs,-Vjfs,/dev/ramdisk0){983314,917792}
+exec(/sbin/helpers/v3fshelper,5,3,5,-p,0,dev=/dev/ramdisk0){1638712,983314}
+exec(/bin/mkdir,/mnt){983316,917792}
+exec(/usr/sbin/mount,-V,jfs,-o,nointegrity,/dev/ramdisk0,/mnt){983318,917792}
+exec(/usr/bin/sh,-c,/usr/sbin/wlmcntrl -u -d "" > /dev/null 2>&1){1638714,983318}
+exec(/usr/sbin/mount,/mnt,/tmp){983320,917792}
+exec(/usr/bin/sh,-c,/usr/sbin/wlmcntrl -u -d "" > /dev/null 2>&1){1638716,983320}
+exec(/bin/tty){983322,917792}
+exec(/usr/lpp/diagnostics/bin/Dctrl,/usr/lpp/diagnostics/bin/Dctrl){983324,917792}
+exec(/bin/sh){1638718,983324}
+#
