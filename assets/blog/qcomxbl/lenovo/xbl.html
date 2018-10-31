@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre><b class=HIC>Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0x512d, size 0x2ded80 (3009920 bytes)
+<b class=HIC>  Firmware Volume Blocks: </b>(47030, 0x40)
+<b class=HIC>  File 0:</b> <b class=GRN>0a85a45e-915f-49db-8bd5-5337861f8082</b> type 0x01, attr 0x40, state 0x07, size 0x2de814 (3008532 bytes), (raw)
+    <b class=HIC>RawObject:</b> size= 519072 
+<b class=HIC>    Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x000cfeff, rev 2, cksum 0xc8a7, size 0x200000 (2097152 bytes)
+<b class=HIC>      Firmware Volume Blocks: </b>(4096, 0x200)
+<b class=HIC>      File 0:</b> <b class=GRN>ffffffff-ffff-ffff-ffff-ffffffffffff</b> type 0xf0, attr 0x00, state 0x07, size 0xfa0 (4000 bytes), (ffs padding)
+<b class=HIC>      File 1:</b> <b class=GRN>8af09f13-44c5-96ec-1437-dd899cb5ee5d</b> type 0x03, attr 0x28, state 0x07, size 0x26018 (155672 bytes), (security core)
+<b class=HIC>        Section 0:</b> type 0x19, size 0xf34 (3892 bytes) (Raw section)
+<b class=HIC>        Section 1:</b> type 0x12, size 0x250cc (151756 bytes) (Terse executable (TE) section)
+<b class=HIC>      File 2:</b> <b class=GRN>dde58710-41cd-4306-dbfb-3fa90bb1d2dd</b> type 0x02, attr 0x00, state 0x07, size 0x24ab (9387 bytes), (freeform)
+<b class=HIC>        Section 0:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+        Name: <b class=HIM>uefiplat.cfg</b>
+<b class=HIC>        Section 1:</b> type 0x19, size 0x2473 (9331 bytes) (Raw section)
+<b class=HIC>      File 3:</b> <b class=GRN>9e21fd93-9c72-4c15-8c4b-e77f1db2d792</b> type 0x0b, attr 0x00, state 0x07, size 0x1adcd0 (1760464 bytes), (firmware volume image)
+<b class=HIC>        Section 0:</b> type 0x02, size 0x1adcb8 (1760440 bytes) (Guid Defined section)
+          <b class=HIC>Guid-Defined:</b> <b class=GRN>ee4e5898-3914-4259-9d6e-dc7bd79403cf</b> offset= 0x18 attrs= 0x1 (<b class=HIM>PROCESSING_REQUIRED</b>)
+<b class=HIC>            Section 0:</b> type 0x19, size 0x4 (4 bytes) (Raw section)
+<b class=HIC>            Section 1:</b> type 0x17, size 0x8257c4 (8542148 bytes) (Firmware volume image section)
+<b class=HIC>              Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0x948d, size 0x8257c0 (8542144 bytes)
+<b class=HIC>                Firmware Volume Blocks: </b>(133471, 0x40)
+<b class=HIC>                File 0:</b> <b class=GRN>ffffffff-ffff-ffff-ffff-ffffffffffff</b> type 0xf0, attr 0x00, state 0x07, size 0x2c (44 bytes), (ffs padding)
+<b class=HIC>                File 1:</b> <b class=GRN>fc510ee7-ffdc-11d4-bd41-0080c73c8881</b> type 0x02, attr 0x00, state 0x07, size 0x54c (1356 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x19, size 0x534 (1332 bytes) (Raw section)
+<b class=HIC>                File 2:</b> <b class=GRN>d6a2cb7f-6a18-4e2f-b43b-9920a733700a</b> type 0x05, attr 0x00, state 0x07, size 0x27030 (159792 bytes), (dxe core)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x27004 (159748 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>DxeCore</b>
+<b class=HIC>                File 3:</b> <b class=GRN>b8d9777e-d72a-451f-9bdb-bafb52a68415</b> type 0x07, attr 0x00, state 0x07, size 0xc03c (49212 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>ArmCpuDxe</b>
+<b class=HIC>                File 4:</b> <b class=GRN>b601f8c4-43b7-4784-95b1-f4226cb40cee</b> type 0x07, attr 0x00, state 0x07, size 0x803e (32830 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>RuntimeDxe</b>
+<b class=HIC>                File 5:</b> <b class=GRN>5e0eae60-eaed-4d75-b8bf-edbbaabc3f09</b> type 0x07, attr 0x00, state 0x07, size 0x16038 (90168 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x16004 (90116 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>SecurityDxe</b>
+<b class=HIC>                File 6:</b> <b class=GRN>125e61d7-e824-4943-8be9-1add2b197360</b> type 0x07, attr 0x00, state 0x07, size 0xa034 (41012 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>MorPpiDxe</b>
+<b class=HIC>                File 7:</b> <b class=GRN>6925fad3-e243-4b69-ad61-3f978c8abc60</b> type 0x07, attr 0x00, state 0x07, size 0x13044 (77892 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 964e5b21-6459-11d2-8e39-00a0c969723b
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x13004 (77828 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x10 (16 bytes) (User interface name section)
+                  Name: <b class=HIM>TzDxe</b>
+<b class=HIC>                File 8:</b> <b class=GRN>553c050b-6e52-435a-88cb-e9ecb0565115</b> type 0x07, attr 0x00, state 0x07, size 0xb03e (45118 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xb004 (45060 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>MeasureBootDxe</b>
+<b class=HIC>                File 9:</b> <b class=GRN>f099d67f-71ae-4c36-b2a3-dceb0eb2b7d8</b> type 0x07, attr 0x00, state 0x07, size 0x7054 (28756 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>WatchdogTimer</b>
+<b class=HIC>                File 10:</b> <b class=GRN>42857f0a-13f2-4b21-8a23-53d3f714b840</b> type 0x07, attr 0x00, state 0x07, size 0x15090 (86160 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x4c (76 bytes) (DXE dependency expression section)
+                    PUSH 0fd96974-23aa-4cdc-b9cb-98d17750322a
+                    PUSH ef9fc172-a1b2-4693-b327-6d32fc416042
+                    PUSH 587e72d7-cc50-4f79-8209-ca291fc1a10f
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x15004 (86020 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x28 (40 bytes) (User interface name section)
+                  Name: <b class=HIM>CapsuleRuntimeDxe</b>
+<b class=HIC>                File 11:</b> <b class=GRN>d93ce3d8-a7eb-4730-8c8e-cc466a9ecc3c</b> type 0x07, attr 0x00, state 0x07, size 0x806a (32874 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x46 (70 bytes) (User interface name section)
+                  Name: <b class=HIM>ReportStatusCodeRouterRuntimeDxe</b>
+<b class=HIC>                File 12:</b> <b class=GRN>6c2004ef-4e0e-4be4-b14c-340eb4aa5891</b> type 0x07, attr 0x00, state 0x07, size 0xa070 (41072 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 86212936-0e76-41c8-a03a-2af2fc1c39e2
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x3c (60 bytes) (User interface name section)
+                  Name: <b class=HIM>StatusCodeHandlerRuntimeDxe</b>
+<b class=HIC>                File 13:</b> <b class=GRN>2b0ecdce-01ae-446e-9ffd-c4217de0340f</b> type 0x07, attr 0x00, state 0x07, size 0xa040 (41024 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>VariableDxe</b>
+<b class=HIC>                File 14:</b> <b class=GRN>65b852df-355e-4946-9808-cc7edb9beaa6</b> type 0x07, attr 0x00, state 0x07, size 0xc036 (49206 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>DppDxe</b>
+<b class=HIC>                File 15:</b> <b class=GRN>37795ba0-e1cf-4ed5-bd8b-16df6bcb1e1a</b> type 0x07, attr 0x00, state 0x07, size 0x705a (28762 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x36 (54 bytes) (User interface name section)
+                  Name: <b class=HIM>EmbeddedMonotonicCounter</b>
+<b class=HIC>                File 16:</b> <b class=GRN>857a8741-0eec-43bd-9482-27d14ed47d72</b> type 0x07, attr 0x00, state 0x07, size 0x7054 (28756 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+                  Name: <b class=HIM>SimpleTextInOutSerial</b>
+<b class=HIC>                File 17:</b> <b class=GRN>3ae17db7-3cc5-4b89-9304-9549211057ef</b> type 0x07, attr 0x00, state 0x07, size 0xc048 (49224 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x24 (36 bytes) (User interface name section)
+                  Name: <b class=HIM>ResetRuntimeDxe</b>
+<b class=HIC>                File 18:</b> <b class=GRN>b336f62d-4135-4a55-ae4e-4971bbf0885d</b> type 0x07, attr 0x00, state 0x07, size 0x8044 (32836 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>RealTimeClock</b>
+<b class=HIC>                File 19:</b> <b class=GRN>4c6e0267-c77d-410d-8100-1495911a989d</b> type 0x07, attr 0x00, state 0x07, size 0x7042 (28738 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>MetronomeDxe</b>
+<b class=HIC>                File 20:</b> <b class=GRN>79e4a61c-ed73-4312-94fe-e3e7563362a9</b> type 0x07, attr 0x00, state 0x07, size 0x903a (36922 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>PrintDxe</b>
+<b class=HIC>                File 21:</b> <b class=GRN>9b680fce-ad6b-4f3a-b60b-f59899003443</b> type 0x07, attr 0x00, state 0x07, size 0x10044 (65604 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x10004 (65540 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>DevicePathDxe</b>
+<b class=HIC>                File 22:</b> <b class=GRN>51ccf399-4fdf-4e55-a45b-e123f84d456a</b> type 0x07, attr 0x00, state 0x07, size 0x803e (32830 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>ConPlatformDxe</b>
+<b class=HIC>                File 23:</b> <b class=GRN>408edcec-cf6d-477c-a5a8-b4844e3de281</b> type 0x07, attr 0x00, state 0x07, size 0xd03e (53310 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>ConSplitterDxe</b>
+<b class=HIC>                File 24:</b> <b class=GRN>cccb0c28-4b24-11d5-9a5a-0090273fc14d</b> type 0x07, attr 0x00, state 0x07, size 0xb046 (45126 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xb004 (45060 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+                  Name: <b class=HIM>GraphicsConsoleDxe</b>
+<b class=HIC>                File 25:</b> <b class=GRN>348c4d62-bfbd-4882-9ece-c80bb1c4783b</b> type 0x07, attr 0x00, state 0x07, size 0x20040 (131136 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x20004 (131076 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>HiiDatabase</b>
+<b class=HIC>                File 26:</b> <b class=GRN>f8622d80-f271-4505-9487-8d25bbafd7d8</b> type 0x07, attr 0x00, state 0x07, size 0x803c (32828 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>SmbiosDxe</b>
+<b class=HIC>                File 27:</b> <b class=GRN>90a49afd-422f-08ae-9611-e788d3804845</b> type 0x07, attr 0x00, state 0x07, size 0x10036 (65590 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x10004 (65540 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>EnvDxe</b>
+<b class=HIC>                File 28:</b> <b class=GRN>50a15b6f-e3a9-4192-9640-369cb367c4de</b> type 0x07, attr 0x00, state 0x07, size 0xd09e (53406 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x5e (94 bytes) (DXE dependency expression section)
+                    PUSH 03583ff6-cb36-4940-947e-b9b39f4afaf7
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    PUSH 964e5b22-6459-11d2-8e39-00a0c969723b
+                    PUSH 85c1f7d2-bce6-4f31-8f4d-d37e03d05eaa
+                    PUSH b0760469-970c-487a-a4b5-28db7b45cef1
+                    AND
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>SmBiosTableDxe</b>
+<b class=HIC>                File 29:</b> <b class=GRN>9622e42c-8e38-4a08-9e8f-54f784652f6b</b> type 0x07, attr 0x00, state 0x07, size 0xc042 (49218 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>AcpiTableDxe</b>
+<b class=HIC>                File 30:</b> <b class=GRN>07598dfc-d5ec-4f00-8897-ab10426cb644</b> type 0x07, attr 0x00, state 0x07, size 0x14062 (82018 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ffe06bdd-6107-46a6-7bb2-5a9c7ec5275c
+                    PUSH 964e5b22-6459-11d2-8e39-00a0c969723b
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x14004 (81924 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>AcpiPlatform</b>
+<b class=HIC>                File 31:</b> <b class=GRN>5246dcd6-1968-4bc6-b50e-620a0b629dc3</b> type 0x07, attr 0x00, state 0x07, size 0x8050 (32848 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 570800be-5485-4e42-986a-8a4fc4fdc8d4
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>OSConfigDxe</b>
+<b class=HIC>                File 32:</b> <b class=GRN>de371f7c-dec4-4d21-adf1-593abcc15882</b> type 0x07, attr 0x00, state 0x07, size 0x804c (32844 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 26baccb1-6f42-11d4-bce7-0080c73c8881
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>ArmGicDxe</b>
+<b class=HIC>                File 33:</b> <b class=GRN>49ea041e-6752-42ca-b0b1-7344fe2546b7</b> type 0x07, attr 0x00, state 0x07, size 0x7050 (28752 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 2890b3ea-053d-1643-ad0c-d64808da3ff1
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>ArmTimerDxe</b>
+<b class=HIC>                File 34:</b> <b class=GRN>10e193df-9966-44e7-b17c-59dd831e20fc</b> type 0x07, attr 0x00, state 0x07, size 0x905a (36954 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH 9e61de7c-9927-4f28-9f3d-320705d81801
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>ChipInfo</b>
+<b class=HIC>                File 35:</b> <b class=GRN>7942a7eb-b7d5-4e2e-b908-831e4de55b58</b> type 0x07, attr 0x00, state 0x07, size 0xc03a (49210 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>GlinkDxe</b>
+<b class=HIC>                File 36:</b> <b class=GRN>f541d663-4a48-40aa-aabf-ff158ccae34c</b> type 0x07, attr 0x00, state 0x07, size 0x7038 (28728 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>SmemDxe</b>
+<b class=HIC>                File 37:</b> <b class=GRN>e43128a8-8692-42b6-8afa-676158578d18</b> type 0x07, attr 0x00, state 0x07, size 0x14038 (81976 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x14004 (81924 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>ULogDxe</b>
+<b class=HIC>                File 38:</b> <b class=GRN>cb29f4d1-7f37-4692-a416-93e82e219711</b> type 0x07, attr 0x00, state 0x07, size 0x1a036 (106550 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1a004 (106500 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>NpaDxe</b>
+<b class=HIC>                File 39:</b> <b class=GRN>6b38f7b4-ad98-40e9-9093-aca2b5a253c4</b> type 0x07, attr 0x00, state 0x07, size 0xa034 (41012 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>DiskIoDxe</b>
+<b class=HIC>                File 40:</b> <b class=GRN>1fa1f39e-feff-4aae-bd7b-38a070a3b609</b> type 0x07, attr 0x00, state 0x07, size 0xc03a (49210 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>PartitionDxe</b>
+<b class=HIC>                File 41:</b> <b class=GRN>961578fe-b6b7-44c3-af35-6bc705cd2b1f</b> type 0x07, attr 0x00, state 0x07, size 0xf028 (61480 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xf004 (61444 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0xc (12 bytes) (User interface name section)
+                  Name: <b class=HIM>Fat</b>
+<b class=HIC>                File 42:</b> <b class=GRN>cd3bafb6-50fb-4fe8-8e4e-ab74d2c1a600</b> type 0x07, attr 0x00, state 0x07, size 0x7036 (28726 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>EnglishDxe</b>
+<b class=HIC>                File 43:</b> <b class=GRN>907125c0-a5f1-11e3-a3fe-a3198b49350c</b> type 0x07, attr 0x00, state 0x07, size 0xa046 (41030 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+                  Name: <b class=HIM>FvSimpleFileSystem</b>
+<b class=HIC>                File 44:</b> <b class=GRN>0c989d41-f4b4-4244-9d7f-e9ffb4163273</b> type 0x07, attr 0x00, state 0x07, size 0x7046 (28742 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>FastBootOption</b>
+<b class=HIC>                File 45:</b> <b class=GRN>8e9bd160-b184-11df-94e2-0800200c9a66</b> type 0x07, attr 0x00, state 0x07, size 0x2e046 (188486 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x2e004 (188420 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>DALSys</b>
+<b class=HIC>                File 46:</b> <b class=GRN>4db5dea6-5302-4d1a-8a82-677a683b0d29</b> type 0x07, attr 0x00, state 0x07, size 0x2005a (131162 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH b0760469-970c-487a-a4b5-28db7b45cef1
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x20004 (131076 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>ClockDxe</b>
+<b class=HIC>                File 47:</b> <b class=GRN>af9763a2-033b-4109-8e17-56a98d380c92</b> type 0x07, attr 0x00, state 0x07, size 0x8054 (32852 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>HWIODxeDriver</b>
+<b class=HIC>                File 48:</b> <b class=GRN>04de8591-d2b3-4077-bbbe-b12070094eb6</b> type 0x07, attr 0x00, state 0x07, size 0xd074 (53364 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x4c (76 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH 241afae6-885f-4f6c-a7ea-c28eab79c3e5
+                    PUSH ad9aec18-7bf0-4809-9e96-3012309f3df7
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0xc (12 bytes) (User interface name section)
+                  Name: <b class=HIM>I2C</b>
+<b class=HIC>                File 49:</b> <b class=GRN>7a32bd23-f735-4f57-aa1a-447d2fe3be0d</b> type 0x07, attr 0x00, state 0x07, size 0xc074 (49268 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x4c (76 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH 241afae6-885f-4f6c-a7ea-c28eab79c3e5
+                    PUSH ad9aec18-7bf0-4809-9e96-3012309f3df7
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0xc (12 bytes) (User interface name section)
+                  Name: <b class=HIM>SPI</b>
+<b class=HIC>                File 50:</b> <b class=GRN>2a7b4bef-80cd-49e1-b473-374ba4d673fc</b> type 0x07, attr 0x00, state 0x07, size 0x9032 (36914 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0xe (14 bytes) (User interface name section)
+                  Name: <b class=HIM>SPMI</b>
+<b class=HIC>                File 51:</b> <b class=GRN>f9c6016c-442d-1afa-cef4-62b63caac906</b> type 0x07, attr 0x00, state 0x07, size 0xd042 (53314 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>CrashDumpDxe</b>
+<b class=HIC>                File 52:</b> <b class=GRN>00160f8d-2b35-4df2-bbe0-b272a8d631f0</b> type 0x07, attr 0x00, state 0x07, size 0x9066 (36966 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 86212936-0e76-41c8-a03a-2af2fc1c39e2
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x32 (50 bytes) (User interface name section)
+                  Name: <b class=HIM>FirmwarePerformanceDxe</b>
+<b class=HIC>                File 53:</b> <b class=GRN>f10f76db-42c1-533f-34a8-69be24653110</b> type 0x07, attr 0x00, state 0x07, size 0x1d058 (118872 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH 241afae6-885f-4f6c-a7ea-c28eab79c3e5
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1d004 (118788 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>SdccDxe</b>
+<b class=HIC>                File 54:</b> <b class=GRN>0d35cd8e-97ea-4f9a-96af-0f0d89f76567</b> type 0x07, attr 0x00, state 0x07, size 0x17046 (94278 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x17004 (94212 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>UFSDxe</b>
+<b class=HIC>                File 55:</b> <b class=GRN>f0cc65f4-801c-490f-98b0-ed59968a116a</b> type 0x02, attr 0x00, state 0x07, size 0x610 (1552 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x19, size 0x5f8 (1528 bytes) (Raw section)
+<b class=HIC>                File 56:</b> <b class=GRN>dd0616c8-b50d-4a58-b9be-10c9f3f7156c</b> type 0x07, attr 0x00, state 0x07, size 0x7050 (28752 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH ffe06bdd-6107-46a6-7bb2-5a9c7ec5275c
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbTypeCDxe</b>
+<b class=HIC>                File 57:</b> <b class=GRN>8681cc5a-0df6-441e-b4b8-e915c538f067</b> type 0x07, attr 0x00, state 0x07, size 0x9048 (36936 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>DALTLMM</b>
+<b class=HIC>                File 58:</b> <b class=GRN>4138022f-06c7-4f79-9c94-7e33b511a4e7</b> type 0x07, attr 0x00, state 0x07, size 0x450de (282846 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0xa6 (166 bytes) (DXE dependency expression section)
+                    PUSH 157a5c45-21b2-43c5-ba7c-822fee5fe599
+                    PUSH b0760469-970c-487a-a4b5-28db7b45cef1
+                    PUSH ce30ea4d-c78f-4606-9c3b-11efedcf6e87
+                    PUSH c1bff82d-6c92-48fb-8355-c7fb4218a4ea
+                    PUSH a966cc4f-ee6c-424d-a762-8ed3b5a4a501
+                    PUSH 47861dff-556f-4269-9b28-062ec3ecb30d
+                    PUSH ad9aec18-7bf0-4809-9e96-3012309f3df7
+                    PUSH b27ae8b1-3e10-4d07-ab5c-eb9a6dc6fa8f
+                    PUSH 241afae6-885f-4f6c-a7ea-c28eab79c3e5
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x45004 (282628 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>DisplayDxe</b>
+<b class=HIC>                File 59:</b> <b class=GRN>b105211b-bbbd-4add-a3b0-d1cf4a52154c</b> type 0x07, attr 0x00, state 0x07, size 0x7064 (28772 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+                  Name: <b class=HIM>PlatformInfoDxeDriver</b>
+<b class=HIC>                File 60:</b> <b class=GRN>5bd181db-0487-4f1a-ae73-820e165611b3</b> type 0x07, attr 0x00, state 0x07, size 0x9082 (36994 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x4c (76 bytes) (DXE dependency expression section)
+                    PUSH 387477c1-69c7-11d2-8e39-00a0c969723b
+                    PUSH 157a5c45-21b2-43c5-ba7c-822fee5fe599
+                    PUSH 9ae91844-ef7d-49ca-9034-0822fb1a5d93
+                    PUSH 9ba45b66-efa4-441c-a3e4-ed2224786be2
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>ButtonsDxe</b>
+<b class=HIC>                File 61:</b> <b class=GRN>c44697d5-b4aa-4030-9749-29860844183d</b> type 0x07, attr 0x00, state 0x07, size 0x34058 (213080 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH fa5f306b-f47d-4ac4-a47d-882f8204ec30
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x34004 (212996 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>PmicDxe</b>
+<b class=HIC>                File 62:</b> <b class=GRN>2f0e56b0-3921-4133-9bb8-46f99889d046</b> type 0x07, attr 0x00, state 0x07, size 0x1b04a (110666 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1b004 (110596 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+                  Name: <b class=HIM>QcomChargerDxeWp</b>
+<b class=HIC>                File 63:</b> <b class=GRN>5a5cb8ca-9382-4e0c-b383-77fb517cd9eb</b> type 0x07, attr 0x00, state 0x07, size 0xa056 (41046 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    PUSH fa5f306b-f47d-4ac4-a47d-882f8204ec30
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>AdcDxe</b>
+<b class=HIC>                File 64:</b> <b class=GRN>f09ad92e-485c-9cdb-3e05-3385c38f94cc</b> type 0x07, attr 0x00, state 0x07, size 0x704a (28746 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH ae37b942-457f-4c91-a196-d9669fd347a3
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>TsensDxe</b>
+<b class=HIC>                File 65:</b> <b class=GRN>f09ad92e-4e91-490f-ab99-e69939b840b2</b> type 0x07, attr 0x00, state 0x07, size 0xd034 (53300 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>LimitsDxe</b>
+<b class=HIC>                File 66:</b> <b class=GRN>88abf42e-efa7-4d72-a9c8-8b29acdcf64f</b> type 0x07, attr 0x00, state 0x07, size 0x803e (32830 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>MpPowerDxe</b>
+<b class=HIC>                File 67:</b> <b class=GRN>75c22fc8-bfcc-48a3-b6da-340c7fab8075</b> type 0x07, attr 0x00, state 0x07, size 0xf036 (61494 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xf004 (61444 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>I2cHid</b>
+<b class=HIC>                File 68:</b> <b class=GRN>c7a7030c-c3d8-45ee-bed9-5d9e76762953</b> type 0x07, attr 0x00, state 0x07, size 0xa040 (41024 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>MouseDriver</b>
+<b class=HIC>                File 69:</b> <b class=GRN>8a2fdfc3-0395-442c-b9f7-9a3d69d2094c</b> type 0x07, attr 0x00, state 0x07, size 0x1b038 (110648 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1b004 (110596 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>SoftKbd</b>
+<b class=HIC>                File 70:</b> <b class=GRN>b7ee4835-84ce-4b15-bf52-2d11574ce470</b> type 0x07, attr 0x00, state 0x07, size 0x9056 (36950 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x32 (50 bytes) (User interface name section)
+                  Name: <b class=HIM>HardwareSignatureEntry</b>
+<b class=HIC>                File 71:</b> <b class=GRN>94f8a6a7-dc34-4101-88c1-99179cceae83</b> type 0x07, attr 0x00, state 0x07, size 0x1e14e (123214 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x112 (274 bytes) (DXE dependency expression section)
+                    PUSH 18a031ab-b443-4d1a-a5c0-0c09261e9f71
+                    PUSH 76b95dad-1e66-4d98-9ce7-b294d9596895
+                    PUSH 157a5c45-21b2-43c5-ba7c-822fee5fe599
+                    PUSH 665e3ff6-46cc-11d4-9a38-0090273fc14d
+                    PUSH 26baccb1-6f42-11d4-bce7-0080c73c8881
+                    PUSH 26baccb2-6f42-11d4-bce7-0080c73c8881
+                    PUSH 1da97072-bddc-4b30-99f1-72a0b56fff2a
+                    PUSH 27cfac87-46cc-11d4-9a38-0090273fc14d
+                    PUSH 27cfac88-46cc-11d4-9a38-0090273fc14d
+                    PUSH b7dfb4e1-052f-449f-87be-9818fc91b733
+                    PUSH a46423e3-4617-49f1-b9ff-d1bfa9115839
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 665e3ff5-46cc-11d4-9a38-0090273fc14d
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1e004 (122884 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbfnDwc3Dxe</b>
+<b class=HIC>                File 72:</b> <b class=GRN>beb12bee-f6e1-11e1-9fb8-6c626de4aeb1</b> type 0x07, attr 0x00, state 0x07, size 0xa132 (41266 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0xee (238 bytes) (DXE dependency expression section)
+                    PUSH 18a031ab-b443-4d1a-a5c0-0c09261e9f71
+                    PUSH 665e3ff6-46cc-11d4-9a38-0090273fc14d
+                    PUSH 26baccb1-6f42-11d4-bce7-0080c73c8881
+                    PUSH 26baccb2-6f42-11d4-bce7-0080c73c8881
+                    PUSH 1da97072-bddc-4b30-99f1-72a0b56fff2a
+                    PUSH 27cfac87-46cc-11d4-9a38-0090273fc14d
+                    PUSH 27cfac88-46cc-11d4-9a38-0090273fc14d
+                    PUSH b7dfb4e1-052f-449f-87be-9818fc91b733
+                    PUSH a46423e3-4617-49f1-b9ff-d1bfa9115839
+                    PUSH 26baccb3-6f42-11d4-bce7-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 665e3ff5-46cc-11d4-9a38-0090273fc14d
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+                  Name: <b class=HIM>XhciPciEmulation</b>
+<b class=HIC>                File 73:</b> <b class=GRN>b7f50e91-a759-412c-ade4-dcd03e7f7c28</b> type 0x07, attr 0x00, state 0x07, size 0x18030 (98352 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x18004 (98308 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>XhciDxe</b>
+<b class=HIC>                File 74:</b> <b class=GRN>240612b7-a063-11d4-9a3a-0090273fc14d</b> type 0x07, attr 0x00, state 0x07, size 0x14034 (81972 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x14004 (81924 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbBusDxe</b>
+<b class=HIC>                File 75:</b> <b class=GRN>2d2e62cf-9ecf-43b7-8219-94e7fc713dfe</b> type 0x07, attr 0x00, state 0x07, size 0xc032 (49202 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xc004 (49156 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbKbDxe</b>
+<b class=HIC>                File 76:</b> <b class=GRN>9fb4b4a7-42c0-4bcd-8540-9bcc6711f83e</b> type 0x07, attr 0x00, state 0x07, size 0xb044 (45124 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xb004 (45060 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x28 (40 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbMassStorageDxe</b>
+<b class=HIC>                File 77:</b> <b class=GRN>5af77f10-90df-4e7e-8325-a17ec09d5443</b> type 0x07, attr 0x00, state 0x07, size 0x1103c (69692 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x11004 (69636 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbMsdDxe</b>
+<b class=HIC>                File 78:</b> <b class=GRN>3299a266-15f0-4346-8318-716336736d3e</b> type 0x07, attr 0x00, state 0x07, size 0x10042 (65602 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x10004 (65540 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbDeviceDxe</b>
+<b class=HIC>                File 79:</b> <b class=GRN>cd823a4d-7dec-4531-ae5d-4134fa4127b8</b> type 0x07, attr 0x00, state 0x07, size 0x13076 (77942 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x3a (58 bytes) (DXE dependency expression section)
+                    PUSH b0760469-970c-487a-a4b5-28db7b45cef1
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    PUSH 157a5c45-21b2-43c5-ba7c-822fee5fe599
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x13004 (77828 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbConfigDxe</b>
+<b class=HIC>                File 80:</b> <b class=GRN>0a134f0e-075e-40b3-9c63-3b3906804663</b> type 0x07, attr 0x00, state 0x07, size 0x704e (28750 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH e722b03f-b250-42ce-8ebd-5bd51812d037
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbInitDxe</b>
+<b class=HIC>                File 81:</b> <b class=GRN>51d4273a-c3fb-48fd-b5b7-97ce091a58a6</b> type 0x07, attr 0x00, state 0x07, size 0x9040 (36928 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbfnChgDxe</b>
+<b class=HIC>                File 82:</b> <b class=GRN>2d2e62aa-9ecf-43b7-8219-94e7fc713dfe</b> type 0x07, attr 0x00, state 0x07, size 0x9038 (36920 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>UsbMouseDxe</b>
+<b class=HIC>                File 83:</b> <b class=GRN>93b80004-9fb3-11d4-9a3a-0090273fc14d</b> type 0x07, attr 0x00, state 0x07, size 0x1d034 (118836 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x1d004 (118788 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>PciBusDxe</b>
+<b class=HIC>                File 84:</b> <b class=GRN>c62f4b20-681e-11df-8f0d-0002a5d5c51b</b> type 0x07, attr 0x00, state 0x07, size 0x13054 (77908 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 26baccb2-6f42-11d4-bce7-0080c73c8881
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x13004 (77828 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>PciHostBridge</b>
+<b class=HIC>                File 85:</b> <b class=GRN>3adf8dda-1850-44c5-8c63-bb991849bc6f</b> type 0x07, attr 0x00, state 0x07, size 0xe030 (57392 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xe004 (57348 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>HashDxe</b>
+<b class=HIC>                File 86:</b> <b class=GRN>b0d3689e-11f8-43c6-8ece-023a29cec35b</b> type 0x07, attr 0x00, state 0x07, size 0x702e (28718 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>RngDxe</b>
+<b class=HIC>                File 87:</b> <b class=GRN>59cc11dc-1c60-11e1-a80f-a3b54824019b</b> type 0x07, attr 0x00, state 0x07, size 0xa030 (41008 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>TrEEDxe</b>
+<b class=HIC>                File 88:</b> <b class=GRN>47a4f183-8d1d-493e-9448-17eeff944f1f</b> type 0x07, attr 0x00, state 0x07, size 0x8040 (32832 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x24 (36 bytes) (User interface name section)
+                  Name: <b class=HIM>CPUPartialGoods</b>
+<b class=HIC>                File 89:</b> <b class=GRN>0e28cc67-9688-4303-960c-3ba68f45d938</b> type 0x07, attr 0x00, state 0x07, size 0x9054 (36948 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH eb97088e-cfdf-49c6-be4b-d906a5b20e86
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+                  Name: <b class=HIM>WinDsdtUpdate</b>
+<b class=HIC>                File 90:</b> <b class=GRN>8f4b8f82-9b91-4028-86e6-f4db7d4c1dff</b> type 0x07, attr 0x00, state 0x07, size 0x3b098 (241816 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x70 (112 bytes) (DXE dependency expression section)
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    PUSH 0fd96974-23aa-4cdc-b9cb-98d17750322a
+                    PUSH ef9fc172-a1b2-4693-b327-6d32fc416042
+                    PUSH 587e72d7-cc50-4f79-8209-ca291fc1a10f
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    PUSH 964e5b21-6459-11d2-8e39-00a0c969723b
+                    AND
+                    AND
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x3b004 (241668 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0xc (12 bytes) (User interface name section)
+                  Name: <b class=HIM>Bds</b>
+<b class=HIC>                File 91:</b> <b class=GRN>e6239a25-45ee-d1a7-5eaa-e69e2560e6e2</b> type 0x07, attr 0x00, state 0x07, size 0x803c (32828 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+                  Name: <b class=HIM>SerialDxe</b>
+<b class=HIC>                File 92:</b> <b class=GRN>ce044919-3000-4998-82af-ddb4e17c6b66</b> type 0x07, attr 0x00, state 0x07, size 0x7054 (28756 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+                  Name: <b class=HIM>AdapterInformationDxe</b>
+<b class=HIC>                File 93:</b> <b class=GRN>b003d837-44cc-b38b-7811-deb5ebbd74d8</b> type 0x07, attr 0x00, state 0x07, size 0xd038 (53304 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xd004 (53252 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>QdssDxe</b>
+<b class=HIC>                File 94:</b> <b class=GRN>62dc5eb0-a425-40b5-90bf-970a86fdb8f7</b> type 0x07, attr 0x00, state 0x07, size 0x1e076 (122998 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x3a (58 bytes) (DXE dependency expression section)
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    PUSH f4e5c7d0-d239-47cb-aacd-7f66ef763238
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x1e004 (122884 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>SystemFMPDxe</b>
+<b class=HIC>                File 95:</b> <b class=GRN>b1da0adf-4f77-4070-a88e-bffe1c60529a</b> type 0x07, attr 0x00, state 0x07, size 0x8106a (528490 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x3a (58 bytes) (DXE dependency expression section)
+                    PUSH 0fd96974-23aa-4cdc-b9cb-98d17750322a
+                    PUSH ef9fc172-a1b2-4693-b327-6d32fc416042
+                    PUSH 587e72d7-cc50-4f79-8209-ca291fc1a10f
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x81004 (528388 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x12 (18 bytes) (User interface name section)
+                  Name: <b class=HIM>AMITSE</b>
+<b class=HIC>                File 96:</b> <b class=GRN>899407d7-99fe-43d8-9a21-79ec328cac21</b> type 0x07, attr 0x00, state 0x07, size 0x15068 (86120 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x3a (58 bytes) (DXE dependency expression section)
+                    PUSH 0fd96974-23aa-4cdc-b9cb-98d17750322a
+                    PUSH ef9fc172-a1b2-4693-b327-6d32fc416042
+                    PUSH 587e72d7-cc50-4f79-8209-ca291fc1a10f
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x15004 (86020 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x10 (16 bytes) (User interface name section)
+                  Name: <b class=HIM>Setup</b>
+<b class=HIC>                File 97:</b> <b class=GRN>52fe8c49-7ce9-4d9c-9668-1a16cac8267e</b> type 0x07, attr 0x00, state 0x07, size 0x704a (28746 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+                  Name: <b class=HIM>OemBoardFunction</b>
+<b class=HIC>                File 98:</b> <b class=GRN>6382015c-826b-4c2e-8b93-1368d6e18341</b> type 0x09, attr 0x00, state 0x07, size 0xb036 (45110 bytes), (application)
+<b class=HIC>                  Section 0:</b> type 0x10, size 0xb004 (45060 bytes) (PE32 image section)
+<b class=HIC>                  Section 1:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>ECUpdateAp</b>
+<b class=HIC>                File 99:</b> <b class=GRN>2f5e73a6-f34c-0128-bf86-86dab12354b3</b> type 0x07, attr 0x00, state 0x07, size 0xa042 (41026 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x6 (6 bytes) (DXE dependency expression section)
+                    TRUE
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xa004 (40964 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>LEMEEPROMDxe</b>
+<b class=HIC>                File 100:</b> <b class=GRN>4b4ea621-9248-4bd3-8afe-a5f96525d928</b> type 0x07, attr 0x00, state 0x07, size 0x8076 (32886 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x3a (58 bytes) (DXE dependency expression section)
+                    PUSH 03583ff6-cb36-4940-947e-b9b39f4afaf7
+                    PUSH b94bd109-6496-40b8-b6e0-763d735b581c
+                    PUSH b98763ab-b452-4c13-b146-5f4807785944
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>LenovoSmbios</b>
+<b class=HIC>                File 101:</b> <b class=GRN>00e9a852-09e3-4979-baca-6fd726792f0f</b> type 0x07, attr 0x00, state 0x07, size 0x7076 (28790 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x32 (50 bytes) (User interface name section)
+                  Name: <b class=HIM>LenovoReservedVariable</b>
+<b class=HIC>                File 102:</b> <b class=GRN>93c9695e-417c-4982-aca7-653451f9c2f1</b> type 0x07, attr 0x00, state 0x07, size 0x7092 (28818 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x4c (76 bytes) (DXE dependency expression section)
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    PUSH b94bd109-6496-40b8-b6e0-763d735b581c
+                    PUSH b98763ab-b452-4c13-b146-5f4807785944
+                    AND
+                    AND
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+                  Name: <b class=HIM>LenovoWifiVariable</b>
+<b class=HIC>                File 103:</b> <b class=GRN>21ed4370-0d3d-490b-b0db-caa9d05abe71</b> type 0x07, attr 0x00, state 0x07, size 0x805e (32862 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH bef4d2b1-c53b-4933-a3ba-2a422c89a439
+                    PUSH b94bd109-6496-40b8-b6e0-763d735b581c
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>EepromAfri</b>
+<b class=HIC>                File 104:</b> <b class=GRN>ca3d8c78-512a-4389-bd61-adad0aa114d1</b> type 0x02, attr 0x00, state 0x07, size 0x61c2 (25026 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x19, size 0x61aa (25002 bytes) (Raw section)
+<b class=HIC>                File 105:</b> <b class=GRN>34b987c0-37f8-4910-9eda-8abeeeacc526</b> type 0x07, attr 0x00, state 0x07, size 0x7062 (28770 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH ffe06bdd-6107-46a6-7bb2-5a9c7ec5275c
+                    PUSH b94bd109-6496-40b8-b6e0-763d735b581c
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x7004 (28676 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>LenovoWMIDxe</b>
+<b class=HIC>                File 106:</b> <b class=GRN>ea12d24a-4ab6-4efb-9175-8fd4cb59ead6</b> type 0x02, attr 0x00, state 0x07, size 0x2801c (163868 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x19, size 0x28004 (163844 bytes) (Raw section)
+<b class=HIC>                File 107:</b> <b class=GRN>75541571-aca8-4eaa-952d-2bc8aadf9975</b> type 0x07, attr 0x00, state 0x07, size 0x9050 (36944 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x16 (22 bytes) (DXE dependency expression section)
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x9004 (36868 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+                  Name: <b class=HIM>AfriHookDxe</b>
+<b class=HIC>                File 108:</b> <b class=GRN>eee9c2b1-16ca-4f34-87ea-2e6d1e160cc4</b> type 0x09, attr 0x00, state 0x07, size 0xb040 (45120 bytes), (application)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>QcomChargerApp</b>
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xb004 (45060 bytes) (PE32 image section)
+<b class=HIC>                File 109:</b> <b class=GRN>a91d838e-a5fa-4138-825d-455e2303079e</b> type 0x02, attr 0x00, state 0x07, size 0xb1c (2844 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>BDS_Menu.cfg</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0xae4 (2788 bytes) (Raw section)
+<b class=HIC>                File 110:</b> <b class=GRN>a9f19c13-4df7-3952-6811-f6b4479b3c0c</b> type 0x09, attr 0x00, state 0x07, size 0xf054 (61524 bytes), (application)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x38 (56 bytes) (User interface name section)
+                  Name: <b class=HIM>WinDsdtUpdateControllerUI</b>
+<b class=HIC>                  Section 1:</b> type 0x10, size 0xf004 (61444 bytes) (PE32 image section)
+<b class=HIC>                File 111:</b> <b class=GRN>96195f52-9eaa-436d-9a86-0fa02acb39b0</b> type 0x02, attr 0x00, state 0x07, size 0x45e (1118 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+                  Name: <b class=HIM>DriverList.cfg</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x422 (1058 bytes) (Raw section)
+<b class=HIC>                File 112:</b> <b class=GRN>a91d838e-a5fa-4138-825d-455e23030794</b> type 0x02, attr 0x00, state 0x07, size 0xc1870 (792688 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x1a (26 bytes) (User interface name section)
+                  Name: <b class=HIM>LENOVO.BMP</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0xc183c (792636 bytes) (Raw section)
+<b class=HIC>                File 113:</b> <b class=GRN>3e5584ed-05d4-4267-9048-0d47f76f4248</b> type 0x02, attr 0x00, state 0x07, size 0x10020 (65568 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x36 (54 bytes) (User interface name section)
+                  Name: <b class=HIM>battery_symbol_Soc10.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0xffd0 (65488 bytes) (Raw section)
+<b class=HIC>                File 114:</b> <b class=GRN>4753e815-ddd8-402d-bf69-9b8c4eb7573e</b> type 0x02, attr 0x00, state 0x07, size 0x1577c (87932 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x3e (62 bytes) (User interface name section)
+                  Name: <b class=HIM>battery_symbol_NoBattery.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x15724 (87844 bytes) (Raw section)
+<b class=HIC>                File 115:</b> <b class=GRN>03ded53e-becd-428f-9f79-5aba64c58445</b> type 0x02, attr 0x00, state 0x07, size 0x14144 (82244 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x3e (62 bytes) (User interface name section)
+                  Name: <b class=HIM>battery_symbol_Nocharger.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x140ec (82156 bytes) (Raw section)
+<b class=HIC>                File 116:</b> <b class=GRN>8b86cd38-c772-4fcf-85aa-345b2b3c1ab4</b> type 0x02, attr 0x00, state 0x07, size 0x14154 (82260 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x50 (80 bytes) (User interface name section)
+                  Name: <b class=HIM>battery_symbol_LowBatteryCharging.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x140ec (82156 bytes) (Raw section)
+<b class=HIC>                File 117:</b> <b class=GRN>3fd97907-93f1-4349-af3c-3b68b0a5e626</b> type 0x02, attr 0x00, state 0x07, size 0x14144 (82244 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x40 (64 bytes) (User interface name section)
+                  Name: <b class=HIM>battery_symbol_LowBattery.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x140ec (82156 bytes) (Raw section)
+<b class=HIC>                File 118:</b> <b class=GRN>e2ea5a4f-98bd-4203-ab49-399505ddfb7d</b> type 0x02, attr 0x00, state 0x07, size 0x15774 (87924 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x36 (54 bytes) (User interface name section)
+                  Name: <b class=HIM>tsens_thermal_symbol.bmp</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x15724 (87844 bytes) (Raw section)
+<b class=HIC>                File 119:</b> <b class=GRN>a1e235de-e825-4591-9623-c43175811826</b> type 0x02, attr 0x00, state 0x07, size 0x11a1 (4513 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x1e (30 bytes) (User interface name section)
+                  Name: <b class=HIM>SecParti.cfg</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x1169 (4457 bytes) (Raw section)
+<b class=HIC>                File 120:</b> <b class=GRN>f12a1f3d-4318-a006-5f7f-3faaf6dbb4b5</b> type 0x02, attr 0x00, state 0x07, size 0x5c7 (1479 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+                  Name: <b class=HIM>tracer_event.cfg</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x587 (1415 bytes) (Raw section)
+<b class=HIC>                File 121:</b> <b class=GRN>45fe4b7c-150c-45da-a021-4beb2048ec6f</b> type 0x02, attr 0x00, state 0x07, size 0x262c (9772 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+                  Name: <b class=HIM>QcomChargerCfg.cfg</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x25e8 (9704 bytes) (Raw section)
+<b class=HIC>                File 122:</b> <b class=GRN>f780c779-dd7c-47cd-bd1a-5eb414c51704</b> type 0x02, attr 0x00, state 0x07, size 0x3dbb (15803 bytes), (freeform)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x28 (40 bytes) (User interface name section)
+                  Name: <b class=HIM>BATTERY.PROVISION</b>
+<b class=HIC>                  Section 1:</b> type 0x19, size 0x3d7b (15739 bytes) (Raw section)
+<b class=HIC>                File 123:</b> <b class=GRN>9588502a-5370-11e3-8631-d7c5951364c8</b> type 0x09, attr 0x00, state 0x07, size 0x11034 (69684 bytes), (application)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0x16 (22 bytes) (User interface name section)
+                  Name: <b class=HIM>Fastboot</b>
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x11004 (69636 bytes) (PE32 image section)
+<b class=HIC>                File 124:</b> <b class=GRN>3cef354a-3b7a-4519-ad70-72a134698311</b> type 0x09, attr 0x00, state 0x07, size 0x18028 (98344 bytes), (application)
+<b class=HIC>                  Section 0:</b> type 0x15, size 0xc (12 bytes) (User interface name section)
+                  Name: <b class=HIM>Ebl</b>
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x18004 (98308 bytes) (PE32 image section)
+<b class=HIC>                File 125:</b> <b class=GRN>999bd818-7df7-4a9a-a502-9b75033e6a0f</b> type 0x07, attr 0x00, state 0x07, size 0x8058 (32856 bytes), (driver)
+<b class=HIC>                  Section 0:</b> type 0x13, size 0x28 (40 bytes) (DXE dependency expression section)
+                    PUSH 1e5668e2-8481-11d4-bcf1-0080c73c8881
+                    PUSH 6441f818-6362-4e44-b570-7dba31dd2453
+                    AND
+                    END
+<b class=HIC>                  Section 1:</b> type 0x10, size 0x8004 (32772 bytes) (PE32 image section)
+<b class=HIC>                  Section 2:</b> type 0x15, size 0x14 (20 bytes) (User interface name section)
+                  Name: <b class=HIM>EsrtDxe</b>
+    <b class=HIC>RawObject:</b> size= 392284 
+<b class=HIC>  File 1:</b> <b class=GRN>c7340e65-0d5d-43d6-abb7-39751d5ec8e7</b> type 0x01, attr 0x40, state 0x07, size 0x510 (1296 bytes), (raw)
+    <b class=HIC>RawObject:</b> size= 1272 
+</pre>
+</body>
+</html>

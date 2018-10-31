@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Found volume magic at 0x3000
+<b class=HIC>Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0x1cd9, size 0xfd000 (1036288 bytes)
+<b class=HIC>  Firmware Volume Blocks: </b>(2024, 0x200)
+<b class=HIC>  File 0:</b> <b class=GRN>9e21fd93-9c72-4c15-8c4b-e77f1db2d792</b> type 0x0b, attr 0x00, state 0x07, size 0x66ba4 (420772 bytes), (firmware volume image)
+<b class=HIC>    Section 0:</b> type 0x02, size 0x66b8c (420748 bytes) (Guid Defined section)
+      <b class=HIC>Guid-Defined:</b> <b class=GRN>ee4e5898-3914-4259-9d6e-dc7bd79403cf</b> offset= 0x18 attrs= 0x1 (<b class=HIM>PROCESSING_REQUIRED</b>)
+<b class=HIC>        Section 0:</b> type 0x19, size 0x4 (4 bytes) (Raw section)
+<b class=HIC>        Section 1:</b> type 0x17, size 0x194e04 (1658372 bytes) (Firmware volume image section)
+<b class=HIC>          Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0x42df, size 0x194e00 (1658368 bytes)
+<b class=HIC>            Firmware Volume Blocks: </b>(25912, 0x40)
+<b class=HIC>            File 0:</b> <b class=GRN>ffffffff-ffff-ffff-ffff-ffffffffffff</b> type 0xf0, attr 0x00, state 0x07, size 0x2c (44 bytes), (ffs padding)
+<b class=HIC>            File 1:</b> <b class=GRN>8d40eae1-aebd-4c76-8929-62d04d3e0882</b> type 0x09, attr 0x00, state 0x07, size 0x56038 (352312 bytes), (application)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+              Name: <b class=HIM>LinuxLoader</b>
+<b class=HIC>              Section 1:</b> type 0x10, size 0x56004 (352260 bytes) (PE32 image section)
+<b class=HIC>            File 2:</b> <b class=GRN>ff725d98-21d5-4e79-80bc-82c71defec81</b> type 0x07, attr 0x00, state 0x07, size 0xf050 (61520 bytes), (driver)
+<b class=HIC>              Section 0:</b> type 0x10, size 0xf004 (61444 bytes) (PE32 image section)
+<b class=HIC>              Section 1:</b> type 0x15, size 0x34 (52 bytes) (User interface name section)
+              Name: <b class=HIM>FastbootTransportUsbDxe</b>
+<b class=HIC>            File 3:</b> <b class=GRN>61f96920-c022-4b2b-aa80-1c364a4f64b1</b> type 0x09, attr 0x00, state 0x07, size 0x6d040 (446528 bytes), (application)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x24 (36 bytes) (User interface name section)
+              Name: <b class=HIM>B1c1FastbootApp</b>
+<b class=HIC>              Section 1:</b> type 0x10, size 0x6d004 (446468 bytes) (PE32 image section)
+<b class=HIC>            File 4:</b> <b class=GRN>d9b2d43d-e02f-4a86-a445-bd1474b33671</b> type 0x02, attr 0x00, state 0x07, size 0x32be (12990 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>RedWarning1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x327a (12922 bytes) (Raw section)
+<b class=HIC>            File 5:</b> <b class=GRN>e7563335-06b5-442e-ba2d-e0db99895a8a</b> type 0x02, attr 0x00, state 0x07, size 0x32c2 (12994 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>OrangeWarning1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x327a (12922 bytes) (Raw section)
+<b class=HIC>            File 6:</b> <b class=GRN>2254e096-42c2-4f8b-8f30-641a95663be8</b> type 0x02, attr 0x00, state 0x07, size 0x32c2 (12994 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>YellowWarning1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x327a (12922 bytes) (Raw section)
+<b class=HIC>            File 7:</b> <b class=GRN>03cd3b50-6574-4f29-b6a1-510a7d765127</b> type 0x02, attr 0x00, state 0x07, size 0x2db2 (11698 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+              Name: <b class=HIM>Power1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2d7a (11642 bytes) (Raw section)
+<b class=HIC>            File 8:</b> <b class=GRN>7a08cffe-8a81-4ca7-ad12-480bdb70c2c9</b> type 0x02, attr 0x00, state 0x07, size 0x12be (4798 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>VolumeDown1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x127a (4730 bytes) (Raw section)
+<b class=HIC>            File 9:</b> <b class=GRN>4208661b-a721-4f83-9fd8-b8b85b4802ff</b> type 0x02, attr 0x00, state 0x07, size 0x12ba (4794 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+              Name: <b class=HIM>VolumeUp1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x127a (4730 bytes) (Raw section)
+<b class=HIC>            File 10:</b> <b class=GRN>ba497f2d-b5ef-4b49-b1cb-3c01e19b9b19</b> type 0x02, attr 0x00, state 0x07, size 0x1cde (7390 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>RedWarning1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x1c9a (7322 bytes) (Raw section)
+<b class=HIC>            File 11:</b> <b class=GRN>aeacb39a-6593-4761-a4b3-8b8aa5b0d19c</b> type 0x02, attr 0x00, state 0x07, size 0x80a (2058 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>OrangeWarning1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x7c2 (1986 bytes) (Raw section)
+<b class=HIC>            File 12:</b> <b class=GRN>49117d3a-a3bd-456a-8a45-557c5bd0116c</b> type 0x02, attr 0x00, state 0x07, size 0x1ce2 (7394 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>YellowWarning1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x1c9a (7322 bytes) (Raw section)
+<b class=HIC>            File 13:</b> <b class=GRN>60895ff2-d03e-4d99-8d1a-46af496fdd31</b> type 0x02, attr 0x00, state 0x07, size 0x1a02 (6658 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x20 (32 bytes) (User interface name section)
+              Name: <b class=HIM>Power1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x19ca (6602 bytes) (Raw section)
+<b class=HIC>            File 14:</b> <b class=GRN>01087f3c-1b83-4be3-94ab-58081b5346da</b> type 0x02, attr 0x00, state 0x07, size 0xade (2782 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>VolumeDown1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0xa9a (2714 bytes) (Raw section)
+<b class=HIC>            File 15:</b> <b class=GRN>20b9dab1-90d2-495e-af04-769954265da9</b> type 0x02, attr 0x00, state 0x07, size 0xada (2778 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+              Name: <b class=HIM>VolumeUp1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0xa9a (2714 bytes) (Raw section)
+<b class=HIC>            File 16:</b> <b class=GRN>69bac445-a15a-4835-957f-94214b8b09db</b> type 0x02, attr 0x00, state 0x07, size 0x1d9fa (121338 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+              Name: <b class=HIM>Splash1440.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x1d9be (121278 bytes) (Raw section)
+<b class=HIC>            File 17:</b> <b class=GRN>86a56f2d-f6ce-45a0-b906-a24a95c8106d</b> type 0x02, attr 0x00, state 0x07, size 0x1192e (71982 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x22 (34 bytes) (User interface name section)
+              Name: <b class=HIM>Splash1080.bmp</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x118f2 (71922 bytes) (Raw section)
+<b class=HIC>            File 18:</b> <b class=GRN>e90032c1-671b-4283-a9a3-bd225f3b3bcd</b> type 0x02, attr 0x00, state 0x07, size 0x7dc64 (515172 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>Roboto-Regular.ttf</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x7dc20 (515104 bytes) (Raw section)
+</pre>
+</body>
+</html>

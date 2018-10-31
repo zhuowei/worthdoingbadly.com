@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+b {font-weight: normal}
+b.BOLD {color: #fff}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.STR {text-decoration: line-through}
+b.UNDSTR {text-decoration: underline line-through}
+b.BLK {color: #000000}
+b.RED {color: #aa0000}
+b.GRN {color: #00aa00}
+b.YEL {color: #aa5500}
+b.BLU {color: #0000aa}
+b.MAG {color: #aa00aa}
+b.CYN {color: #00aaaa}
+b.WHI {color: #aaaaaa}
+b.HIK {color: #555555}
+b.HIR {color: #ff5555}
+b.HIG {color: #55ff55}
+b.HIY {color: #ffff55}
+b.HIB {color: #5555ff}
+b.HIM {color: #ff55ff}
+b.HIC {color: #55ffff}
+b.HIW {color: #ffffff}
+b.BBLK {background-color: #000000}
+b.BRED {background-color: #aa0000}
+b.BGRN {background-color: #00aa00}
+b.BYEL {background-color: #aa5500}
+b.BBLU {background-color: #0000aa}
+b.BMAG {background-color: #aa00aa}
+b.BCYN {background-color: #00aaaa}
+b.BWHI {background-color: #aaaaaa}
+</style>
+</head>
+<body>
+<pre>Found volume magic at 0x3000
+<b class=HIC>Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0xb0a8, size 0x84000 (540672 bytes)
+<b class=HIC>  Firmware Volume Blocks: </b>(1056, 0x200)
+<b class=HIC>  File 0:</b> <b class=GRN>9e21fd93-9c72-4c15-8c4b-e77f1db2d792</b> type 0x0b, attr 0x00, state 0x07, size 0x83ab2 (539314 bytes), (firmware volume image)
+<b class=HIC>    Section 0:</b> type 0x02, size 0x83a9a (539290 bytes) (Guid Defined section)
+      <b class=HIC>Guid-Defined:</b> <b class=GRN>ee4e5898-3914-4259-9d6e-dc7bd79403cf</b> offset= 0x18 attrs= 0x1 (<b class=HIM>PROCESSING_REQUIRED</b>)
+<b class=HIC>        Section 0:</b> type 0x19, size 0x4 (4 bytes) (Raw section)
+<b class=HIC>        Section 1:</b> type 0x17, size 0x47e2c4 (4711108 bytes) (Firmware volume image section)
+<b class=HIC>          Firmware Volume:</b> <b class=GRN>8c8ce578-8a3d-4f1c-9935-896185c32dd3</b> attr 0x0003feff, rev 2, cksum 0xf39d, size 0x47e2c0 (4711104 bytes)
+<b class=HIC>            Firmware Volume Blocks: </b>(73611, 0x40)
+<b class=HIC>            File 0:</b> <b class=GRN>ffffffff-ffff-ffff-ffff-ffffffffffff</b> type 0xf0, attr 0x00, state 0x07, size 0x2c (44 bytes), (ffs padding)
+<b class=HIC>            File 1:</b> <b class=GRN>f536d559-459f-48fa-8bbc-43b554ecae8d</b> type 0x09, attr 0x00, state 0x07, size 0x7f038 (520248 bytes), (application)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+              Name: <b class=HIM>LinuxLoader</b>
+<b class=HIC>              Section 1:</b> type 0x10, size 0x7f004 (520196 bytes) (PE32 image section)
+<b class=HIC>            File 2:</b> <b class=GRN>301940ef-720f-4459-bef5-80a1bc2474f9</b> type 0x02, attr 0x00, state 0x07, size 0x9fd34 (654644 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x24 (36 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_op.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x9fcf8 (654584 bytes) (Raw section)
+<b class=HIC>            File 3:</b> <b class=GRN>130290cc-d958-4953-9e1a-523effa88ab7</b> type 0x02, attr 0x00, state 0x07, size 0x6e5c (28252 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_start.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x6e18 (28184 bytes) (Raw section)
+<b class=HIC>            File 4:</b> <b class=GRN>654871c8-bf80-4ac8-8f26-8863b672cbc3</b> type 0x02, attr 0x00, state 0x07, size 0xcea0 (52896 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x34 (52 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_bootloader.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0xce54 (52820 bytes) (Raw section)
+<b class=HIC>            File 5:</b> <b class=GRN>ebf27a80-70c3-48e7-a8a5-1ca1ad953ada</b> type 0x02, attr 0x00, state 0x07, size 0xaf74 (44916 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_recovery.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0xaf2c (44844 bytes) (Raw section)
+<b class=HIC>            File 6:</b> <b class=GRN>a5c8c004-55db-4ac9-88a0-32da13ce307d</b> type 0x02, attr 0x00, state 0x07, size 0x67d4 (26580 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2e (46 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_barcode.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x678c (26508 bytes) (Raw section)
+<b class=HIC>            File 7:</b> <b class=GRN>690a561a-6a96-4d0c-b884-e3657e145a70</b> type 0x02, attr 0x00, state 0x07, size 0x7f00 (32512 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x30 (48 bytes) (User interface name section)
+              Name: <b class=HIM>fastboot_poweroff.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x7eb8 (32440 bytes) (Raw section)
+<b class=HIC>            File 8:</b> <b class=GRN>bfc6162b-12d5-46b2-a131-64611485ff93</b> type 0x02, attr 0x00, state 0x07, size 0x2b34c (176972 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x3a (58 bytes) (User interface name section)
+              Name: <b class=HIM>Unlocked_Custom_Resume.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2b2f8 (176888 bytes) (Raw section)
+<b class=HIC>            File 9:</b> <b class=GRN>7e9f682d-5ab2-4d94-ab9f-cb89f13b6fd1</b> type 0x02, attr 0x00, state 0x07, size 0x2ab78 (174968 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x38 (56 bytes) (User interface name section)
+              Name: <b class=HIM>Unlocked_Custom_Pause.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2ab28 (174888 bytes) (Raw section)
+<b class=HIC>            File 10:</b> <b class=GRN>f386d9f3-deb3-44b0-8f83-6093018356e6</b> type 0x02, attr 0x00, state 0x07, size 0x44b04 (281348 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2c (44 bytes) (User interface name section)
+              Name: <b class=HIM>Unlocked_Resume.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x44ac0 (281280 bytes) (Raw section)
+<b class=HIC>            File 11:</b> <b class=GRN>ba402d01-5264-41a7-aa7e-8df71412a8cd</b> type 0x02, attr 0x00, state 0x07, size 0x43df0 (278000 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x2a (42 bytes) (User interface name section)
+              Name: <b class=HIM>Unlocked_Pause.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x43dac (277932 bytes) (Raw section)
+<b class=HIC>            File 12:</b> <b class=GRN>52e92e9a-e521-49a7-8636-9133867b71f7</b> type 0x02, attr 0x00, state 0x07, size 0x2cc54 (183380 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x18 (24 bytes) (User interface name section)
+              Name: <b class=HIM>No_OS.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2cc24 (183332 bytes) (Raw section)
+<b class=HIC>            File 13:</b> <b class=GRN>c2946be4-ff31-4eb3-a543-c1223fa7894c</b> type 0x02, attr 0x00, state 0x07, size 0x95430 (611376 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x36 (54 bytes) (User interface name section)
+              Name: <b class=HIM>Unlock_Bootloader_No.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x953e0 (611296 bytes) (Raw section)
+<b class=HIC>            File 14:</b> <b class=GRN>f28585f6-255a-4366-96d7-2aeda71de374</b> type 0x02, attr 0x00, state 0x07, size 0x95460 (611424 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x38 (56 bytes) (User interface name section)
+              Name: <b class=HIM>Unlock_Bootloader_Yes.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x95410 (611344 bytes) (Raw section)
+<b class=HIC>            File 15:</b> <b class=GRN>5a59d9a8-dea6-4fb5-bd73-69c11c0b70dd</b> type 0x02, attr 0x00, state 0x07, size 0x5a638 (370232 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x32 (50 bytes) (User interface name section)
+              Name: <b class=HIM>Lock_Bootloader_No.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x5a5ec (370156 bytes) (Raw section)
+<b class=HIC>            File 16:</b> <b class=GRN>b69b20ea-a5fa-4fa5-8977-441afa40fbaa</b> type 0x02, attr 0x00, state 0x07, size 0x5a664 (370276 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x34 (52 bytes) (User interface name section)
+              Name: <b class=HIM>Lock_Bootloader_Yes.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x5a618 (370200 bytes) (Raw section)
+<b class=HIC>            File 17:</b> <b class=GRN>778fd331-0a8b-44ac-ac0f-465cd26ef970</b> type 0x02, attr 0x00, state 0x07, size 0x2e56c (189804 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x24 (36 bytes) (User interface name section)
+              Name: <b class=HIM>EIO_Warning.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2e530 (189744 bytes) (Raw section)
+<b class=HIC>            File 18:</b> <b class=GRN>e0a05ef7-f55f-49d9-8156-b1f8aa38f6c7</b> type 0x02, attr 0x00, state 0x07, size 0x26bc (9916 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x1c (28 bytes) (User interface name section)
+              Name: <b class=HIM>Charger.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x2688 (9864 bytes) (Raw section)
+<b class=HIC>            File 19:</b> <b class=GRN>98c58a2d-9da4-49d4-8e74-cfa46253905c</b> type 0x02, attr 0x00, state 0x07, size 0x16bfc (93180 bytes), (freeform)
+<b class=HIC>              Section 0:</b> type 0x15, size 0x26 (38 bytes) (User interface name section)
+              Name: <b class=HIM>downloadmode.bin</b>
+<b class=HIC>              Section 1:</b> type 0x19, size 0x16bbc (93116 bytes) (Raw section)
+</pre>
+</body>
+</html>
