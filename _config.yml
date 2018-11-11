@@ -33,6 +33,10 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# https://github.com/jekyll/minima/issues/19#issuecomment-336730345
+header_pages:
+  - about.md
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
