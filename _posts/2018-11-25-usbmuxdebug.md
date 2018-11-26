@@ -21,7 +21,7 @@ In the above log, I opened Xcode's Devices window, which triggered Xcode to conn
 
 You need a `/Library/Preferences/com.apple.usbmuxd.plist` config file.
 
-Download [this configuration file for USBMuxd](/assets/usbmuxddebug/com.apple.usbmuxd.plist):
+Download [this configuration file for usbmuxd](/assets/usbmuxddebug/com.apple.usbmuxd.plist):
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
