@@ -77,6 +77,8 @@ Here's what each of the new unfamiliar commands do:
 
 Tells QEMU to emulate a Intel Q35 chipset, which supports GPU passthrough.
 
+_Edit_: [Thomas A on Twitter](https://twitter.com/CT_the_man_doll/status/1095562088687124486) mentioned that QEMU's default 440FX chipset should also support GPU passthrough. However, that failed on my machine; it might only work for discrete GPUs?
+
 - `-device vfio-pci,host=00:02.0`
 
 [Adds the GPU](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Plain_QEMU_without_libvirt) to the virtual machine.
