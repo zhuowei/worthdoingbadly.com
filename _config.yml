@@ -16,7 +16,7 @@
 title: Worth Doing Badly
 # email: info@worthdoingbadly.com
 description: >- # this means to ignore newlines until "baseurl:"
- A new coding project every week, by @zhuowei.
+ Programming experiments by @zhuowei.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://worthdoingbadly.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zhuowei

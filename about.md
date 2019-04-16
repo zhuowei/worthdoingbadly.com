@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is a blog where I create - and document - something new with code every week.
+This is a blog where I create - and document - new projects with code.
 
 While reading [Burgis' blog](https://www.stephanieburgis.com/2018/01/new-year-new-re-discoveries/), I came across this quote:
 
