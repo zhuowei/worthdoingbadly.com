@@ -2,6 +2,7 @@
 title: Rendering SwiftUI views to HTML
 categories: swift, swiftui, ios
 permalink: /swiftui-html/
+image: /assets/blog/swiftui-html/swiftui_renderingLandmarksSample.png
 ---
 
 I built a [proof-of-concept tool](https://github.com/zhuowei/marina) to render SwiftUI to HTML. While I'm not intending to turn it into a full UI framework, I still learned plenty along the way: I learned how to use Swift's generics, why declarative UI frmeworks use a shadow graph, and how Swift's design is an evolution of C++'s philosophy.
