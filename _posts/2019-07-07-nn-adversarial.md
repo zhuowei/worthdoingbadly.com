@@ -62,7 +62,7 @@ I created an alternate account, [@1Zhuowei](https://twitter.com/zhuowei), and fo
 
 ![screenshot of m3inference on @1zhuowei, with @zhuowei's age results besides: it's a lot less confident about my age group now](/assets/blog/nn-adversarial/1zhuowei_age.png)
 
-[@0xabad1dea suggested](m3inference) that m3inference might associate QR codes strongly with brands.
+[@0xabad1dea suggested](https://twitter.com/0xabad1dea/status/1147257137879498752) that m3inference might associate QR codes strongly with brands.
 
 Surely it can't be that simple: there's no way just swapping the avatar would change its prediction of my account from Brand&trade; to real person.
 
