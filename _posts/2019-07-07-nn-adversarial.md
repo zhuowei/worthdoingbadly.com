@@ -5,7 +5,7 @@ permalink: /nn-adversarial/
 image: /assets/blog/nn-adversarial/cover.png
 ---
 
-I tricked [m3.euagendas.org](http://m3.euagendas.org), the viral third-party Twitter account analysis website, into thinking I'm 40 years old: it only took 78 lines of code to generates an adversarial input against its neural network, using Foolbox, PyTorch, and Python.
+I tricked [m3.euagendas.org](http://m3.euagendas.org), the viral third-party Twitter account analysis website, into thinking I'm 40 years old: it only took 78 lines of code to generate an adversarial input against its neural network, using Foolbox, PyTorch, and Python.
 
 # Introduction
 
