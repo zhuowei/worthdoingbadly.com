@@ -2,7 +2,7 @@
 title: Build macOS ARM apps in Xcode without a real macOS ARM SDK
 categories: macos
 permalink: /sim-macos-arm-sdk/
-image: /assets/blog/sim-macos-arm-sdk/app.png
+image: /assets/blog/sim-macos-arm-sdk/arm64eapp.png
 ---
 Here's a script that modifies Xcode's macOS SDK to build for ARM. You can use this to find code that won't compile on ARM, to get a head start on porting before Apple releases Xcode for an ARM Mac.
 
