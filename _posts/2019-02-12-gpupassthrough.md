@@ -75,38 +75,38 @@ Here's what each of the new unfamiliar commands do:
 
 - `-machine q35`
 
-Tells QEMU to emulate a Intel Q35 chipset, which supports GPU passthrough.
+  Tells QEMU to emulate a Intel Q35 chipset, which supports GPU passthrough.
 
-_Edit_: [Thomas A on Twitter](https://twitter.com/CT_the_man_doll/status/1095562088687124486) mentioned that QEMU's default 440FX chipset should also support GPU passthrough. However, that failed on my machine; it might only work for discrete GPUs?
+  _Edit_: [Thomas A on Twitter](https://twitter.com/CT_the_man_doll/status/1095562088687124486) mentioned that QEMU's default 440FX chipset should also support GPU passthrough. However, that failed on my machine; it might only work for discrete GPUs?
 
 - `-device vfio-pci,host=00:02.0`
 
-[Adds the GPU](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Plain_QEMU_without_libvirt) to the virtual machine.
+  [Adds the GPU](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Plain_QEMU_without_libvirt) to the virtual machine.
 
-The address is the first part of the output of `lspci | grep "VGA Compatible"`:
+  The address is the first part of the output of `lspci | grep "VGA Compatible"`:
 
-```
-00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 5500 [8086:1616] (rev 09)
-```
+  ```
+  00:02.0 VGA compatible controller [0300]: Intel Corporation HD Graphics 5500 [8086:1616] (rev 09)
+  ```
 
 - `-nographic`
 
-Allows QEMU to start in an SSH terminal. This disables the usual QEMU window, and also enables the virtual machine's serial port for viewing boot progress.
+  Allows QEMU to start in an SSH terminal. This disables the usual QEMU window, and also enables the virtual machine's serial port for viewing boot progress.
 
-To exit QEMU in this mode:
+  To exit QEMU in this mode:
 
-- Press Ctrl-A
-- Then C to switch to the QEMU console
-- Type "q"
-- Then press Enter.
+  - Press Ctrl-A
+  - Then C to switch to the QEMU console
+  - Type "q"
+  - Then press Enter.
 
 - `-object input-linux,id=kbd,evdev=/dev/input/by-path/platform-i8042-serio-0-event-kbd`
 
-Tells QEMU to [read virtual keyboard input directly](https://www.kraxel.org/blog/2016/04/linux-evdev-input-support-in-qemu-2-6/) from my real keyboard. This is needed because QEMU is running in a terminal, and can't capture keyboard input normally.
+  Tells QEMU to [read virtual keyboard input directly](https://www.kraxel.org/blog/2016/04/linux-evdev-input-support-in-qemu-2-6/) from my real keyboard. This is needed because QEMU is running in a terminal, and can't capture keyboard input normally.
 
 - `-vga none`
 
-Turns off QEMU's built-in graphics emulation so Linux would use the passed through GPU.
+  Turns off QEMU's built-in graphics emulation so Linux would use the passed through GPU.
 
 # Conclusion
 
