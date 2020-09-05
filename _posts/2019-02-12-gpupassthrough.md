@@ -4,6 +4,16 @@ categories: qemu, linux, fedora
 permalink: /gpupassthrough/
 ---
 
+**UPDATE** 2020-09: This no longer works for Intel Broadwell integrated GPUs as of [Linux 5.4](https://github.com/torvalds/linux/commit/1f76249cc3bebd6642cb641a22fc2f302707bfbb). 
+
+(Thanks to [@alyssais](https://github.com/alyssais) for pointing this out.)
+
+You'll see `Disabling IOMMU for graphics on this chipset` in the dmesg, and the integrated GPU will not be visible to vfio.
+
+I'm leaving this up in case this helps someone with a non-Broadwell integrated GPU.
+
+----
+
 Here's how I setup GPU passthrough with an Intel Broadwell GPU on Fedora 29. I wrote a script to unload the Intel driver while avoiding the "Module i915 is in use" error, and explored what QEMU GPU passthrough options actually do.
 
 # Introduction
