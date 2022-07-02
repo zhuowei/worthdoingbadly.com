@@ -80,7 +80,11 @@ I'm sure Linus Henze's eventual Fugu15 will find a neat trick around this, but I
 
 Thus, it's impossible to exploit this bug on iOS unless you already have a jailbreak.
 
-You could use the CoreTrust bug on its own to re-sign your semi-untethered iOS 14 jailbreak app so it wouldn't expire every week. However, you can already get the same effect with an enterprise certificate.
+You could use the CoreTrust bug on its own to re-sign your semi-untethered iOS 14 jailbreak app so it wouldn't expire every week. However:
+
+- you can already bypass the weekly expiry with an enterprise certificate.
+- again, you need to be jailbroken to install the fakesigned app in the first place.
+- (EDIT 2022-07-02): the Taurine developers have [released](https://www.reddit.com/r/jailbreak/comments/vpuppq/free_release_taurinepermanent_relatively/) a Taurine build that uses the CoreTrust bug to avoid expiring every 7 days... but it only works on arm64 devices. On arm64e devices, it fails with an `ERR_JAILBREAK` error.
 
 ### For DriverKit:
 
