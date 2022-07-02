@@ -100,12 +100,12 @@ Thus, my proof-of-concepts only works on macOS. I'm eagerly awaiting Linus Henze
 
 ## CVE-2022-26766: the CoreTrust bug
 
-For four years, macOS allowed any root certicate when checking code signatures, making code signing completely useless.
+For years, macOS allowed any root certicate when checking code signatures, making code signing completely useless.
 
 iOS 12 / macOS Mojave introduced [CoreTrust](https://research.dynastic.co/2019/01/31/coretrust-overview), a new code signature verification framework that runs in the kernel before the traditional `amfid` verification in userspace.
 
 - For developer-signed apps, CoreTrust acts as an additional line of defense, verifying that code signatures are correctly formed before passing it to `amfid` for verification via userspace `libmis.dylib` / [`Security.framework`](https://github.com/apple-oss-distributions/Security/blob/67353d4e01e66f254b4c9ceb24b959ecf7586e82/trust/headers/SecPolicyPriv.h#L604).
-- For App Store/Platform apps, CoreTrust _replaces_ the amfid verification, speeding up app launches by avoiding a trip into userspace:
+- on macOS Big Sur / iOS 14 and later, for App Store/Platform apps, CoreTrust _replaces_ the amfid verification, speeding up app launches by avoiding a trip into userspace:
 
 ```
 kernel	AMFI: vnode_check_signature called with platform 2
@@ -113,6 +113,8 @@ kernel	App Store Fast Path -> /bin/example
 ```
 
 (I guess they never `mis`, huh)
+
+(EDIT 2022-07-02: mention that CoreTrust is not vulnerable [before iOS 14](https://twitter.com/Jakeashacks/status/1543257577148006401))
 
 CoreTrust's verification is written from scratch and shares no code with the userspace `Security.framework`.
 
