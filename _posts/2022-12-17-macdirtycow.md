@@ -52,7 +52,7 @@ If you installed the latest macOS update (macOS 13.1 / 12.6.2 / 11.7.2), you sho
 
 If you haven't, do it now.
 
-## Will this be useful for jailbreak?
+## Will this be useful for iOS jailbreak?
 
 Probably not.
 
@@ -62,7 +62,14 @@ You might still do something cool on iOS with this, but I'm not sure what you'd 
 
 ## Credits
 
-- Ian Beer of [Project Zero](https://googleprojectzero.blogspot.com/) for finding the issue. Looking forward to your [blog post about the XNU memory subsystem](https://bugs.chromium.org/p/project-zero/issues/detail?id=2337#c3)!
+- Ian Beer of [Project Zero](https://googleprojectzero.blogspot.com/) for finding this issue, and for finding [other similar issues in XNU's virtual memory](https://bugs.chromium.org/p/project-zero/issues/detail?id=2337#c3). Looking forward to the writeup for this issue.
 - Apple for the [test case](https://github.com/apple-oss-distributions/xnu/blob/xnu-8792.61.2/tests/vm/vm_unaligned_copy_switch_race.c). (I didn't change anything: I just added the command line parameter to control what to overwrite.)
 - [SSLab@Gatech](https://gts3.org/assets/papers/2020/jin:pwn2own2020-safari-slides.pdf) for the trick to disable password checking using `/etc/pam.d`.
 - [@WangTielei](https://twitter.com/WangTielei/status/1603963997618855937) for sharing a related issue and answering my questions.
+
+## Changelog
+
+2022-12-17:
+
+- clarified that "jailbreak" refers to iOS.
+- clarified that the Project Zero issue link goes to a different issue than this one.
