@@ -62,8 +62,8 @@ You might still do something cool on iOS with this, but I'm not sure what you'd 
 
 ## Credits
 
-- Ian Beer of [Project Zero](https://googleprojectzero.blogspot.com/) for finding this issue, and for finding [other similar issues in XNU's virtual memory](https://bugs.chromium.org/p/project-zero/issues/detail?id=2337#c3). Looking forward to the writeup for this issue.
-- Apple for the [test case](https://github.com/apple-oss-distributions/xnu/blob/xnu-8792.61.2/tests/vm/vm_unaligned_copy_switch_race.c). (I didn't change anything: I just added the command line parameter to control what to overwrite.)
+- Ian Beer of [Project Zero](https://googleprojectzero.blogspot.com/) for finding this issue, and for finding [other issues in XNU's virtual memory](https://bugs.chromium.org/p/project-zero/issues/detail?id=2337#c3). Looking forward to the writeup for this issue.
+- Apple for the [test case](https://github.com/apple-oss-distributions/xnu/blob/xnu-8792.61.2/tests/vm/vm_unaligned_copy_switch_race.c) and [patch](https://github.com/apple-oss-distributions/xnu/blob/xnu-8792.61.2/osfmk/vm/vm_map.c#L10150). (I didn't change anything: I just added the command line parameter to control what to overwrite.)
 - [SSLab@Gatech](https://gts3.org/assets/papers/2020/jin:pwn2own2020-safari-slides.pdf) for the trick to disable password checking using `/etc/pam.d`.
 - [@WangTielei](https://twitter.com/WangTielei/status/1603963997618855937) for sharing a related issue and answering my questions.
 
@@ -73,3 +73,4 @@ You might still do something cool on iOS with this, but I'm not sure what you'd 
 
 - clarified that "jailbreak" refers to iOS.
 - clarified that the Project Zero issue link goes to a different issue than this one.
+- link the patch in `vm_map_copy_overwrite_unaligned`.
