@@ -8,7 +8,11 @@ Get root on macOS 13.0.1 with [CVE-2022-46689](https://support.apple.com/en-us/H
 
 ## Usage
 
-On a macOS 13.0.1 / 12.6.1 (or below) machine, run:
+On a macOS 13.0.1 / 12.6.1 (or below) machine, clone the extracted test case:
+
+git clone [https://github.com/zhuowei/MacDirtyCowDemo](https://github.com/zhuowei/MacDirtyCowDemo)
+
+Then run:
 
 ```
 clang -o switcharoo vm_unaligned_copy_switch_race.c
