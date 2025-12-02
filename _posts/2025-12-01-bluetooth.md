@@ -14,7 +14,7 @@ You can find my proof of concept at [https://github.com/zhuowei/blueshrimp](http
 
 No, you don't need to worry about this:
 
-- As far as I can tell, phones and tablets are **NOT** vulnerable to CVE-2025-48593. The issue only affects Android devices that support acting as Bluetooth headphones / speakers, such as some smartwatches, smart glasses, and cars.
+- As far as I can tell, phones and tablets are **NOT** vulnerable to CVE-2025-48593. The issue only affects Android 13-16 devices that support acting as Bluetooth headphones / speakers, such as some smartwatches, smart glasses, and cars.
 - In addition, an attacker has to get a victim to [pair](https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/Bluetooth/system/bta/hf_client/bta_hf_client_rfc.cc;l=192;drc=86d90eee9dd37eccdd19449b9d72b883df060f9b) to the attacker before they can access the headset service. As long as you don't accept the pairing request on your smartwatch/glasses/car, you should be fine.
 - My proof-of-concept isn't useful for a real attacker: I don't attempt to defeat ASLR, so this only crashes the Bluetooth service on a device. It can't do anything malicious.
 
@@ -68,13 +68,21 @@ backtrace:
 
 ## Tested
 
-I tested against 3 Android Emulators in Android Studio:
+I tested against 4 Android Emulators in Android Studio:
+
+Affected:
+
 - Android Automotive 14, API 34-ext9, "Android Automotive with Google APIs arm64-v8a System Image", version 5 - worked out of the box
 - Android 15, API 35, "Google APIs ARM 64 v8a System Image", version 9 - worked once I [force-enabled](https://github.com/zhuowei/blueshrimp/blob/main/README.md#running) acting as a Bluetooth headset with root and `setprop bluetooth.profile.hfp.hf.enabled true`
+- Android 13, API 33, "Google APIs ARM 64 v8a System Image", version 17 - worked once force-enabled
+
+Not affected:
+
 - Android 16 API 36.1 "Google APIs ARM 64 v8a System Image" revision 3 - patched against CVE-2025-48593: with force-enabled headset, running the proof-of-concept gives me:
   ```
   bumble.core.InvalidStateError: channel not open
   ```
+- Android 12L, API 32, "Google APIs ARM 64 v8a System Image", version 8 - same as Android 16; "channel not open". It appears the Security Bulletin is correct, and only Android 13-16 is affected.
 
 I also tested against real devices:
 
