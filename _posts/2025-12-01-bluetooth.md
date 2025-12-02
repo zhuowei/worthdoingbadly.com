@@ -14,7 +14,7 @@ You can find my proof of concept at [https://github.com/zhuowei/blueshrimp](http
 
 No, you don't need to worry about this:
 
-- As far as I can tell, phones and tablets are **NOT** vulnerable to CVE-2025-48593. The issue only affects Android 13-16 devices that support acting as Bluetooth headphones / speakers, such as some smartwatches, smart glasses, and cars.
+- As far as I can tell, phones and tablets are **NOT** vulnerable to CVE-2025-48593. The issue only affects Android devices that support acting as Bluetooth headphones / speakers, such as some smartwatches, smart glasses, and cars.
 - In addition, an attacker has to get a victim to [pair](https://cs.android.com/android/platform/superproject/main/+/main:packages/modules/Bluetooth/system/bta/hf_client/bta_hf_client_rfc.cc;l=192;drc=86d90eee9dd37eccdd19449b9d72b883df060f9b) to the attacker before they can access the headset service. As long as you don't accept the pairing request on your smartwatch/glasses/car, you should be fine.
 - My proof-of-concept isn't useful for a real attacker: I don't attempt to defeat ASLR, so this only crashes the Bluetooth service on a device. It can't do anything malicious.
 
@@ -75,6 +75,15 @@ Affected:
 - Android Automotive 14, API 34-ext9, "Android Automotive with Google APIs arm64-v8a System Image", version 5 - worked out of the box
 - Android 15, API 35, "Google APIs ARM 64 v8a System Image", version 9 - worked once I [force-enabled](https://github.com/zhuowei/blueshrimp/blob/main/README.md#running) acting as a Bluetooth headset with root and `setprop bluetooth.profile.hfp.hf.enabled true`
 - Android 13, API 33, "Google APIs ARM 64 v8a System Image", version 17 - worked once force-enabled
+- Android 12L, API 32, "Google APIs ARM 64 v8a System Image", version 8 - worked once [force-enabled](https://gist.github.com/zhuowei/4fcaa4b0141d62f44af0cddd9b906588)
+
+Running the proof-of-concept on these emulators shows
+
+```
+asyncio.exceptions.CancelledError
+```
+
+and the Android logcat shows "fault addr 0x41414141414141".
 
 Not affected:
 
@@ -82,19 +91,14 @@ Not affected:
   ```
   bumble.core.InvalidStateError: channel not open
   ```
-- Android 12L, API 32, "Google APIs ARM 64 v8a System Image", version 8 - same as Android 16; "channel not open". It appears the Security Bulletin is correct, and only Android 13-16 is affected.
 
 I also tested against real devices:
 
 I don't have a physical Android device that acts as a Bluetooth headset, so I used root to [force-enable](https://gist.github.com/zhuowei/4fcaa4b0141d62f44af0cddd9b906588) it on two devices: my Pixel 3 XL (an Android 11 device), and an Android 14 device.
-- the Android 11 device seems to be unaffected: it closes the SDP after the first response, like the patched emulator. It seems Android 11 is not vulnerable?
-- the Android 14 device does seem to be affected the same way as the emulator.
+- the Pixel 3 XL running Android 11 (RQ1A.201205.003.A1) is affected once headset service is force-enabled.
+- the Android 14 device is also affected.
 
-I also tested against a pair of Meta Ray-Ban Display smart glasses (which runs a modified Android 14 with [Qualcomm's Bluetooth service](https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth/-/tree/LA.QISI.14.0.r1-02800-qssi.0?ref_type=tags), which seems to be based on the [Android 12L](https://android.googlesource.com/platform/packages/apps/Bluetooth/+/refs/heads/android12L-gsi) code). It also seems to be unaffected: like the Pixel 3 XL on Android 11 and the patched Android 16 emulator, it outputs
-
-```
-bumble.core.InvalidStateError: channel not open
-```
+I also tested against a pair of Meta Ray-Ban Display smart glasses (which runs a modified Android 14 with [Qualcomm's Bluetooth service](https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth/-/tree/LA.QISI.14.0.r1-02800-qssi.0?ref_type=tags), which seems to be based on the [Android 12L](https://android.googlesource.com/platform/packages/apps/Bluetooth/+/refs/heads/android12L-gsi) code). Unfortunately, the AVRCP implementation on the glasses queries Headset Audio Gateway early and disconnects on failure, so I wasn't able to test reallocating - and there's no way to get `adb logcat` from the glasses to debug it.
 
 ## My understanding of what's happening
 
