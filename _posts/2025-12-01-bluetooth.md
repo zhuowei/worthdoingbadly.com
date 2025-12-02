@@ -82,6 +82,12 @@ I don't have a physical Android device that acts as a Bluetooth headset, so I us
 - the Android 11 device seems to be unaffected: it closes the SDP after the first response, like the patched emulator. It seems Android 11 is not vulnerable?
 - the Android 14 device does seem to be affected the same way as the emulator.
 
+I also tested against a pair of Meta Ray-Ban Display smart glasses (which runs a modified Android 14 with [Qualcomm's Bluetooth service](https://git.codelinaro.org/clo/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth/-/tree/LA.QISI.14.0.r1-02800-qssi.0?ref_type=tags), which seems to be based on the [Android 12L](https://android.googlesource.com/platform/packages/apps/Bluetooth/+/refs/heads/android12L-gsi) code). It also seems to be unaffected: like the Pixel 3 XL on Android 11 and the patched Android 16 emulator, it outputs
+
+```
+bumble.core.InvalidStateError: channel not open
+```
+
 ## My understanding of what's happening
 
 Bluetooth headphones use the [Handsfree Profile](https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Hands-Free_Profile_(HFP)).
